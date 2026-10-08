@@ -1,0 +1,87 @@
+# One complete design or one explicitly labelled reference per page.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_tank_intro_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_intro_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_intro_page3"
+		texturefile = "gfx/event_pictures/mmg_tank_intro_page3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_medium_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_medium_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_spg_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_spg_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_td_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_td_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_td_page3"
+		texturefile = "gfx/event_pictures/mmg_tank_td_page3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_flame_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_flame_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_mech_page2"
+		texturefile = "gfx/event_pictures/mmg_tank_mech_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_mech_page3"
+		texturefile = "gfx/event_pictures/mmg_tank_mech_page3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_multirole_page2"
+		texturefile = "gfx/event_pictures/mmg_plane_multirole_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_multirole_page3"
+		texturefile = "gfx/event_pictures/mmg_plane_multirole_page3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_equip_page2"
+		texturefile = "gfx/event_pictures/mmg_plane_equip_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_equip_page3"
+		texturefile = "gfx/event_pictures/mmg_plane_equip_page3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_equip_page4"
+		texturefile = "gfx/event_pictures/mmg_plane_equip_page4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_equip_page5"
+		texturefile = "gfx/event_pictures/mmg_plane_equip_page5.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_fleet_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_fleet_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_capital_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_capital_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_cruiser_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_cruiser_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_dd_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_dd_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_sub_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_sub_page2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_carair_page2"
+		texturefile = "gfx/event_pictures/mmg_ship_carair_page2.dds"
+	}
+}

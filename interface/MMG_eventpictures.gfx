@@ -1,0 +1,166 @@
+# MMG pictures are rebuilt from original PPT media, not resized legacy DDS files.
+# Each 720x450 RGBA texture fits the left column of EventWindow at native scale.
+# Outer black padding is cropped; unused canvas space is transparent.
+
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_land_menu"
+		texturefile = "gfx/event_pictures/mmg_land_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_main"
+		texturefile = "gfx/event_pictures/mmg_land_main.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_infantry"
+		texturefile = "gfx/event_pictures/mmg_land_infantry.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_artillery"
+		texturefile = "gfx/event_pictures/mmg_land_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_armored"
+		texturefile = "gfx/event_pictures/mmg_land_armored.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_operational"
+		texturefile = "gfx/event_pictures/mmg_land_operational.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_land_spirits"
+		texturefile = "gfx/event_pictures/mmg_land_spirits.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval_menu"
+		texturefile = "gfx/event_pictures/mmg_naval_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval_main"
+		texturefile = "gfx/event_pictures/mmg_naval_main.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval_spirits"
+		texturefile = "gfx/event_pictures/mmg_naval_spirits.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_air_menu"
+		texturefile = "gfx/event_pictures/mmg_air_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_air_core"
+		texturefile = "gfx/event_pictures/mmg_air_core.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_air_fighter_cas"
+		texturefile = "gfx/event_pictures/mmg_air_fighter_cas.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_air_bombers"
+		texturefile = "gfx/event_pictures/mmg_air_bombers.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_menu"
+		texturefile = "gfx/event_pictures/mmg_army_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_main"
+		texturefile = "gfx/event_pictures/mmg_army_main.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_filler"
+		texturefile = "gfx/event_pictures/mmg_army_filler.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_defense"
+		texturefile = "gfx/event_pictures/mmg_army_defense.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_support"
+		texturefile = "gfx/event_pictures/mmg_army_support.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_army_occupation"
+		texturefile = "gfx/event_pictures/mmg_army_occupation.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_menu"
+		texturefile = "gfx/event_pictures/mmg_tank_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_intro"
+		texturefile = "gfx/event_pictures/mmg_tank_intro.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_light"
+		texturefile = "gfx/event_pictures/mmg_tank_light.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_medium"
+		texturefile = "gfx/event_pictures/mmg_tank_medium.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_spg"
+		texturefile = "gfx/event_pictures/mmg_tank_spg.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_td"
+		texturefile = "gfx/event_pictures/mmg_tank_td.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_flame"
+		texturefile = "gfx/event_pictures/mmg_tank_flame.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank_mech"
+		texturefile = "gfx/event_pictures/mmg_tank_mech.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_menu"
+		texturefile = "gfx/event_pictures/mmg_plane_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_multirole"
+		texturefile = "gfx/event_pictures/mmg_plane_multirole.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_fighter"
+		texturefile = "gfx/event_pictures/mmg_plane_fighter.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_cas"
+		texturefile = "gfx/event_pictures/mmg_plane_cas.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_plane_equip"
+		texturefile = "gfx/event_pictures/mmg_plane_equip.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_menu"
+		texturefile = "gfx/event_pictures/mmg_ship_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_fleet"
+		texturefile = "gfx/event_pictures/mmg_ship_fleet.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_capital"
+		texturefile = "gfx/event_pictures/mmg_ship_capital.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_cruiser"
+		texturefile = "gfx/event_pictures/mmg_ship_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_dd"
+		texturefile = "gfx/event_pictures/mmg_ship_dd.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_sub"
+		texturefile = "gfx/event_pictures/mmg_ship_sub.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_ship_carair"
+		texturefile = "gfx/event_pictures/mmg_ship_carair.dds"
+	}
+}

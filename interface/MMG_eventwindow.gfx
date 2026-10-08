@@ -1,0 +1,17 @@
+# Reuse vanilla paper artwork with borders that allow the wider guide window.
+spriteTypes = {
+	# This is the sole mouse-hit background for the complete EventWindow.
+	corneredTileSpriteType = {
+		name = "GFX_MMG_event_root"
+		textureFile = "gfx/interface/event_report_tileable_midsection.dds"
+		size = { x = 1140 y = 680 }
+		borderSize = { x = 30 y = 16 }
+	}
+	corneredTileSpriteType = {
+		name = "GFX_MMG_event_header"
+		textureFile = "gfx/interface/event_report_top_win.dds"
+		size = { x = 1140 y = 90 }
+		borderSize = { x = 40 y = 30 }
+		alwaystransparent = yes
+	}
+}
