@@ -1,0 +1,3604 @@
+# OFFLINE tank page data; tools/build_viewer.py compiles the player UI.
+# Chapter source key: MMG_guide.500; never installed as engine events.
+# Legacy namespace declarations are retained only for the source format.
+add_namespace = MMG_guide
+add_namespace = MMG_tank
+
+country_event = {
+	id = MMG_guide.500
+	title = MMG_tank1194_index_t
+	desc = MMG_tank1194_index_d
+	picture = GFX_MMG_tank1194_index
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_version
+		country_event = { id = MMG_tank.1 }
+	}
+	option = {
+		name = MMG_tank1194_principles
+		country_event = { id = MMG_tank.2 }
+	}
+	option = {
+		name = MMG_tank1194_group_interwar
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_group_basic
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_group_improved
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_group_advanced
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_group_other
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.1
+	title = MMG_tank1194_version_t
+	desc = MMG_tank1194_version_d
+	picture = GFX_MMG_tank1194_index
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_principles
+		country_event = { id = MMG_tank.2 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.2
+	title = MMG_tank1194_principles_t
+	desc = MMG_tank1194_principles_d
+	picture = GFX_MMG_tank1194_index
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_version
+		country_event = { id = MMG_tank.1 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.10
+	title = MMG_tank1194_menu_10_t
+	desc = MMG_tank1194_menu_10_d
+	picture = GFX_MMG_tank1194_menu_10
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_01_label
+		country_event = { id = MMG_tank.101 }
+	}
+	option = {
+		name = MMG_tank1194_design_02_label
+		country_event = { id = MMG_tank.102 }
+	}
+	option = {
+		name = MMG_tank1194_design_03_label
+		country_event = { id = MMG_tank.103 }
+	}
+	option = {
+		name = MMG_tank1194_design_04_label
+		country_event = { id = MMG_tank.104 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.101
+	title = MMG_tank1194_design_01_full_t
+	desc = MMG_tank1194_design_01_full_d
+	picture = GFX_MMG_tank1194_01_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.201 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.301 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.102 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.201
+	title = MMG_tank1194_design_01_modules_t
+	desc = MMG_tank1194_design_01_modules_d
+	picture = GFX_MMG_tank1194_01_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.101 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.301 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.301
+	title = MMG_tank1194_design_01_stats_t
+	desc = MMG_tank1194_design_01_stats_d
+	picture = GFX_MMG_tank1194_01_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.101 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.201 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.102
+	title = MMG_tank1194_design_02_full_t
+	desc = MMG_tank1194_design_02_full_d
+	picture = GFX_MMG_tank1194_02_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.202 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.302 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.101 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.103 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.202
+	title = MMG_tank1194_design_02_modules_t
+	desc = MMG_tank1194_design_02_modules_d
+	picture = GFX_MMG_tank1194_02_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.102 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.302 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.302
+	title = MMG_tank1194_design_02_stats_t
+	desc = MMG_tank1194_design_02_stats_d
+	picture = GFX_MMG_tank1194_02_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.102 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.202 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.103
+	title = MMG_tank1194_design_03_full_t
+	desc = MMG_tank1194_design_03_full_d
+	picture = GFX_MMG_tank1194_03_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.203 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.303 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.102 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.104 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.203
+	title = MMG_tank1194_design_03_modules_t
+	desc = MMG_tank1194_design_03_modules_d
+	picture = GFX_MMG_tank1194_03_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.103 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.303 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.303
+	title = MMG_tank1194_design_03_stats_t
+	desc = MMG_tank1194_design_03_stats_d
+	picture = GFX_MMG_tank1194_03_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.103 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.203 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.104
+	title = MMG_tank1194_design_04_full_t
+	desc = MMG_tank1194_design_04_full_d
+	picture = GFX_MMG_tank1194_04_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.204 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.304 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.103 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.204
+	title = MMG_tank1194_design_04_modules_t
+	desc = MMG_tank1194_design_04_modules_d
+	picture = GFX_MMG_tank1194_04_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.104 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.304 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.304
+	title = MMG_tank1194_design_04_stats_t
+	desc = MMG_tank1194_design_04_stats_d
+	picture = GFX_MMG_tank1194_04_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.104 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.204 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.10 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.20
+	title = MMG_tank1194_menu_20_t
+	desc = MMG_tank1194_menu_20_d
+	picture = GFX_MMG_tank1194_menu_20
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_05_label
+		country_event = { id = MMG_tank.105 }
+	}
+	option = {
+		name = MMG_tank1194_design_06_label
+		country_event = { id = MMG_tank.106 }
+	}
+	option = {
+		name = MMG_tank1194_design_07_label
+		country_event = { id = MMG_tank.107 }
+	}
+	option = {
+		name = MMG_tank1194_design_08_label
+		country_event = { id = MMG_tank.108 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.21
+	title = MMG_tank1194_menu_21_t
+	desc = MMG_tank1194_menu_21_d
+	picture = GFX_MMG_tank1194_menu_21
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_09_label
+		country_event = { id = MMG_tank.109 }
+	}
+	option = {
+		name = MMG_tank1194_design_10_label
+		country_event = { id = MMG_tank.110 }
+	}
+	option = {
+		name = MMG_tank1194_design_11_label
+		country_event = { id = MMG_tank.111 }
+	}
+	option = {
+		name = MMG_tank1194_design_12_label
+		country_event = { id = MMG_tank.112 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.22
+	title = MMG_tank1194_menu_22_t
+	desc = MMG_tank1194_menu_22_d
+	picture = GFX_MMG_tank1194_menu_22
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_13_label
+		country_event = { id = MMG_tank.113 }
+	}
+	option = {
+		name = MMG_tank1194_design_14_label
+		country_event = { id = MMG_tank.114 }
+	}
+	option = {
+		name = MMG_tank1194_design_15_label
+		country_event = { id = MMG_tank.115 }
+	}
+	option = {
+		name = MMG_tank1194_design_35_label
+		country_event = { id = MMG_tank.135 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.23
+	title = MMG_tank1194_menu_23_t
+	desc = MMG_tank1194_menu_23_d
+	picture = GFX_MMG_tank1194_menu_23
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_16_label
+		country_event = { id = MMG_tank.116 }
+	}
+	option = {
+		name = MMG_tank1194_design_17_label
+		country_event = { id = MMG_tank.117 }
+	}
+	option = {
+		name = MMG_tank1194_design_18_label
+		country_event = { id = MMG_tank.118 }
+	}
+	option = {
+		name = MMG_tank1194_design_19_label
+		country_event = { id = MMG_tank.119 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.24 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.24
+	title = MMG_tank1194_menu_24_t
+	desc = MMG_tank1194_menu_24_d
+	picture = GFX_MMG_tank1194_menu_24
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_36_label
+		country_event = { id = MMG_tank.136 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.105
+	title = MMG_tank1194_design_05_full_t
+	desc = MMG_tank1194_design_05_full_d
+	picture = GFX_MMG_tank1194_05_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.205 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.305 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.106 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.205
+	title = MMG_tank1194_design_05_modules_t
+	desc = MMG_tank1194_design_05_modules_d
+	picture = GFX_MMG_tank1194_05_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.105 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.305 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.305
+	title = MMG_tank1194_design_05_stats_t
+	desc = MMG_tank1194_design_05_stats_d
+	picture = GFX_MMG_tank1194_05_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.105 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.205 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.106
+	title = MMG_tank1194_design_06_full_t
+	desc = MMG_tank1194_design_06_full_d
+	picture = GFX_MMG_tank1194_06_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.206 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.306 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.105 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.107 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.206
+	title = MMG_tank1194_design_06_modules_t
+	desc = MMG_tank1194_design_06_modules_d
+	picture = GFX_MMG_tank1194_06_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.106 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.306 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.306
+	title = MMG_tank1194_design_06_stats_t
+	desc = MMG_tank1194_design_06_stats_d
+	picture = GFX_MMG_tank1194_06_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.106 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.206 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.107
+	title = MMG_tank1194_design_07_full_t
+	desc = MMG_tank1194_design_07_full_d
+	picture = GFX_MMG_tank1194_07_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.207 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.307 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.106 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.108 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.207
+	title = MMG_tank1194_design_07_modules_t
+	desc = MMG_tank1194_design_07_modules_d
+	picture = GFX_MMG_tank1194_07_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.107 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.307 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.307
+	title = MMG_tank1194_design_07_stats_t
+	desc = MMG_tank1194_design_07_stats_d
+	picture = GFX_MMG_tank1194_07_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.107 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.207 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.108
+	title = MMG_tank1194_design_08_full_t
+	desc = MMG_tank1194_design_08_full_d
+	picture = GFX_MMG_tank1194_08_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.208 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.308 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.107 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.109 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.208
+	title = MMG_tank1194_design_08_modules_t
+	desc = MMG_tank1194_design_08_modules_d
+	picture = GFX_MMG_tank1194_08_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.108 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.308 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.308
+	title = MMG_tank1194_design_08_stats_t
+	desc = MMG_tank1194_design_08_stats_d
+	picture = GFX_MMG_tank1194_08_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.108 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.208 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.20 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.109
+	title = MMG_tank1194_design_09_full_t
+	desc = MMG_tank1194_design_09_full_d
+	picture = GFX_MMG_tank1194_09_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.209 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.309 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.108 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.110 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.209
+	title = MMG_tank1194_design_09_modules_t
+	desc = MMG_tank1194_design_09_modules_d
+	picture = GFX_MMG_tank1194_09_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.109 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.309 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.309
+	title = MMG_tank1194_design_09_stats_t
+	desc = MMG_tank1194_design_09_stats_d
+	picture = GFX_MMG_tank1194_09_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.109 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.209 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.110
+	title = MMG_tank1194_design_10_full_t
+	desc = MMG_tank1194_design_10_full_d
+	picture = GFX_MMG_tank1194_10_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.210 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.310 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.109 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.111 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.210
+	title = MMG_tank1194_design_10_modules_t
+	desc = MMG_tank1194_design_10_modules_d
+	picture = GFX_MMG_tank1194_10_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.110 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.310 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.310
+	title = MMG_tank1194_design_10_stats_t
+	desc = MMG_tank1194_design_10_stats_d
+	picture = GFX_MMG_tank1194_10_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.110 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.210 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.111
+	title = MMG_tank1194_design_11_full_t
+	desc = MMG_tank1194_design_11_full_d
+	picture = GFX_MMG_tank1194_11_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.211 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.311 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.110 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.112 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.211
+	title = MMG_tank1194_design_11_modules_t
+	desc = MMG_tank1194_design_11_modules_d
+	picture = GFX_MMG_tank1194_11_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.111 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.311 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.311
+	title = MMG_tank1194_design_11_stats_t
+	desc = MMG_tank1194_design_11_stats_d
+	picture = GFX_MMG_tank1194_11_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.111 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.211 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.112
+	title = MMG_tank1194_design_12_full_t
+	desc = MMG_tank1194_design_12_full_d
+	picture = GFX_MMG_tank1194_12_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.212 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.312 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.111 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.113 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.212
+	title = MMG_tank1194_design_12_modules_t
+	desc = MMG_tank1194_design_12_modules_d
+	picture = GFX_MMG_tank1194_12_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.112 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.312 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.312
+	title = MMG_tank1194_design_12_stats_t
+	desc = MMG_tank1194_design_12_stats_d
+	picture = GFX_MMG_tank1194_12_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.112 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.212 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.21 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.113
+	title = MMG_tank1194_design_13_full_t
+	desc = MMG_tank1194_design_13_full_d
+	picture = GFX_MMG_tank1194_13_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.213 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.313 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.112 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.114 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.213
+	title = MMG_tank1194_design_13_modules_t
+	desc = MMG_tank1194_design_13_modules_d
+	picture = GFX_MMG_tank1194_13_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.113 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.313 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.313
+	title = MMG_tank1194_design_13_stats_t
+	desc = MMG_tank1194_design_13_stats_d
+	picture = GFX_MMG_tank1194_13_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.113 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.213 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.114
+	title = MMG_tank1194_design_14_full_t
+	desc = MMG_tank1194_design_14_full_d
+	picture = GFX_MMG_tank1194_14_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.214 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.314 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.113 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.115 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.214
+	title = MMG_tank1194_design_14_modules_t
+	desc = MMG_tank1194_design_14_modules_d
+	picture = GFX_MMG_tank1194_14_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.114 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.314 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.314
+	title = MMG_tank1194_design_14_stats_t
+	desc = MMG_tank1194_design_14_stats_d
+	picture = GFX_MMG_tank1194_14_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.114 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.214 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.115
+	title = MMG_tank1194_design_15_full_t
+	desc = MMG_tank1194_design_15_full_d
+	picture = GFX_MMG_tank1194_15_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.215 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.315 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.114 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.135 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.215
+	title = MMG_tank1194_design_15_modules_t
+	desc = MMG_tank1194_design_15_modules_d
+	picture = GFX_MMG_tank1194_15_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.115 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.315 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.315
+	title = MMG_tank1194_design_15_stats_t
+	desc = MMG_tank1194_design_15_stats_d
+	picture = GFX_MMG_tank1194_15_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.115 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.215 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.135
+	title = MMG_tank1194_design_35_full_t
+	desc = MMG_tank1194_design_35_full_d
+	picture = GFX_MMG_tank1194_35_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.235 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.335 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.115 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.116 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.235
+	title = MMG_tank1194_design_35_modules_t
+	desc = MMG_tank1194_design_35_modules_d
+	picture = GFX_MMG_tank1194_35_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.135 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.335 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.335
+	title = MMG_tank1194_design_35_stats_t
+	desc = MMG_tank1194_design_35_stats_d
+	picture = GFX_MMG_tank1194_35_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.135 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.235 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.22 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.116
+	title = MMG_tank1194_design_16_full_t
+	desc = MMG_tank1194_design_16_full_d
+	picture = GFX_MMG_tank1194_16_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.216 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.316 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.135 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.117 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.216
+	title = MMG_tank1194_design_16_modules_t
+	desc = MMG_tank1194_design_16_modules_d
+	picture = GFX_MMG_tank1194_16_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.116 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.316 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.316
+	title = MMG_tank1194_design_16_stats_t
+	desc = MMG_tank1194_design_16_stats_d
+	picture = GFX_MMG_tank1194_16_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.116 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.216 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.117
+	title = MMG_tank1194_design_17_full_t
+	desc = MMG_tank1194_design_17_full_d
+	picture = GFX_MMG_tank1194_17_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.217 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.317 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.116 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.118 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.217
+	title = MMG_tank1194_design_17_modules_t
+	desc = MMG_tank1194_design_17_modules_d
+	picture = GFX_MMG_tank1194_17_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.117 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.317 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.317
+	title = MMG_tank1194_design_17_stats_t
+	desc = MMG_tank1194_design_17_stats_d
+	picture = GFX_MMG_tank1194_17_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.117 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.217 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.118
+	title = MMG_tank1194_design_18_full_t
+	desc = MMG_tank1194_design_18_full_d
+	picture = GFX_MMG_tank1194_18_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.218 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.318 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.117 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.119 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.218
+	title = MMG_tank1194_design_18_modules_t
+	desc = MMG_tank1194_design_18_modules_d
+	picture = GFX_MMG_tank1194_18_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.118 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.318 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.318
+	title = MMG_tank1194_design_18_stats_t
+	desc = MMG_tank1194_design_18_stats_d
+	picture = GFX_MMG_tank1194_18_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.118 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.218 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.119
+	title = MMG_tank1194_design_19_full_t
+	desc = MMG_tank1194_design_19_full_d
+	picture = GFX_MMG_tank1194_19_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.219 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.319 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.118 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.136 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.219
+	title = MMG_tank1194_design_19_modules_t
+	desc = MMG_tank1194_design_19_modules_d
+	picture = GFX_MMG_tank1194_19_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.119 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.319 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.319
+	title = MMG_tank1194_design_19_stats_t
+	desc = MMG_tank1194_design_19_stats_d
+	picture = GFX_MMG_tank1194_19_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.119 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.219 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.23 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.136
+	title = MMG_tank1194_design_36_full_t
+	desc = MMG_tank1194_design_36_full_d
+	picture = GFX_MMG_tank1194_36_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.236 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.336 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.119 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.24 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.236
+	title = MMG_tank1194_design_36_modules_t
+	desc = MMG_tank1194_design_36_modules_d
+	picture = GFX_MMG_tank1194_36_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.136 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.336 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.24 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.336
+	title = MMG_tank1194_design_36_stats_t
+	desc = MMG_tank1194_design_36_stats_d
+	picture = GFX_MMG_tank1194_36_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.136 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.236 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.24 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.30
+	title = MMG_tank1194_menu_30_t
+	desc = MMG_tank1194_menu_30_d
+	picture = GFX_MMG_tank1194_menu_30
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_20_label
+		country_event = { id = MMG_tank.120 }
+	}
+	option = {
+		name = MMG_tank1194_design_21_label
+		country_event = { id = MMG_tank.121 }
+	}
+	option = {
+		name = MMG_tank1194_design_22_label
+		country_event = { id = MMG_tank.122 }
+	}
+	option = {
+		name = MMG_tank1194_design_23_label
+		country_event = { id = MMG_tank.123 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.31
+	title = MMG_tank1194_menu_31_t
+	desc = MMG_tank1194_menu_31_d
+	picture = GFX_MMG_tank1194_menu_31
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_24_label
+		country_event = { id = MMG_tank.124 }
+	}
+	option = {
+		name = MMG_tank1194_design_25_label
+		country_event = { id = MMG_tank.125 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.120
+	title = MMG_tank1194_design_20_full_t
+	desc = MMG_tank1194_design_20_full_d
+	picture = GFX_MMG_tank1194_20_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.220 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.320 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.121 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.220
+	title = MMG_tank1194_design_20_modules_t
+	desc = MMG_tank1194_design_20_modules_d
+	picture = GFX_MMG_tank1194_20_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.120 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.320 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.320
+	title = MMG_tank1194_design_20_stats_t
+	desc = MMG_tank1194_design_20_stats_d
+	picture = GFX_MMG_tank1194_20_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.120 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.220 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.121
+	title = MMG_tank1194_design_21_full_t
+	desc = MMG_tank1194_design_21_full_d
+	picture = GFX_MMG_tank1194_21_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.221 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.321 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.120 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.122 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.221
+	title = MMG_tank1194_design_21_modules_t
+	desc = MMG_tank1194_design_21_modules_d
+	picture = GFX_MMG_tank1194_21_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.121 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.321 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.321
+	title = MMG_tank1194_design_21_stats_t
+	desc = MMG_tank1194_design_21_stats_d
+	picture = GFX_MMG_tank1194_21_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.121 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.221 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.122
+	title = MMG_tank1194_design_22_full_t
+	desc = MMG_tank1194_design_22_full_d
+	picture = GFX_MMG_tank1194_22_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.222 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.322 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.121 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.123 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.222
+	title = MMG_tank1194_design_22_modules_t
+	desc = MMG_tank1194_design_22_modules_d
+	picture = GFX_MMG_tank1194_22_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.122 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.322 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.322
+	title = MMG_tank1194_design_22_stats_t
+	desc = MMG_tank1194_design_22_stats_d
+	picture = GFX_MMG_tank1194_22_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.122 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.222 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.123
+	title = MMG_tank1194_design_23_full_t
+	desc = MMG_tank1194_design_23_full_d
+	picture = GFX_MMG_tank1194_23_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.223 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.323 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.122 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.124 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.223
+	title = MMG_tank1194_design_23_modules_t
+	desc = MMG_tank1194_design_23_modules_d
+	picture = GFX_MMG_tank1194_23_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.123 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.323 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.323
+	title = MMG_tank1194_design_23_stats_t
+	desc = MMG_tank1194_design_23_stats_d
+	picture = GFX_MMG_tank1194_23_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.123 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.223 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.30 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.124
+	title = MMG_tank1194_design_24_full_t
+	desc = MMG_tank1194_design_24_full_d
+	picture = GFX_MMG_tank1194_24_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.224 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.324 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.123 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.125 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.224
+	title = MMG_tank1194_design_24_modules_t
+	desc = MMG_tank1194_design_24_modules_d
+	picture = GFX_MMG_tank1194_24_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.124 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.324 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.324
+	title = MMG_tank1194_design_24_stats_t
+	desc = MMG_tank1194_design_24_stats_d
+	picture = GFX_MMG_tank1194_24_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.124 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.224 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.125
+	title = MMG_tank1194_design_25_full_t
+	desc = MMG_tank1194_design_25_full_d
+	picture = GFX_MMG_tank1194_25_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.225 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.325 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.124 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.225
+	title = MMG_tank1194_design_25_modules_t
+	desc = MMG_tank1194_design_25_modules_d
+	picture = GFX_MMG_tank1194_25_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.125 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.325 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.325
+	title = MMG_tank1194_design_25_stats_t
+	desc = MMG_tank1194_design_25_stats_d
+	picture = GFX_MMG_tank1194_25_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.125 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.225 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.31 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.40
+	title = MMG_tank1194_menu_40_t
+	desc = MMG_tank1194_menu_40_d
+	picture = GFX_MMG_tank1194_menu_40
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_26_label
+		country_event = { id = MMG_tank.126 }
+	}
+	option = {
+		name = MMG_tank1194_design_27_label
+		country_event = { id = MMG_tank.127 }
+	}
+	option = {
+		name = MMG_tank1194_design_28_label
+		country_event = { id = MMG_tank.128 }
+	}
+	option = {
+		name = MMG_tank1194_design_29_label
+		country_event = { id = MMG_tank.129 }
+	}
+	option = {
+		name = MMG_tank1194_menu_next
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.41
+	title = MMG_tank1194_menu_41_t
+	desc = MMG_tank1194_menu_41_d
+	picture = GFX_MMG_tank1194_menu_41
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_30_label
+		country_event = { id = MMG_tank.130 }
+	}
+	option = {
+		name = MMG_tank1194_design_31_label
+		country_event = { id = MMG_tank.131 }
+	}
+	option = {
+		name = MMG_tank1194_menu_prev
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.126
+	title = MMG_tank1194_design_26_full_t
+	desc = MMG_tank1194_design_26_full_d
+	picture = GFX_MMG_tank1194_26_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.226 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.326 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.127 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.226
+	title = MMG_tank1194_design_26_modules_t
+	desc = MMG_tank1194_design_26_modules_d
+	picture = GFX_MMG_tank1194_26_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.126 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.326 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.326
+	title = MMG_tank1194_design_26_stats_t
+	desc = MMG_tank1194_design_26_stats_d
+	picture = GFX_MMG_tank1194_26_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.126 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.226 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.127
+	title = MMG_tank1194_design_27_full_t
+	desc = MMG_tank1194_design_27_full_d
+	picture = GFX_MMG_tank1194_27_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.227 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.327 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.126 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.128 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.227
+	title = MMG_tank1194_design_27_modules_t
+	desc = MMG_tank1194_design_27_modules_d
+	picture = GFX_MMG_tank1194_27_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.127 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.327 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.327
+	title = MMG_tank1194_design_27_stats_t
+	desc = MMG_tank1194_design_27_stats_d
+	picture = GFX_MMG_tank1194_27_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.127 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.227 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.128
+	title = MMG_tank1194_design_28_full_t
+	desc = MMG_tank1194_design_28_full_d
+	picture = GFX_MMG_tank1194_28_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.228 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.328 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.127 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.129 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.228
+	title = MMG_tank1194_design_28_modules_t
+	desc = MMG_tank1194_design_28_modules_d
+	picture = GFX_MMG_tank1194_28_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.128 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.328 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.328
+	title = MMG_tank1194_design_28_stats_t
+	desc = MMG_tank1194_design_28_stats_d
+	picture = GFX_MMG_tank1194_28_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.128 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.228 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.129
+	title = MMG_tank1194_design_29_full_t
+	desc = MMG_tank1194_design_29_full_d
+	picture = GFX_MMG_tank1194_29_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.229 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.329 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.128 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.130 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.229
+	title = MMG_tank1194_design_29_modules_t
+	desc = MMG_tank1194_design_29_modules_d
+	picture = GFX_MMG_tank1194_29_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.129 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.329 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.329
+	title = MMG_tank1194_design_29_stats_t
+	desc = MMG_tank1194_design_29_stats_d
+	picture = GFX_MMG_tank1194_29_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.129 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.229 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.40 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.130
+	title = MMG_tank1194_design_30_full_t
+	desc = MMG_tank1194_design_30_full_d
+	picture = GFX_MMG_tank1194_30_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.230 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.330 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.129 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.131 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.230
+	title = MMG_tank1194_design_30_modules_t
+	desc = MMG_tank1194_design_30_modules_d
+	picture = GFX_MMG_tank1194_30_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.130 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.330 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.330
+	title = MMG_tank1194_design_30_stats_t
+	desc = MMG_tank1194_design_30_stats_d
+	picture = GFX_MMG_tank1194_30_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.130 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.230 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.131
+	title = MMG_tank1194_design_31_full_t
+	desc = MMG_tank1194_design_31_full_d
+	picture = GFX_MMG_tank1194_31_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.231 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.331 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.130 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.231
+	title = MMG_tank1194_design_31_modules_t
+	desc = MMG_tank1194_design_31_modules_d
+	picture = GFX_MMG_tank1194_31_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.131 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.331 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.331
+	title = MMG_tank1194_design_31_stats_t
+	desc = MMG_tank1194_design_31_stats_d
+	picture = GFX_MMG_tank1194_31_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.131 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.231 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.41 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.50
+	title = MMG_tank1194_menu_50_t
+	desc = MMG_tank1194_menu_50_d
+	picture = GFX_MMG_tank1194_menu_50
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_design_32_label
+		country_event = { id = MMG_tank.132 }
+	}
+	option = {
+		name = MMG_tank1194_design_33_label
+		country_event = { id = MMG_tank.133 }
+	}
+	option = {
+		name = MMG_tank1194_design_34_label
+		country_event = { id = MMG_tank.134 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.132
+	title = MMG_tank1194_design_32_full_t
+	desc = MMG_tank1194_design_32_full_d
+	picture = GFX_MMG_tank1194_32_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.232 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.332 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.133 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.232
+	title = MMG_tank1194_design_32_modules_t
+	desc = MMG_tank1194_design_32_modules_d
+	picture = GFX_MMG_tank1194_32_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.132 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.332 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.332
+	title = MMG_tank1194_design_32_stats_t
+	desc = MMG_tank1194_design_32_stats_d
+	picture = GFX_MMG_tank1194_32_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.132 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.232 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.133
+	title = MMG_tank1194_design_33_full_t
+	desc = MMG_tank1194_design_33_full_d
+	picture = GFX_MMG_tank1194_33_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.233 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.333 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.132 }
+	}
+	option = {
+		name = MMG_tank1194_next
+		country_event = { id = MMG_tank.134 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.233
+	title = MMG_tank1194_design_33_modules_t
+	desc = MMG_tank1194_design_33_modules_d
+	picture = GFX_MMG_tank1194_33_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.133 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.333 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.333
+	title = MMG_tank1194_design_33_stats_t
+	desc = MMG_tank1194_design_33_stats_d
+	picture = GFX_MMG_tank1194_33_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.133 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.233 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.134
+	title = MMG_tank1194_design_34_full_t
+	desc = MMG_tank1194_design_34_full_d
+	picture = GFX_MMG_tank1194_34_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.234 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.334 }
+	}
+	option = {
+		name = MMG_tank1194_prev
+		country_event = { id = MMG_tank.133 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.234
+	title = MMG_tank1194_design_34_modules_t
+	desc = MMG_tank1194_design_34_modules_d
+	picture = GFX_MMG_tank1194_34_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.134 }
+	}
+	option = {
+		name = MMG_tank1194_stats
+		country_event = { id = MMG_tank.334 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}
+country_event = {
+	id = MMG_tank.334
+	title = MMG_tank1194_design_34_stats_t
+	desc = MMG_tank1194_design_34_stats_d
+	picture = GFX_MMG_tank1194_34_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_tank1194_full
+		country_event = { id = MMG_tank.134 }
+	}
+	option = {
+		name = MMG_tank1194_modules
+		country_event = { id = MMG_tank.234 }
+	}
+	option = {
+		name = MMG_tank1194_group
+		country_event = { id = MMG_tank.50 }
+	}
+	option = {
+		name = MMG_tank1194_index
+		country_event = { id = MMG_guide.500 }
+	}
+	option = {
+		name = MMG_tank1194_close
+	}
+}

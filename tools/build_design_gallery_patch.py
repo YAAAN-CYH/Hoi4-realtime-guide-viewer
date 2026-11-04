@@ -1,4 +1,7 @@
-"""Print an apply_patch patch for PPT-verified gallery events, sprites and localisation."""
+"""Print a patch for offline naval page data, sprites and localisation.
+
+Apply the patch, then run tools/build_viewer.py. No engine events are emitted.
+"""
 import difflib
 from pathlib import Path
 import re
@@ -9,7 +12,7 @@ from design_gallery import GALLERIES, pages
 sys.stdout.reconfigure(encoding='utf-8')
 root = Path(__file__).resolve().parents[1]
 requested_outputs = set(sys.argv[1:])
-events_path = root / 'events/MMG_guide_events.txt'
+events_path = root / 'tools/page_sources/MMG_guide_pages.mmg'
 events = events_path.read_text(encoding='utf-8')
 
 
@@ -149,7 +152,7 @@ def patch_changed_line_half(path, content, half):
 patch = '*** Begin Patch\n'
 outputs = {
     'base-events': (events_path, events),
-    'extra-events': (root / 'events/MMG_design_gallery_events.txt', ''.join(extras).rstrip() + '\n'),
+    'extra-events': (root / 'tools/page_sources/MMG_design_gallery_pages.mmg', ''.join(extras).rstrip() + '\n'),
     'gfx': (root / 'interface/MMG_design_gallery.gfx', ''.join(sprites)),
     'zh': (root / 'localisation/simp_chinese/MMG_design_gallery_l_simp_chinese.yml', ''.join(localisations['simp_chinese'])),
     'en': (root / 'localisation/english/MMG_design_gallery_l_english.yml', ''.join(localisations['english'])),

@@ -1,0 +1,523 @@
+# Reviewed Word aircraft pictures and bilingual reference cards.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_index"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_index.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_rules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_rules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_note_2"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_note_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_note_3"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_note_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_note_4"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_note_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_note_5"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_note_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_note_6"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_note_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_doctrine_300"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_doctrine_300.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_doctrine_301"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_doctrine_301.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_doctrine_302"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_doctrine_302.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_doctrine_303"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_doctrine_303.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_10"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_11"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_11.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_12"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_12.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_01_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_01_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_01_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_01_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_01_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_01_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_02_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_02_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_02_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_02_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_02_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_02_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_03_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_03_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_03_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_03_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_03_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_03_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_04_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_04_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_04_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_04_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_04_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_04_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_05_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_05_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_05_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_05_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_05_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_05_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_06_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_06_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_06_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_06_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_06_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_06_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_07_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_07_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_07_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_07_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_07_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_07_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_08_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_08_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_08_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_08_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_08_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_08_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_09_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_09_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_09_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_09_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_09_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_09_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_10_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_10_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_10_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_10_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_10_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_10_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_20"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_20.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_21"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_21.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_22"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_22.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_11_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_11_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_11_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_11_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_11_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_11_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_12_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_12_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_12_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_12_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_12_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_12_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_13_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_13_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_13_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_13_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_13_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_13_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_14_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_14_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_14_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_14_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_14_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_14_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_15_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_15_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_15_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_15_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_15_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_15_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_16_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_16_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_16_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_16_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_16_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_16_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_17_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_17_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_17_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_17_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_17_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_17_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_18_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_18_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_18_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_18_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_18_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_18_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_19_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_19_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_19_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_19_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_19_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_19_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_30"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_31"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_20_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_20_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_20_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_20_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_20_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_20_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_21_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_21_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_21_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_21_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_21_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_21_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_22_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_22_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_22_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_22_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_22_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_22_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_23_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_23_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_23_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_23_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_23_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_23_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_24_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_24_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_24_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_24_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_24_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_24_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_25_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_25_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_25_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_25_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_25_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_25_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_26_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_26_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_26_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_26_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_26_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_26_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_40"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_40.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_41"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_41.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_27_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_27_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_27_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_27_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_27_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_27_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_28_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_28_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_28_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_28_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_28_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_28_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_29_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_29_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_29_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_29_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_29_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_29_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_30_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_30_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_30_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_30_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_30_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_30_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_31_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_31_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_31_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_31_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_31_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_31_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_32_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_32_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_32_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_32_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_32_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_32_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_33_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_33_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_33_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_33_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_33_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_33_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_menu_50"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_menu_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_34_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_34_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_34_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_34_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_34_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_34_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_35_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_35_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_35_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_35_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_35_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_35_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_36_full"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_36_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_36_modules"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_36_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_aircraft1194_design_36_stats"
+		texturefile = "gfx/event_pictures/mmg_aircraft_1194_design_36_stats.dds"
+	}
+}

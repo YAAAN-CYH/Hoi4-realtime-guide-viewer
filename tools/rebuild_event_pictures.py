@@ -1,4 +1,4 @@
-"""Rebuild guide textures from the original PPT screenshots, never old DDS files."""
+"""Rebuild legacy naval textures; Word army, tank and aircraft assets have separate owners."""
 
 import argparse
 import io
@@ -14,27 +14,9 @@ from design_gallery import DESIGN_PICTURES
 
 # IDs refer to ppt/media/imageN.png in the source guide, not slide numbers.
 PICTURES = {
-    'land_menu': [6, 7, 8, 9],
-    'land_main': [6, 7, 8],
-    'land_infantry': [12, 13],
-    'land_artillery': [15, 16],
-    'land_armored': [19, 21],
-    'land_operational': [23, 24],
-    'land_spirits': [27, 29, 31, 33, 35, 37, 39, 41, 43, 45],
     'naval_menu': [46],
     'naval_main': [46],
     'naval_spirits': [47, 50, 54, 56, 58],
-    'air_menu': [59, 60],
-    'air_core': [59, 70],
-    'air_fighter_cas': [62, 64, 66, 68],
-    'air_bombers': [62, 64],
-    'army_menu': [71],
-    'army_main': [74],
-    'army_filler': [77],
-    'army_defense': [78],
-    'army_support': [85, 93, 95],
-    'army_occupation': [110, 115],
-    'plane_menu': [148],
     'ship_menu': [133],
 }
 
@@ -105,12 +87,11 @@ def main():
             sources = []
             for media_id in ids:
                 member = f'ppt/media/image{media_id}.png'
-                override = root / 'tools' / 'sources' / 'tank_medium.png'
-                source = override if media_id == 122 and override.exists() else io.BytesIO(archive.read(member))
+                source = io.BytesIO(archive.read(member))
                 with Image.open(source) as original:
                     image, bounds = trim_black(original)
                     images.append(image)
-                    sources.append({'media': 'tools/sources/tank_medium.png' if source == override else member,
+                    sources.append({'media': member,
                                     'source_size': original.size, 'crop': bounds})
             canvas, scale = pack(images)
             canvas.save(root / 'gfx' / 'event_pictures' / f'mmg_{name}.dds')

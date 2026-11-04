@@ -1,0 +1,509 @@
+{
+  "source": "1.19.4坦克攻略.docx",
+  "sha256": "4d5005383cd632cb0926cbd006b5848623c08d4b450f7eebdb578124c97fc751",
+  "canvas": [
+    720,
+    450
+  ],
+  "design_panels": 36,
+  "events": 122,
+  "textures": 120,
+  "sources": [
+    {
+      "image": 1,
+      "source_member": "word/media/image1.png",
+      "sha256": "6ed2cfc555f2d12e5c7c3319e858ca8d5c5ccdab8b5dc6e48ab15ad745ec7ff2",
+      "size": [
+        1146,
+        574
+      ],
+      "full_event": "MMG_tank.101",
+      "modules_event": "MMG_tank.201",
+      "stats_event": "MMG_tank.301",
+      "menu": "MMG_tank.10"
+    },
+    {
+      "image": 2,
+      "source_member": "word/media/image2.png",
+      "sha256": "7f1dca9e2bedc6f40a2ff517656df1e7b678abf39c19a36fc62855bd62cb692b",
+      "size": [
+        1149,
+        572
+      ],
+      "full_event": "MMG_tank.102",
+      "modules_event": "MMG_tank.202",
+      "stats_event": "MMG_tank.302",
+      "menu": "MMG_tank.10"
+    },
+    {
+      "image": 3,
+      "source_member": "word/media/image3.png",
+      "sha256": "d259da1d1becc59b21106756a71602fd3e4e18838eac469eea2e9057520ed3ec",
+      "size": [
+        1149,
+        577
+      ],
+      "full_event": "MMG_tank.103",
+      "modules_event": "MMG_tank.203",
+      "stats_event": "MMG_tank.303",
+      "menu": "MMG_tank.10"
+    },
+    {
+      "image": 4,
+      "source_member": "word/media/image4.png",
+      "sha256": "b89a53419fe7264d3656fdc5570482c07fbd80eee81c768bcaa9d61d61d3d95f",
+      "size": [
+        1149,
+        579
+      ],
+      "full_event": "MMG_tank.104",
+      "modules_event": "MMG_tank.204",
+      "stats_event": "MMG_tank.304",
+      "menu": "MMG_tank.10"
+    },
+    {
+      "image": 5,
+      "source_member": "word/media/image5.png",
+      "sha256": "bcef1c7a8bd5211083470efaaba90686048c80c3641cf15370876eb3e9f0c553",
+      "size": [
+        1151,
+        579
+      ],
+      "full_event": "MMG_tank.105",
+      "modules_event": "MMG_tank.205",
+      "stats_event": "MMG_tank.305",
+      "menu": "MMG_tank.20"
+    },
+    {
+      "image": 6,
+      "source_member": "word/media/image6.png",
+      "sha256": "54d78972fbaeaf0e6e92b390ae5ab042c0e3ac6be16a2f9ebb0085231ff73048",
+      "size": [
+        1149,
+        579
+      ],
+      "full_event": "MMG_tank.106",
+      "modules_event": "MMG_tank.206",
+      "stats_event": "MMG_tank.306",
+      "menu": "MMG_tank.20"
+    },
+    {
+      "image": 7,
+      "source_member": "word/media/image7.png",
+      "sha256": "dd6d7034bdbc9d7e7cb150fe20adc98c70c51b7a1e627a660a9fa45413b8f8a0",
+      "size": [
+        1149,
+        575
+      ],
+      "full_event": "MMG_tank.107",
+      "modules_event": "MMG_tank.207",
+      "stats_event": "MMG_tank.307",
+      "menu": "MMG_tank.20"
+    },
+    {
+      "image": 8,
+      "source_member": "word/media/image8.png",
+      "sha256": "cda6c69e6e14dadbe6864bbd6bfdd4630992291d9ec622611d489a8f9dd9eb4c",
+      "size": [
+        1151,
+        570
+      ],
+      "full_event": "MMG_tank.108",
+      "modules_event": "MMG_tank.208",
+      "stats_event": "MMG_tank.308",
+      "menu": "MMG_tank.20"
+    },
+    {
+      "image": 9,
+      "source_member": "word/media/image9.png",
+      "sha256": "e3e54ec707ffbca277a9a11eea0f5f0b284875789e959f9450796614fba85217",
+      "size": [
+        1153,
+        579
+      ],
+      "full_event": "MMG_tank.109",
+      "modules_event": "MMG_tank.209",
+      "stats_event": "MMG_tank.309",
+      "menu": "MMG_tank.21"
+    },
+    {
+      "image": 10,
+      "source_member": "word/media/image10.png",
+      "sha256": "9318148341268d00653eb7a202561f68620d86b3ba2b80f3428e0e4b422a8750",
+      "size": [
+        1153,
+        574
+      ],
+      "full_event": "MMG_tank.110",
+      "modules_event": "MMG_tank.210",
+      "stats_event": "MMG_tank.310",
+      "menu": "MMG_tank.21"
+    },
+    {
+      "image": 11,
+      "source_member": "word/media/image11.png",
+      "sha256": "3350e6546a79f67a8b168bf2d06574a4a3b0df044d58c13c5eb6e24945cb94a2",
+      "size": [
+        1151,
+        574
+      ],
+      "full_event": "MMG_tank.111",
+      "modules_event": "MMG_tank.211",
+      "stats_event": "MMG_tank.311",
+      "menu": "MMG_tank.21"
+    },
+    {
+      "image": 12,
+      "source_member": "word/media/image12.png",
+      "sha256": "fff9297fd703136381eb9b3ce549dded4c4bc174549d2a37be13112bcb1b0a80",
+      "size": [
+        1155,
+        581
+      ],
+      "full_event": "MMG_tank.112",
+      "modules_event": "MMG_tank.212",
+      "stats_event": "MMG_tank.312",
+      "menu": "MMG_tank.21"
+    },
+    {
+      "image": 13,
+      "source_member": "word/media/image13.png",
+      "sha256": "505ff43703d3250945ef39541400e787bf91f83b859e8e04cb97654a1a8a5c47",
+      "size": [
+        1156,
+        579
+      ],
+      "full_event": "MMG_tank.113",
+      "modules_event": "MMG_tank.213",
+      "stats_event": "MMG_tank.313",
+      "menu": "MMG_tank.22"
+    },
+    {
+      "image": 14,
+      "source_member": "word/media/image14.png",
+      "sha256": "51c66ab444bd0b1231d15adb27c50332ae90a85dbcd8ca8e6748de0a39eabac4",
+      "size": [
+        1153,
+        577
+      ],
+      "full_event": "MMG_tank.114",
+      "modules_event": "MMG_tank.214",
+      "stats_event": "MMG_tank.314",
+      "menu": "MMG_tank.22"
+    },
+    {
+      "image": 15,
+      "source_member": "word/media/image15.png",
+      "sha256": "f85b5cbbcf0c9d9ea1b7f8b1da15561831643e2caa3616f4568aa8f94b42a93f",
+      "size": [
+        1177,
+        584
+      ],
+      "full_event": "MMG_tank.115",
+      "modules_event": "MMG_tank.215",
+      "stats_event": "MMG_tank.315",
+      "menu": "MMG_tank.22"
+    },
+    {
+      "image": 35,
+      "source_member": "word/media/image16.png",
+      "sha256": "94574ced01c80dec7449bac21c46c1aa3d0e57619c57f409b1f3d194fb918081",
+      "size": [
+        1183,
+        588
+      ],
+      "full_event": "MMG_tank.135",
+      "modules_event": "MMG_tank.235",
+      "stats_event": "MMG_tank.335",
+      "menu": "MMG_tank.22"
+    },
+    {
+      "image": 16,
+      "source_member": "word/media/image17.png",
+      "sha256": "65ff78897ec51779ccc30547b4a0c3d47ca0ef27b507b8ec038e80dcc13a50fb",
+      "size": [
+        1172,
+        584
+      ],
+      "full_event": "MMG_tank.116",
+      "modules_event": "MMG_tank.216",
+      "stats_event": "MMG_tank.316",
+      "menu": "MMG_tank.23"
+    },
+    {
+      "image": 17,
+      "source_member": "word/media/image18.png",
+      "sha256": "1d6864e9d08037ec1b27f54414888dbd37694444ab61a3dc2f78f82f478c30fa",
+      "size": [
+        1177,
+        584
+      ],
+      "full_event": "MMG_tank.117",
+      "modules_event": "MMG_tank.217",
+      "stats_event": "MMG_tank.317",
+      "menu": "MMG_tank.23"
+    },
+    {
+      "image": 18,
+      "source_member": "word/media/image19.png",
+      "sha256": "478e56fa986b78b1e6f33421f855c85daad3ba2b215e7e2252dc4af4f4ce219e",
+      "size": [
+        1170,
+        584
+      ],
+      "full_event": "MMG_tank.118",
+      "modules_event": "MMG_tank.218",
+      "stats_event": "MMG_tank.318",
+      "menu": "MMG_tank.23"
+    },
+    {
+      "image": 19,
+      "source_member": "word/media/image20.png",
+      "sha256": "dfd1c2a6267a8c91a9bfaf41d84699bc8409029b3c297c837afb8353f9599ff6",
+      "size": [
+        1172,
+        582
+      ],
+      "full_event": "MMG_tank.119",
+      "modules_event": "MMG_tank.219",
+      "stats_event": "MMG_tank.319",
+      "menu": "MMG_tank.23"
+    },
+    {
+      "image": 36,
+      "source_member": "word/media/image36.png",
+      "sha256": "cd0787fb716f78ed6512e0adaf48f54717896afa16bc11e69f5fc1412001f4ec",
+      "size": [
+        1177,
+        586
+      ],
+      "full_event": "MMG_tank.136",
+      "modules_event": "MMG_tank.236",
+      "stats_event": "MMG_tank.336",
+      "menu": "MMG_tank.24"
+    },
+    {
+      "image": 20,
+      "source_member": "word/media/image21.png",
+      "sha256": "933c2a43ade9465584880b3eb66c2ba30b03bc012464d48efb27f8f0120eca13",
+      "size": [
+        1177,
+        586
+      ],
+      "full_event": "MMG_tank.120",
+      "modules_event": "MMG_tank.220",
+      "stats_event": "MMG_tank.320",
+      "menu": "MMG_tank.30"
+    },
+    {
+      "image": 21,
+      "source_member": "word/media/image22.png",
+      "sha256": "1a5885639e2fb6348b3383231fb68d983c1facc4c1d648d801f3f0ac15105892",
+      "size": [
+        1174,
+        589
+      ],
+      "full_event": "MMG_tank.121",
+      "modules_event": "MMG_tank.221",
+      "stats_event": "MMG_tank.321",
+      "menu": "MMG_tank.30"
+    },
+    {
+      "image": 22,
+      "source_member": "word/media/image23.png",
+      "sha256": "8a69e5362656ca0c06f5e277bbdcb652c58668d8654a2f783cf5f64150f04709",
+      "size": [
+        1174,
+        586
+      ],
+      "full_event": "MMG_tank.122",
+      "modules_event": "MMG_tank.222",
+      "stats_event": "MMG_tank.322",
+      "menu": "MMG_tank.30"
+    },
+    {
+      "image": 23,
+      "source_member": "word/media/image24.png",
+      "sha256": "2acd04d6f2b3250a896f14760e93f9db2d16167744de2450236e60dc69aa7a1b",
+      "size": [
+        1172,
+        589
+      ],
+      "full_event": "MMG_tank.123",
+      "modules_event": "MMG_tank.223",
+      "stats_event": "MMG_tank.323",
+      "menu": "MMG_tank.30"
+    },
+    {
+      "image": 24,
+      "source_member": "word/media/image25.png",
+      "sha256": "e642ef20b3f09be3019fab57d2bf57d61988f101723040ab25d4a18d3798bb15",
+      "size": [
+        1181,
+        591
+      ],
+      "full_event": "MMG_tank.124",
+      "modules_event": "MMG_tank.224",
+      "stats_event": "MMG_tank.324",
+      "menu": "MMG_tank.31"
+    },
+    {
+      "image": 25,
+      "source_member": "word/media/image26.png",
+      "sha256": "b23116bb3587de1f217183d2c5790afbbaea187218c2cddcd362cc0660714057",
+      "size": [
+        1176,
+        589
+      ],
+      "full_event": "MMG_tank.125",
+      "modules_event": "MMG_tank.225",
+      "stats_event": "MMG_tank.325",
+      "menu": "MMG_tank.31"
+    },
+    {
+      "image": 26,
+      "source_member": "word/media/image27.png",
+      "sha256": "8baf8754db3466be64b27b2daff73db0c9ca5b097ed91259e303e97001ead49d",
+      "size": [
+        1177,
+        591
+      ],
+      "full_event": "MMG_tank.126",
+      "modules_event": "MMG_tank.226",
+      "stats_event": "MMG_tank.326",
+      "menu": "MMG_tank.40"
+    },
+    {
+      "image": 27,
+      "source_member": "word/media/image28.png",
+      "sha256": "c1a0ef653a046f59cceba64f84d4701c4b767f40527bc956db2f9f5b9302cca1",
+      "size": [
+        1174,
+        588
+      ],
+      "full_event": "MMG_tank.127",
+      "modules_event": "MMG_tank.227",
+      "stats_event": "MMG_tank.327",
+      "menu": "MMG_tank.40"
+    },
+    {
+      "image": 28,
+      "source_member": "word/media/image29.png",
+      "sha256": "cc800d90ab1e9f0d37f67853d5b2faa0de49df2dd69cd6e3c0bfaeddfb59742a",
+      "size": [
+        1172,
+        586
+      ],
+      "full_event": "MMG_tank.128",
+      "modules_event": "MMG_tank.228",
+      "stats_event": "MMG_tank.328",
+      "menu": "MMG_tank.40"
+    },
+    {
+      "image": 29,
+      "source_member": "word/media/image30.png",
+      "sha256": "d714076f417a381121d221e4c0d3fc174b26be6738836abfe432fc4e456d0cb0",
+      "size": [
+        1177,
+        593
+      ],
+      "full_event": "MMG_tank.129",
+      "modules_event": "MMG_tank.229",
+      "stats_event": "MMG_tank.329",
+      "menu": "MMG_tank.40"
+    },
+    {
+      "image": 30,
+      "source_member": "word/media/image31.png",
+      "sha256": "6fc1f831af42d1c3a1d0ee907d51e976e0614c6f2443a67af27bd336c9b1320f",
+      "size": [
+        1177,
+        595
+      ],
+      "full_event": "MMG_tank.130",
+      "modules_event": "MMG_tank.230",
+      "stats_event": "MMG_tank.330",
+      "menu": "MMG_tank.41"
+    },
+    {
+      "image": 31,
+      "source_member": "word/media/image32.png",
+      "sha256": "e60e22bdf3c85071e79878676ad5736bdbb7ba077ecd48bbf3e2b8c4d3b2520f",
+      "size": [
+        1177,
+        586
+      ],
+      "full_event": "MMG_tank.131",
+      "modules_event": "MMG_tank.231",
+      "stats_event": "MMG_tank.331",
+      "menu": "MMG_tank.41"
+    },
+    {
+      "image": 32,
+      "source_member": "word/media/image33.png",
+      "sha256": "93c89f401b92a58b191f614c5c7d4b9352331494c849b8121f1dc6debe90c0f7",
+      "size": [
+        1174,
+        586
+      ],
+      "full_event": "MMG_tank.132",
+      "modules_event": "MMG_tank.232",
+      "stats_event": "MMG_tank.332",
+      "menu": "MMG_tank.50"
+    },
+    {
+      "image": 33,
+      "source_member": "word/media/image34.png",
+      "sha256": "5ea5df84533acf3c33bb76f593a0c95c327a678851a4d51aa81e5b80f4665b83",
+      "size": [
+        1179,
+        588
+      ],
+      "full_event": "MMG_tank.133",
+      "modules_event": "MMG_tank.233",
+      "stats_event": "MMG_tank.333",
+      "menu": "MMG_tank.50"
+    },
+    {
+      "image": 34,
+      "source_member": "word/media/image35.png",
+      "sha256": "51f667f7cc99c9162bcc8e647de36ecdc8926053e10e91261bdf4d3a9c32fc42",
+      "size": [
+        1176,
+        586
+      ],
+      "full_event": "MMG_tank.134",
+      "modules_event": "MMG_tank.234",
+      "stats_event": "MMG_tank.334",
+      "menu": "MMG_tank.50"
+    }
+  ],
+  "module_crops": [
+    [
+      0,
+      0.075,
+      0.495,
+      0.39
+    ],
+    [
+      0,
+      0.825,
+      0.495,
+      0.93
+    ]
+  ],
+  "stat_crops": [
+    [
+      0.495,
+      0.078,
+      0.998,
+      0.455
+    ],
+    [
+      0.495,
+      0.928,
+      0.998,
+      0.998
+    ]
+  ]
+}

@@ -1,0 +1,483 @@
+# Tank 1.19.4 pictures: full panels and reversible detail views.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_tank1194_index"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_index.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_10"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_01_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_01_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_01_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_01_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_01_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_01_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_02_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_02_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_02_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_02_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_02_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_02_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_03_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_03_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_03_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_03_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_03_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_03_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_04_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_04_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_04_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_04_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_04_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_04_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_20"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_20.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_21"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_21.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_22"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_22.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_23"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_23.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_24"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_24.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_05_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_05_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_05_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_05_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_05_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_05_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_06_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_06_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_06_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_06_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_06_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_06_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_07_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_07_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_07_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_07_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_07_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_07_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_08_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_08_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_08_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_08_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_08_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_08_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_09_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_09_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_09_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_09_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_09_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_09_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_10_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_10_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_10_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_10_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_10_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_10_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_11_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_11_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_11_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_11_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_11_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_11_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_12_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_12_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_12_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_12_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_12_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_12_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_13_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_13_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_13_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_13_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_13_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_13_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_14_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_14_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_14_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_14_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_14_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_14_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_15_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_15_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_15_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_15_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_15_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_15_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_35_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_35_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_35_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_35_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_35_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_35_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_16_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_16_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_16_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_16_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_16_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_16_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_17_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_17_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_17_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_17_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_17_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_17_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_18_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_18_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_18_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_18_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_18_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_18_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_19_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_19_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_19_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_19_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_19_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_19_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_36_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_36_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_36_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_36_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_36_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_36_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_30"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_31"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_20_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_20_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_20_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_20_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_20_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_20_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_21_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_21_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_21_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_21_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_21_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_21_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_22_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_22_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_22_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_22_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_22_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_22_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_23_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_23_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_23_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_23_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_23_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_23_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_24_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_24_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_24_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_24_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_24_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_24_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_25_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_25_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_25_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_25_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_25_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_25_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_40"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_40.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_41"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_41.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_26_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_26_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_26_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_26_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_26_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_26_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_27_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_27_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_27_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_27_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_27_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_27_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_28_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_28_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_28_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_28_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_28_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_28_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_29_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_29_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_29_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_29_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_29_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_29_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_30_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_30_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_30_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_30_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_30_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_30_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_31_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_31_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_31_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_31_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_31_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_31_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_menu_50"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_menu_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_32_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_32_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_32_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_32_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_32_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_32_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_33_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_33_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_33_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_33_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_33_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_33_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_34_full"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_34_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_34_modules"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_34_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_tank1194_34_stats"
+		texturefile = "gfx/event_pictures/mmg_tank_1194_34_stats.dds"
+	}
+}

@@ -1,0 +1,335 @@
+# Word formation panels and reviewed army-note cards.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_index"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_index.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_preset"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_preset.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_2"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_3"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_4"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_51"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_51.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_52"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_52.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_53"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_53.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_54"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_54.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_55"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_55.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_56"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_56.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_61"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_61.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_62"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_62.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_64"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_64.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_note_63"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_note_63.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_support_menu"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_support_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_spirit_menu"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_spirit_menu.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_100"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_100.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_101"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_101.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_102"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_102.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_103"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_103.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_104"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_104.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_land_105"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_land_105.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_10"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_1_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_1_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_1_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_1_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_1_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_1_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_2_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_2_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_2_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_2_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_2_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_2_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_3_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_3_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_3_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_3_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_3_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_3_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_4_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_4_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_4_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_4_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_4_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_4_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_20"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_20.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_21"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_21.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_5_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_5_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_5_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_5_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_5_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_5_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_6_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_6_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_6_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_6_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_6_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_6_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_7_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_7_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_7_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_7_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_7_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_7_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_8_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_8_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_8_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_8_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_8_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_8_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_9_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_9_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_9_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_9_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_9_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_9_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_10_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_10_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_10_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_10_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_10_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_10_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_30"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_31"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_11_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_11_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_11_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_11_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_11_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_11_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_12_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_12_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_12_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_12_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_12_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_12_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_13_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_13_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_13_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_13_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_13_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_13_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_14_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_14_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_14_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_14_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_14_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_14_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_15_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_15_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_15_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_15_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_15_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_15_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_menu_40"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_menu_40.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_16_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_16_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_16_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_16_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_16_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_16_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_17_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_17_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_17_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_17_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_17_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_17_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_18_full"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_18_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_18_layout"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_18_layout.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_infantry1194_template_18_stats"
+		texturefile = "gfx/event_pictures/mmg_infantry_1194_template_18_stats.dds"
+	}
+}

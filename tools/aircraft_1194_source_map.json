@@ -1,0 +1,949 @@
+{
+  "source_name": "1.19.4飞机设计攻略.docx",
+  "source_sha256": "4c31b1abaaa0ccf2b2922196d2c3d503d259ba5c133cee6a456d1492bc1524c6",
+  "designs": 36,
+  "events": 130,
+  "textures": 130,
+  "objects": [
+    {
+      "event": "MMG_guide.600",
+      "picture": "index",
+      "key": "MMG_air1194_index"
+    },
+    {
+      "event": "MMG_aircraft.2",
+      "picture": "note_2",
+      "key": "MMG_air1194_note_2"
+    },
+    {
+      "event": "MMG_aircraft.3",
+      "picture": "note_3",
+      "key": "MMG_air1194_note_3"
+    },
+    {
+      "event": "MMG_aircraft.4",
+      "picture": "note_4",
+      "key": "MMG_air1194_note_4"
+    },
+    {
+      "event": "MMG_aircraft.5",
+      "picture": "note_5",
+      "key": "MMG_air1194_note_5"
+    },
+    {
+      "event": "MMG_aircraft.6",
+      "picture": "note_6",
+      "key": "MMG_air1194_note_6"
+    },
+    {
+      "event": "MMG_aircraft.1",
+      "picture": "rules",
+      "key": "MMG_air1194_rules"
+    },
+    {
+      "event": "MMG_guide.300",
+      "picture": "doctrine_300",
+      "key": "MMG_air1194_doctrine_300"
+    },
+    {
+      "event": "MMG_guide.301",
+      "picture": "doctrine_301",
+      "key": "MMG_air1194_doctrine_301"
+    },
+    {
+      "event": "MMG_guide.302",
+      "picture": "doctrine_302",
+      "key": "MMG_air1194_doctrine_302"
+    },
+    {
+      "event": "MMG_guide.303",
+      "picture": "doctrine_303",
+      "key": "MMG_air1194_doctrine_303"
+    },
+    {
+      "event": "MMG_aircraft.10",
+      "picture": "menu_10",
+      "key": "MMG_air1194_menu_10"
+    },
+    {
+      "event": "MMG_aircraft.11",
+      "picture": "menu_11",
+      "key": "MMG_air1194_menu_11"
+    },
+    {
+      "event": "MMG_aircraft.12",
+      "picture": "menu_12",
+      "key": "MMG_air1194_menu_12"
+    },
+    {
+      "event": "MMG_aircraft.101",
+      "picture": "design_01_full",
+      "key": "MMG_air1194_design_01_full"
+    },
+    {
+      "event": "MMG_aircraft.201",
+      "picture": "design_01_modules",
+      "key": "MMG_air1194_design_01_modules"
+    },
+    {
+      "event": "MMG_aircraft.301",
+      "picture": "design_01_stats",
+      "key": "MMG_air1194_design_01_stats"
+    },
+    {
+      "event": "MMG_aircraft.102",
+      "picture": "design_02_full",
+      "key": "MMG_air1194_design_02_full"
+    },
+    {
+      "event": "MMG_aircraft.202",
+      "picture": "design_02_modules",
+      "key": "MMG_air1194_design_02_modules"
+    },
+    {
+      "event": "MMG_aircraft.302",
+      "picture": "design_02_stats",
+      "key": "MMG_air1194_design_02_stats"
+    },
+    {
+      "event": "MMG_aircraft.103",
+      "picture": "design_03_full",
+      "key": "MMG_air1194_design_03_full"
+    },
+    {
+      "event": "MMG_aircraft.203",
+      "picture": "design_03_modules",
+      "key": "MMG_air1194_design_03_modules"
+    },
+    {
+      "event": "MMG_aircraft.303",
+      "picture": "design_03_stats",
+      "key": "MMG_air1194_design_03_stats"
+    },
+    {
+      "event": "MMG_aircraft.104",
+      "picture": "design_04_full",
+      "key": "MMG_air1194_design_04_full"
+    },
+    {
+      "event": "MMG_aircraft.204",
+      "picture": "design_04_modules",
+      "key": "MMG_air1194_design_04_modules"
+    },
+    {
+      "event": "MMG_aircraft.304",
+      "picture": "design_04_stats",
+      "key": "MMG_air1194_design_04_stats"
+    },
+    {
+      "event": "MMG_aircraft.105",
+      "picture": "design_05_full",
+      "key": "MMG_air1194_design_05_full"
+    },
+    {
+      "event": "MMG_aircraft.205",
+      "picture": "design_05_modules",
+      "key": "MMG_air1194_design_05_modules"
+    },
+    {
+      "event": "MMG_aircraft.305",
+      "picture": "design_05_stats",
+      "key": "MMG_air1194_design_05_stats"
+    },
+    {
+      "event": "MMG_aircraft.106",
+      "picture": "design_06_full",
+      "key": "MMG_air1194_design_06_full"
+    },
+    {
+      "event": "MMG_aircraft.206",
+      "picture": "design_06_modules",
+      "key": "MMG_air1194_design_06_modules"
+    },
+    {
+      "event": "MMG_aircraft.306",
+      "picture": "design_06_stats",
+      "key": "MMG_air1194_design_06_stats"
+    },
+    {
+      "event": "MMG_aircraft.107",
+      "picture": "design_07_full",
+      "key": "MMG_air1194_design_07_full"
+    },
+    {
+      "event": "MMG_aircraft.207",
+      "picture": "design_07_modules",
+      "key": "MMG_air1194_design_07_modules"
+    },
+    {
+      "event": "MMG_aircraft.307",
+      "picture": "design_07_stats",
+      "key": "MMG_air1194_design_07_stats"
+    },
+    {
+      "event": "MMG_aircraft.108",
+      "picture": "design_08_full",
+      "key": "MMG_air1194_design_08_full"
+    },
+    {
+      "event": "MMG_aircraft.208",
+      "picture": "design_08_modules",
+      "key": "MMG_air1194_design_08_modules"
+    },
+    {
+      "event": "MMG_aircraft.308",
+      "picture": "design_08_stats",
+      "key": "MMG_air1194_design_08_stats"
+    },
+    {
+      "event": "MMG_aircraft.109",
+      "picture": "design_09_full",
+      "key": "MMG_air1194_design_09_full"
+    },
+    {
+      "event": "MMG_aircraft.209",
+      "picture": "design_09_modules",
+      "key": "MMG_air1194_design_09_modules"
+    },
+    {
+      "event": "MMG_aircraft.309",
+      "picture": "design_09_stats",
+      "key": "MMG_air1194_design_09_stats"
+    },
+    {
+      "event": "MMG_aircraft.110",
+      "picture": "design_10_full",
+      "key": "MMG_air1194_design_10_full"
+    },
+    {
+      "event": "MMG_aircraft.210",
+      "picture": "design_10_modules",
+      "key": "MMG_air1194_design_10_modules"
+    },
+    {
+      "event": "MMG_aircraft.310",
+      "picture": "design_10_stats",
+      "key": "MMG_air1194_design_10_stats"
+    },
+    {
+      "event": "MMG_aircraft.20",
+      "picture": "menu_20",
+      "key": "MMG_air1194_menu_20"
+    },
+    {
+      "event": "MMG_aircraft.21",
+      "picture": "menu_21",
+      "key": "MMG_air1194_menu_21"
+    },
+    {
+      "event": "MMG_aircraft.22",
+      "picture": "menu_22",
+      "key": "MMG_air1194_menu_22"
+    },
+    {
+      "event": "MMG_aircraft.111",
+      "picture": "design_11_full",
+      "key": "MMG_air1194_design_11_full"
+    },
+    {
+      "event": "MMG_aircraft.211",
+      "picture": "design_11_modules",
+      "key": "MMG_air1194_design_11_modules"
+    },
+    {
+      "event": "MMG_aircraft.311",
+      "picture": "design_11_stats",
+      "key": "MMG_air1194_design_11_stats"
+    },
+    {
+      "event": "MMG_aircraft.112",
+      "picture": "design_12_full",
+      "key": "MMG_air1194_design_12_full"
+    },
+    {
+      "event": "MMG_aircraft.212",
+      "picture": "design_12_modules",
+      "key": "MMG_air1194_design_12_modules"
+    },
+    {
+      "event": "MMG_aircraft.312",
+      "picture": "design_12_stats",
+      "key": "MMG_air1194_design_12_stats"
+    },
+    {
+      "event": "MMG_aircraft.113",
+      "picture": "design_13_full",
+      "key": "MMG_air1194_design_13_full"
+    },
+    {
+      "event": "MMG_aircraft.213",
+      "picture": "design_13_modules",
+      "key": "MMG_air1194_design_13_modules"
+    },
+    {
+      "event": "MMG_aircraft.313",
+      "picture": "design_13_stats",
+      "key": "MMG_air1194_design_13_stats"
+    },
+    {
+      "event": "MMG_aircraft.114",
+      "picture": "design_14_full",
+      "key": "MMG_air1194_design_14_full"
+    },
+    {
+      "event": "MMG_aircraft.214",
+      "picture": "design_14_modules",
+      "key": "MMG_air1194_design_14_modules"
+    },
+    {
+      "event": "MMG_aircraft.314",
+      "picture": "design_14_stats",
+      "key": "MMG_air1194_design_14_stats"
+    },
+    {
+      "event": "MMG_aircraft.115",
+      "picture": "design_15_full",
+      "key": "MMG_air1194_design_15_full"
+    },
+    {
+      "event": "MMG_aircraft.215",
+      "picture": "design_15_modules",
+      "key": "MMG_air1194_design_15_modules"
+    },
+    {
+      "event": "MMG_aircraft.315",
+      "picture": "design_15_stats",
+      "key": "MMG_air1194_design_15_stats"
+    },
+    {
+      "event": "MMG_aircraft.116",
+      "picture": "design_16_full",
+      "key": "MMG_air1194_design_16_full"
+    },
+    {
+      "event": "MMG_aircraft.216",
+      "picture": "design_16_modules",
+      "key": "MMG_air1194_design_16_modules"
+    },
+    {
+      "event": "MMG_aircraft.316",
+      "picture": "design_16_stats",
+      "key": "MMG_air1194_design_16_stats"
+    },
+    {
+      "event": "MMG_aircraft.117",
+      "picture": "design_17_full",
+      "key": "MMG_air1194_design_17_full"
+    },
+    {
+      "event": "MMG_aircraft.217",
+      "picture": "design_17_modules",
+      "key": "MMG_air1194_design_17_modules"
+    },
+    {
+      "event": "MMG_aircraft.317",
+      "picture": "design_17_stats",
+      "key": "MMG_air1194_design_17_stats"
+    },
+    {
+      "event": "MMG_aircraft.118",
+      "picture": "design_18_full",
+      "key": "MMG_air1194_design_18_full"
+    },
+    {
+      "event": "MMG_aircraft.218",
+      "picture": "design_18_modules",
+      "key": "MMG_air1194_design_18_modules"
+    },
+    {
+      "event": "MMG_aircraft.318",
+      "picture": "design_18_stats",
+      "key": "MMG_air1194_design_18_stats"
+    },
+    {
+      "event": "MMG_aircraft.119",
+      "picture": "design_19_full",
+      "key": "MMG_air1194_design_19_full"
+    },
+    {
+      "event": "MMG_aircraft.219",
+      "picture": "design_19_modules",
+      "key": "MMG_air1194_design_19_modules"
+    },
+    {
+      "event": "MMG_aircraft.319",
+      "picture": "design_19_stats",
+      "key": "MMG_air1194_design_19_stats"
+    },
+    {
+      "event": "MMG_aircraft.30",
+      "picture": "menu_30",
+      "key": "MMG_air1194_menu_30"
+    },
+    {
+      "event": "MMG_aircraft.31",
+      "picture": "menu_31",
+      "key": "MMG_air1194_menu_31"
+    },
+    {
+      "event": "MMG_aircraft.120",
+      "picture": "design_20_full",
+      "key": "MMG_air1194_design_20_full"
+    },
+    {
+      "event": "MMG_aircraft.220",
+      "picture": "design_20_modules",
+      "key": "MMG_air1194_design_20_modules"
+    },
+    {
+      "event": "MMG_aircraft.320",
+      "picture": "design_20_stats",
+      "key": "MMG_air1194_design_20_stats"
+    },
+    {
+      "event": "MMG_aircraft.121",
+      "picture": "design_21_full",
+      "key": "MMG_air1194_design_21_full"
+    },
+    {
+      "event": "MMG_aircraft.221",
+      "picture": "design_21_modules",
+      "key": "MMG_air1194_design_21_modules"
+    },
+    {
+      "event": "MMG_aircraft.321",
+      "picture": "design_21_stats",
+      "key": "MMG_air1194_design_21_stats"
+    },
+    {
+      "event": "MMG_aircraft.122",
+      "picture": "design_22_full",
+      "key": "MMG_air1194_design_22_full"
+    },
+    {
+      "event": "MMG_aircraft.222",
+      "picture": "design_22_modules",
+      "key": "MMG_air1194_design_22_modules"
+    },
+    {
+      "event": "MMG_aircraft.322",
+      "picture": "design_22_stats",
+      "key": "MMG_air1194_design_22_stats"
+    },
+    {
+      "event": "MMG_aircraft.123",
+      "picture": "design_23_full",
+      "key": "MMG_air1194_design_23_full"
+    },
+    {
+      "event": "MMG_aircraft.223",
+      "picture": "design_23_modules",
+      "key": "MMG_air1194_design_23_modules"
+    },
+    {
+      "event": "MMG_aircraft.323",
+      "picture": "design_23_stats",
+      "key": "MMG_air1194_design_23_stats"
+    },
+    {
+      "event": "MMG_aircraft.124",
+      "picture": "design_24_full",
+      "key": "MMG_air1194_design_24_full"
+    },
+    {
+      "event": "MMG_aircraft.224",
+      "picture": "design_24_modules",
+      "key": "MMG_air1194_design_24_modules"
+    },
+    {
+      "event": "MMG_aircraft.324",
+      "picture": "design_24_stats",
+      "key": "MMG_air1194_design_24_stats"
+    },
+    {
+      "event": "MMG_aircraft.125",
+      "picture": "design_25_full",
+      "key": "MMG_air1194_design_25_full"
+    },
+    {
+      "event": "MMG_aircraft.225",
+      "picture": "design_25_modules",
+      "key": "MMG_air1194_design_25_modules"
+    },
+    {
+      "event": "MMG_aircraft.325",
+      "picture": "design_25_stats",
+      "key": "MMG_air1194_design_25_stats"
+    },
+    {
+      "event": "MMG_aircraft.126",
+      "picture": "design_26_full",
+      "key": "MMG_air1194_design_26_full"
+    },
+    {
+      "event": "MMG_aircraft.226",
+      "picture": "design_26_modules",
+      "key": "MMG_air1194_design_26_modules"
+    },
+    {
+      "event": "MMG_aircraft.326",
+      "picture": "design_26_stats",
+      "key": "MMG_air1194_design_26_stats"
+    },
+    {
+      "event": "MMG_aircraft.40",
+      "picture": "menu_40",
+      "key": "MMG_air1194_menu_40"
+    },
+    {
+      "event": "MMG_aircraft.41",
+      "picture": "menu_41",
+      "key": "MMG_air1194_menu_41"
+    },
+    {
+      "event": "MMG_aircraft.127",
+      "picture": "design_27_full",
+      "key": "MMG_air1194_design_27_full"
+    },
+    {
+      "event": "MMG_aircraft.227",
+      "picture": "design_27_modules",
+      "key": "MMG_air1194_design_27_modules"
+    },
+    {
+      "event": "MMG_aircraft.327",
+      "picture": "design_27_stats",
+      "key": "MMG_air1194_design_27_stats"
+    },
+    {
+      "event": "MMG_aircraft.128",
+      "picture": "design_28_full",
+      "key": "MMG_air1194_design_28_full"
+    },
+    {
+      "event": "MMG_aircraft.228",
+      "picture": "design_28_modules",
+      "key": "MMG_air1194_design_28_modules"
+    },
+    {
+      "event": "MMG_aircraft.328",
+      "picture": "design_28_stats",
+      "key": "MMG_air1194_design_28_stats"
+    },
+    {
+      "event": "MMG_aircraft.129",
+      "picture": "design_29_full",
+      "key": "MMG_air1194_design_29_full"
+    },
+    {
+      "event": "MMG_aircraft.229",
+      "picture": "design_29_modules",
+      "key": "MMG_air1194_design_29_modules"
+    },
+    {
+      "event": "MMG_aircraft.329",
+      "picture": "design_29_stats",
+      "key": "MMG_air1194_design_29_stats"
+    },
+    {
+      "event": "MMG_aircraft.130",
+      "picture": "design_30_full",
+      "key": "MMG_air1194_design_30_full"
+    },
+    {
+      "event": "MMG_aircraft.230",
+      "picture": "design_30_modules",
+      "key": "MMG_air1194_design_30_modules"
+    },
+    {
+      "event": "MMG_aircraft.330",
+      "picture": "design_30_stats",
+      "key": "MMG_air1194_design_30_stats"
+    },
+    {
+      "event": "MMG_aircraft.131",
+      "picture": "design_31_full",
+      "key": "MMG_air1194_design_31_full"
+    },
+    {
+      "event": "MMG_aircraft.231",
+      "picture": "design_31_modules",
+      "key": "MMG_air1194_design_31_modules"
+    },
+    {
+      "event": "MMG_aircraft.331",
+      "picture": "design_31_stats",
+      "key": "MMG_air1194_design_31_stats"
+    },
+    {
+      "event": "MMG_aircraft.132",
+      "picture": "design_32_full",
+      "key": "MMG_air1194_design_32_full"
+    },
+    {
+      "event": "MMG_aircraft.232",
+      "picture": "design_32_modules",
+      "key": "MMG_air1194_design_32_modules"
+    },
+    {
+      "event": "MMG_aircraft.332",
+      "picture": "design_32_stats",
+      "key": "MMG_air1194_design_32_stats"
+    },
+    {
+      "event": "MMG_aircraft.133",
+      "picture": "design_33_full",
+      "key": "MMG_air1194_design_33_full"
+    },
+    {
+      "event": "MMG_aircraft.233",
+      "picture": "design_33_modules",
+      "key": "MMG_air1194_design_33_modules"
+    },
+    {
+      "event": "MMG_aircraft.333",
+      "picture": "design_33_stats",
+      "key": "MMG_air1194_design_33_stats"
+    },
+    {
+      "event": "MMG_aircraft.50",
+      "picture": "menu_50",
+      "key": "MMG_air1194_menu_50"
+    },
+    {
+      "event": "MMG_aircraft.134",
+      "picture": "design_34_full",
+      "key": "MMG_air1194_design_34_full"
+    },
+    {
+      "event": "MMG_aircraft.234",
+      "picture": "design_34_modules",
+      "key": "MMG_air1194_design_34_modules"
+    },
+    {
+      "event": "MMG_aircraft.334",
+      "picture": "design_34_stats",
+      "key": "MMG_air1194_design_34_stats"
+    },
+    {
+      "event": "MMG_aircraft.135",
+      "picture": "design_35_full",
+      "key": "MMG_air1194_design_35_full"
+    },
+    {
+      "event": "MMG_aircraft.235",
+      "picture": "design_35_modules",
+      "key": "MMG_air1194_design_35_modules"
+    },
+    {
+      "event": "MMG_aircraft.335",
+      "picture": "design_35_stats",
+      "key": "MMG_air1194_design_35_stats"
+    },
+    {
+      "event": "MMG_aircraft.136",
+      "picture": "design_36_full",
+      "key": "MMG_air1194_design_36_full"
+    },
+    {
+      "event": "MMG_aircraft.236",
+      "picture": "design_36_modules",
+      "key": "MMG_air1194_design_36_modules"
+    },
+    {
+      "event": "MMG_aircraft.336",
+      "picture": "design_36_stats",
+      "key": "MMG_air1194_design_36_stats"
+    }
+  ],
+  "design_sources": [
+    {
+      "id": 1,
+      "member": "word/media/image1.png",
+      "sha256": "c9ff97fd794e785dcbb51ad95b2ad4ec4db59af2db8146f73b06ac532b5c00cc",
+      "full": "MMG_aircraft.101",
+      "modules": "MMG_aircraft.201",
+      "stats": "MMG_aircraft.301"
+    },
+    {
+      "id": 2,
+      "member": "word/media/image2.png",
+      "sha256": "5be28723f0c7744cd8fcb8d9fcc90a161496ad1228f20cdf15da047726d31cc8",
+      "full": "MMG_aircraft.102",
+      "modules": "MMG_aircraft.202",
+      "stats": "MMG_aircraft.302"
+    },
+    {
+      "id": 3,
+      "member": "word/media/image3.png",
+      "sha256": "63fb67df2f2c3c7202ee3dd8a041bb8fb55f8517ea8895677f6da2d820f4159f",
+      "full": "MMG_aircraft.103",
+      "modules": "MMG_aircraft.203",
+      "stats": "MMG_aircraft.303"
+    },
+    {
+      "id": 4,
+      "member": "word/media/image4.png",
+      "sha256": "4b4540d0ed962ffd75efc87858b284bdd32267e79f59c2ab9467d652dec2e4f4",
+      "full": "MMG_aircraft.104",
+      "modules": "MMG_aircraft.204",
+      "stats": "MMG_aircraft.304"
+    },
+    {
+      "id": 5,
+      "member": "word/media/image5.png",
+      "sha256": "3cba1abdae2d40278dcf1e450a38b1461933e85c57282dd09f2dcc7b6f34981c",
+      "full": "MMG_aircraft.105",
+      "modules": "MMG_aircraft.205",
+      "stats": "MMG_aircraft.305"
+    },
+    {
+      "id": 6,
+      "member": "word/media/image6.png",
+      "sha256": "f8423964f9f1031bff2d69c3f310fc43babbc4cfb8e130bff2f18dc61261db87",
+      "full": "MMG_aircraft.106",
+      "modules": "MMG_aircraft.206",
+      "stats": "MMG_aircraft.306"
+    },
+    {
+      "id": 7,
+      "member": "word/media/image7.png",
+      "sha256": "baa4347601ec502e0d0f1c3050408608534c75149bef0ec0ec356f026832d3a5",
+      "full": "MMG_aircraft.107",
+      "modules": "MMG_aircraft.207",
+      "stats": "MMG_aircraft.307"
+    },
+    {
+      "id": 8,
+      "member": "word/media/image8.png",
+      "sha256": "5f4165c42f41471be881856b92c703917eb449c36534faf3f975c5ef6e123d5f",
+      "full": "MMG_aircraft.108",
+      "modules": "MMG_aircraft.208",
+      "stats": "MMG_aircraft.308"
+    },
+    {
+      "id": 9,
+      "member": "word/media/image9.png",
+      "sha256": "588c5d44b2251d5d089f3e373c904eb250a0f783d65d6b0f0423912fd32c785e",
+      "full": "MMG_aircraft.109",
+      "modules": "MMG_aircraft.209",
+      "stats": "MMG_aircraft.309"
+    },
+    {
+      "id": 10,
+      "member": "word/media/image10.png",
+      "sha256": "1ce9fe362b0f14213e1f2736691db3946a2e10145d584fab72d9dc4b61b5488f",
+      "full": "MMG_aircraft.110",
+      "modules": "MMG_aircraft.210",
+      "stats": "MMG_aircraft.310"
+    },
+    {
+      "id": 11,
+      "member": "word/media/image11.png",
+      "sha256": "8f5bcd33ecf04c5b025c15e7aba888fa54abcba367d0067a4d3883dd10738ebb",
+      "full": "MMG_aircraft.111",
+      "modules": "MMG_aircraft.211",
+      "stats": "MMG_aircraft.311"
+    },
+    {
+      "id": 12,
+      "member": "word/media/image12.png",
+      "sha256": "59b37d3016760ce9b29ec3c19ad1b2492ff510306a59e5be046c1bdedb765e05",
+      "full": "MMG_aircraft.112",
+      "modules": "MMG_aircraft.212",
+      "stats": "MMG_aircraft.312"
+    },
+    {
+      "id": 13,
+      "member": "word/media/image13.png",
+      "sha256": "e066aeacf1ba160964b4dd91a8923deba01851a1542ddde88a9a9cc7becc9bd0",
+      "full": "MMG_aircraft.113",
+      "modules": "MMG_aircraft.213",
+      "stats": "MMG_aircraft.313"
+    },
+    {
+      "id": 14,
+      "member": "word/media/image14.png",
+      "sha256": "1253a7abfe1ca7311dfc431e52d145fbba556e73e4239584a9ebd498c0e4d0cc",
+      "full": "MMG_aircraft.114",
+      "modules": "MMG_aircraft.214",
+      "stats": "MMG_aircraft.314"
+    },
+    {
+      "id": 15,
+      "member": "word/media/image15.png",
+      "sha256": "97805f33a8ae0a4e3650af13d8e8c1268b04ddf7484ede09fade071601e0dc9e",
+      "full": "MMG_aircraft.115",
+      "modules": "MMG_aircraft.215",
+      "stats": "MMG_aircraft.315"
+    },
+    {
+      "id": 16,
+      "member": "word/media/image16.png",
+      "sha256": "f3ca6e9854e74d405bbcc87612ac9322b131396d94b76887e9503ea5278562c2",
+      "full": "MMG_aircraft.116",
+      "modules": "MMG_aircraft.216",
+      "stats": "MMG_aircraft.316"
+    },
+    {
+      "id": 17,
+      "member": "word/media/image17.png",
+      "sha256": "1fa98b69aa3b6b37784e8463564b2a8f311a98aab934dfed651da25f4cba09c8",
+      "full": "MMG_aircraft.117",
+      "modules": "MMG_aircraft.217",
+      "stats": "MMG_aircraft.317"
+    },
+    {
+      "id": 18,
+      "member": "word/media/image18.png",
+      "sha256": "09ab6156afa506e243008901c24337a5df54a396606548b18be50befd832750f",
+      "full": "MMG_aircraft.118",
+      "modules": "MMG_aircraft.218",
+      "stats": "MMG_aircraft.318"
+    },
+    {
+      "id": 19,
+      "member": "word/media/image19.png",
+      "sha256": "f894f33f91cc2f544b6f7a1ca9d42ac6fd5e7a01fe42c7d602109411af7ce5ab",
+      "full": "MMG_aircraft.119",
+      "modules": "MMG_aircraft.219",
+      "stats": "MMG_aircraft.319"
+    },
+    {
+      "id": 20,
+      "member": "word/media/image20.png",
+      "sha256": "83c977567de6e89235d564fd15c0fcf5ebe2db408dc67383882faea6432aba90",
+      "full": "MMG_aircraft.120",
+      "modules": "MMG_aircraft.220",
+      "stats": "MMG_aircraft.320"
+    },
+    {
+      "id": 21,
+      "member": "word/media/image21.png",
+      "sha256": "18de90f19acd7d643b2b621d5c177553af783f4fa895f449b676e8600b136d90",
+      "full": "MMG_aircraft.121",
+      "modules": "MMG_aircraft.221",
+      "stats": "MMG_aircraft.321"
+    },
+    {
+      "id": 22,
+      "member": "word/media/image22.png",
+      "sha256": "ff20cb438e6e65c185f56a22d95dd6e434f3dbdc48f9f7dff3c8dc8acc654c7e",
+      "full": "MMG_aircraft.122",
+      "modules": "MMG_aircraft.222",
+      "stats": "MMG_aircraft.322"
+    },
+    {
+      "id": 23,
+      "member": "word/media/image23.png",
+      "sha256": "2ed3eedf35c5a7793de58a5819987127d3cab95a0d49ca5b5cb0f00cc5bd46d2",
+      "full": "MMG_aircraft.123",
+      "modules": "MMG_aircraft.223",
+      "stats": "MMG_aircraft.323"
+    },
+    {
+      "id": 24,
+      "member": "word/media/image24.png",
+      "sha256": "a757b5ce3fd25add51e264fd29eeabb535bf9d9f61f4621abb8b4d45e084c7b1",
+      "full": "MMG_aircraft.124",
+      "modules": "MMG_aircraft.224",
+      "stats": "MMG_aircraft.324"
+    },
+    {
+      "id": 25,
+      "member": "word/media/image25.png",
+      "sha256": "6939c1b8f207a6c230208fc14368534cd9193501e2f8ba9546e534e93b0b8db2",
+      "full": "MMG_aircraft.125",
+      "modules": "MMG_aircraft.225",
+      "stats": "MMG_aircraft.325"
+    },
+    {
+      "id": 26,
+      "member": "word/media/image26.png",
+      "sha256": "3bbe134e200135ee8a892b121c0abb628b7ca364138fc9344fddd5c10ea44061",
+      "full": "MMG_aircraft.126",
+      "modules": "MMG_aircraft.226",
+      "stats": "MMG_aircraft.326"
+    },
+    {
+      "id": 27,
+      "member": "word/media/image27.png",
+      "sha256": "5c4293d431a38f996bf99531aec17ca6173e2365a32d45b5622b7ee3266b798a",
+      "full": "MMG_aircraft.127",
+      "modules": "MMG_aircraft.227",
+      "stats": "MMG_aircraft.327"
+    },
+    {
+      "id": 28,
+      "member": "word/media/image28.png",
+      "sha256": "678e8aeb1cb2eed95edf60a6f00925299fb97c9f6eff6dba5508a1f44e59dcc7",
+      "full": "MMG_aircraft.128",
+      "modules": "MMG_aircraft.228",
+      "stats": "MMG_aircraft.328"
+    },
+    {
+      "id": 29,
+      "member": "word/media/image29.png",
+      "sha256": "b457ff52b31744086d2fedc8fefa694ee3076abb08a035f18b589252c783ccf4",
+      "full": "MMG_aircraft.129",
+      "modules": "MMG_aircraft.229",
+      "stats": "MMG_aircraft.329"
+    },
+    {
+      "id": 30,
+      "member": "word/media/image30.png",
+      "sha256": "74a4a1d2727cc4056df8f08e174af456e41263b259b2a95de45a088c07684c65",
+      "full": "MMG_aircraft.130",
+      "modules": "MMG_aircraft.230",
+      "stats": "MMG_aircraft.330"
+    },
+    {
+      "id": 31,
+      "member": "word/media/image31.png",
+      "sha256": "0abfe8e64c74794f0185eb413e3ab9aa16b43bbbd63e698adc479d2b40996ae8",
+      "full": "MMG_aircraft.131",
+      "modules": "MMG_aircraft.231",
+      "stats": "MMG_aircraft.331"
+    },
+    {
+      "id": 32,
+      "member": "word/media/image32.png",
+      "sha256": "720a2384b37fb7571da30ca75a845b949378b7f29711aa7bd63ce9a2229229a6",
+      "full": "MMG_aircraft.132",
+      "modules": "MMG_aircraft.232",
+      "stats": "MMG_aircraft.332"
+    },
+    {
+      "id": 33,
+      "member": "word/media/image33.png",
+      "sha256": "da2bd9cc7d0b50684246f3f1a8d6a3ae0fa91d16d492ab07b47b5d4dd7636c27",
+      "full": "MMG_aircraft.133",
+      "modules": "MMG_aircraft.233",
+      "stats": "MMG_aircraft.333"
+    },
+    {
+      "id": 34,
+      "member": "word/media/image34.png",
+      "sha256": "2822ee9adf559fc6a32ef62efa67ad2760faa8f11dadbc94751d4c779cf701b4",
+      "full": "MMG_aircraft.134",
+      "modules": "MMG_aircraft.234",
+      "stats": "MMG_aircraft.334"
+    },
+    {
+      "id": 35,
+      "member": "word/media/image35.png",
+      "sha256": "eeded19f73a5bca14d5746e59b1a046f5ce7dd90985e8d128468755f21b41a18",
+      "full": "MMG_aircraft.135",
+      "modules": "MMG_aircraft.235",
+      "stats": "MMG_aircraft.335"
+    },
+    {
+      "id": 36,
+      "member": "word/media/image36.png",
+      "sha256": "3a3617958cda3377fbca9db4e79ce825b06010b790ce9d49d14914f5c0021c05",
+      "full": "MMG_aircraft.136",
+      "modules": "MMG_aircraft.236",
+      "stats": "MMG_aircraft.336"
+    }
+  ]
+}

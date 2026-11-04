@@ -1,0 +1,247 @@
+# OFFLINE naval guide page data. tools/build_viewer.py compiles the player UI.
+# Legacy event-shaped keys are metadata; never copy this file into events/.
+add_namespace = MMG_guide
+
+# Army doctrine and spirits are owned by MMG_infantry_1194_pages.mmg.
+
+# ---------------------------------------------------------------------------
+# NAVAL DOCTRINES: menu (200) and detail events (201-202).
+# ---------------------------------------------------------------------------
+
+country_event = {
+	id = MMG_guide.200
+	title = MMG_naval_menu_t
+	desc = MMG_naval_menu_d
+	picture = GFX_MMG_naval_menu
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval_menu_opt_main
+		country_event = { id = MMG_guide.201 }
+	}
+	option = {
+		name = MMG_naval_menu_opt_spirits
+		country_event = { id = MMG_guide.202 }
+	}
+	option = {
+		name = MMG_menu_close
+	}
+}
+
+country_event = {
+	id = MMG_guide.201
+	title = MMG_naval_main_t
+	desc = MMG_naval_main_d
+	picture = GFX_MMG_naval_main
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.200 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.202
+	title = MMG_naval_spirits_t
+	desc = MMG_naval_spirits_d
+	picture = GFX_MMG_naval_spirits
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.200 }
+	}
+}
+
+# Air doctrine and aircraft designs are owned by MMG_aircraft_1194_pages.mmg.
+
+
+
+
+
+
+
+
+
+# Division templates and army support are owned by MMG_infantry_1194_pages.mmg.
+
+# Tank designs are owned by MMG_tank_1194_pages.mmg.
+
+# Air doctrine and aircraft designs are owned by MMG_aircraft_1194_pages.mmg.
+
+
+
+
+
+
+
+
+
+
+
+# ---------------------------------------------------------------------------
+# SHIP DESIGN: menu (700) and detail events (701-706).
+# ---------------------------------------------------------------------------
+
+country_event = {
+	id = MMG_guide.700
+	title = MMG_ship_menu_t
+	desc = MMG_ship_menu_d
+	picture = GFX_MMG_ship_menu
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_ship_menu_opt_fleet
+		country_event = { id = MMG_guide.701 }
+	}
+	option = {
+		name = MMG_ship_menu_opt_capital
+		country_event = { id = MMG_guide.702 }
+	}
+	option = {
+		name = MMG_ship_menu_opt_cruiser
+		country_event = { id = MMG_guide.703 }
+	}
+	option = {
+		name = MMG_ship_menu_opt_dd
+		country_event = { id = MMG_guide.704 }
+	}
+	option = {
+		name = MMG_ship_menu_opt_sub
+		country_event = { id = MMG_guide.705 }
+	}
+	option = {
+		name = MMG_ship_menu_opt_carair
+		country_event = { id = MMG_guide.706 }
+	}
+	option = {
+		name = MMG_menu_close
+	}
+}
+
+country_event = {
+	id = MMG_guide.701
+	title = MMG_gallery_701_t
+	desc = MMG_gallery_701_d
+	picture = GFX_MMG_ship_fleet
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7012 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.702
+	title = MMG_gallery_702_t
+	desc = MMG_gallery_702_d
+	picture = GFX_MMG_ship_capital
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7022 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.703
+	title = MMG_gallery_703_t
+	desc = MMG_gallery_703_d
+	picture = GFX_MMG_ship_cruiser
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7032 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.704
+	title = MMG_gallery_704_t
+	desc = MMG_gallery_704_d
+	picture = GFX_MMG_ship_dd
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7042 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.705
+	title = MMG_gallery_705_t
+	desc = MMG_gallery_705_d
+	picture = GFX_MMG_ship_sub
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7052 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.706
+	title = MMG_gallery_706_t
+	desc = MMG_gallery_706_d
+	picture = GFX_MMG_ship_carair
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_next
+		country_event = { id = MMG_guide.7062 }
+	}
+}

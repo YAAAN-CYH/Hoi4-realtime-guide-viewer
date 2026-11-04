@@ -1,0 +1,2262 @@
+# OFFLINE guide page data; tools/build_viewer.py compiles the player UI.
+# Source chapter IDs: MMG_guide.100 and .400; never installed as events.
+add_namespace = MMG_guide
+add_namespace = MMG_infantry
+
+country_event = {
+	id = MMG_guide.400
+	title = MMG_inf1194_index_t
+	desc = MMG_inf1194_index_d
+	picture = GFX_MMG_infantry1194_index
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_preset
+		country_event = { id = MMG_infantry.1 }
+	}
+	option = {
+		name = MMG_inf1194_group_10
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_group_20
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_group_30
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_group_40
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_support_menu
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_patch
+		country_event = { id = MMG_infantry.2 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.1
+	title = MMG_inf1194_note_1_t
+	desc = MMG_inf1194_note_1_d
+	picture = GFX_MMG_infantry1194_preset
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.2
+	title = MMG_inf1194_note_2_t
+	desc = MMG_inf1194_note_2_d
+	picture = GFX_MMG_infantry1194_note_2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_note_3_label
+		country_event = { id = MMG_infantry.3 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.3
+	title = MMG_inf1194_note_3_t
+	desc = MMG_inf1194_note_3_d
+	picture = GFX_MMG_infantry1194_note_3
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_note_2_label
+		country_event = { id = MMG_infantry.2 }
+	}
+	option = {
+		name = MMG_inf1194_note_4_label
+		country_event = { id = MMG_infantry.4 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.4
+	title = MMG_inf1194_note_4_t
+	desc = MMG_inf1194_note_4_d
+	picture = GFX_MMG_infantry1194_note_4
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_note_3_label
+		country_event = { id = MMG_infantry.3 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.51
+	title = MMG_inf1194_note_51_t
+	desc = MMG_inf1194_note_51_d
+	picture = GFX_MMG_infantry1194_note_51
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.52
+	title = MMG_inf1194_note_52_t
+	desc = MMG_inf1194_note_52_d
+	picture = GFX_MMG_infantry1194_note_52
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.53
+	title = MMG_inf1194_note_53_t
+	desc = MMG_inf1194_note_53_d
+	picture = GFX_MMG_infantry1194_note_53
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.54
+	title = MMG_inf1194_note_54_t
+	desc = MMG_inf1194_note_54_d
+	picture = GFX_MMG_infantry1194_note_54
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.55
+	title = MMG_inf1194_note_55_t
+	desc = MMG_inf1194_note_55_d
+	picture = GFX_MMG_infantry1194_note_55
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.56
+	title = MMG_inf1194_note_56_t
+	desc = MMG_inf1194_note_56_d
+	picture = GFX_MMG_infantry1194_note_56
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_support
+		country_event = { id = MMG_infantry.50 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.61
+	title = MMG_inf1194_note_61_t
+	desc = MMG_inf1194_note_61_d
+	picture = GFX_MMG_infantry1194_note_61
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_spirit
+		country_event = { id = MMG_guide.106 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.62
+	title = MMG_inf1194_note_62_t
+	desc = MMG_inf1194_note_62_d
+	picture = GFX_MMG_infantry1194_note_62
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_spirit
+		country_event = { id = MMG_guide.106 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.64
+	title = MMG_inf1194_note_64_t
+	desc = MMG_inf1194_note_64_d
+	picture = GFX_MMG_infantry1194_note_64
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_spirit
+		country_event = { id = MMG_guide.106 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.63
+	title = MMG_inf1194_note_63_t
+	desc = MMG_inf1194_note_63_d
+	picture = GFX_MMG_infantry1194_note_63
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_spirit
+		country_event = { id = MMG_guide.106 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.50
+	title = MMG_inf1194_support_menu_t
+	desc = MMG_inf1194_support_menu_d
+	picture = GFX_MMG_infantry1194_support_menu
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_note_51_label
+		country_event = { id = MMG_infantry.51 }
+	}
+	option = {
+		name = MMG_inf1194_note_52_label
+		country_event = { id = MMG_infantry.52 }
+	}
+	option = {
+		name = MMG_inf1194_note_53_label
+		country_event = { id = MMG_infantry.53 }
+	}
+	option = {
+		name = MMG_inf1194_note_54_label
+		country_event = { id = MMG_infantry.54 }
+	}
+	option = {
+		name = MMG_inf1194_note_55_label
+		country_event = { id = MMG_infantry.55 }
+	}
+	option = {
+		name = MMG_inf1194_note_56_label
+		country_event = { id = MMG_infantry.56 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.106
+	title = MMG_inf1194_spirit_menu_t
+	desc = MMG_inf1194_spirit_menu_d
+	picture = GFX_MMG_infantry1194_spirit_menu
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_note_61_label
+		country_event = { id = MMG_infantry.61 }
+	}
+	option = {
+		name = MMG_inf1194_note_62_label
+		country_event = { id = MMG_infantry.62 }
+	}
+	option = {
+		name = MMG_inf1194_note_64_label
+		country_event = { id = MMG_infantry.64 }
+	}
+	option = {
+		name = MMG_inf1194_note_63_label
+		country_event = { id = MMG_infantry.63 }
+	}
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.100
+	title = MMG_inf1194_land_100_t
+	desc = MMG_inf1194_land_100_d
+	picture = GFX_MMG_infantry1194_land_100
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land_101_label
+		country_event = { id = MMG_guide.101 }
+	}
+	option = {
+		name = MMG_inf1194_land_102_label
+		country_event = { id = MMG_guide.102 }
+	}
+	option = {
+		name = MMG_inf1194_land_103_label
+		country_event = { id = MMG_guide.103 }
+	}
+	option = {
+		name = MMG_inf1194_land_104_label
+		country_event = { id = MMG_guide.104 }
+	}
+	option = {
+		name = MMG_inf1194_land_105_label
+		country_event = { id = MMG_guide.105 }
+	}
+	option = {
+		name = MMG_inf1194_spirit_menu
+		country_event = { id = MMG_guide.106 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.101
+	title = MMG_inf1194_land_101_t
+	desc = MMG_inf1194_land_101_d
+	picture = GFX_MMG_infantry1194_land_101
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.102
+	title = MMG_inf1194_land_102_t
+	desc = MMG_inf1194_land_102_d
+	picture = GFX_MMG_infantry1194_land_102
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.103
+	title = MMG_inf1194_land_103_t
+	desc = MMG_inf1194_land_103_d
+	picture = GFX_MMG_infantry1194_land_103
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.104
+	title = MMG_inf1194_land_104_t
+	desc = MMG_inf1194_land_104_d
+	picture = GFX_MMG_infantry1194_land_104
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_guide.105
+	title = MMG_inf1194_land_105_t
+	desc = MMG_inf1194_land_105_d
+	picture = GFX_MMG_infantry1194_land_105
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_land
+		country_event = { id = MMG_guide.100 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.10
+	title = MMG_inf1194_menu_10_t
+	desc = MMG_inf1194_menu_10_d
+	picture = GFX_MMG_infantry1194_menu_10
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_1_label
+		country_event = { id = MMG_infantry.101 }
+	}
+	option = {
+		name = MMG_inf1194_template_2_label
+		country_event = { id = MMG_infantry.102 }
+	}
+	option = {
+		name = MMG_inf1194_template_3_label
+		country_event = { id = MMG_infantry.103 }
+	}
+	option = {
+		name = MMG_inf1194_template_4_label
+		country_event = { id = MMG_infantry.104 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.101
+	title = MMG_inf1194_template_1_full_t
+	desc = MMG_inf1194_template_1_full_d
+	picture = GFX_MMG_infantry1194_template_1_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.201 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.301 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.102 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.201
+	title = MMG_inf1194_template_1_layout_t
+	desc = MMG_inf1194_template_1_layout_d
+	picture = GFX_MMG_infantry1194_template_1_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.101 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.301 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.301
+	title = MMG_inf1194_template_1_stats_t
+	desc = MMG_inf1194_template_1_stats_d
+	picture = GFX_MMG_infantry1194_template_1_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.101 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.201 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.102
+	title = MMG_inf1194_template_2_full_t
+	desc = MMG_inf1194_template_2_full_d
+	picture = GFX_MMG_infantry1194_template_2_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.202 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.302 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.101 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.103 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.202
+	title = MMG_inf1194_template_2_layout_t
+	desc = MMG_inf1194_template_2_layout_d
+	picture = GFX_MMG_infantry1194_template_2_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.102 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.302 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.302
+	title = MMG_inf1194_template_2_stats_t
+	desc = MMG_inf1194_template_2_stats_d
+	picture = GFX_MMG_infantry1194_template_2_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.102 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.202 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.103
+	title = MMG_inf1194_template_3_full_t
+	desc = MMG_inf1194_template_3_full_d
+	picture = GFX_MMG_infantry1194_template_3_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.203 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.303 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.102 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.104 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.203
+	title = MMG_inf1194_template_3_layout_t
+	desc = MMG_inf1194_template_3_layout_d
+	picture = GFX_MMG_infantry1194_template_3_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.103 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.303 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.303
+	title = MMG_inf1194_template_3_stats_t
+	desc = MMG_inf1194_template_3_stats_d
+	picture = GFX_MMG_infantry1194_template_3_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.103 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.203 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.104
+	title = MMG_inf1194_template_4_full_t
+	desc = MMG_inf1194_template_4_full_d
+	picture = GFX_MMG_infantry1194_template_4_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.204 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.304 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.103 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.204
+	title = MMG_inf1194_template_4_layout_t
+	desc = MMG_inf1194_template_4_layout_d
+	picture = GFX_MMG_infantry1194_template_4_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.104 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.304 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.304
+	title = MMG_inf1194_template_4_stats_t
+	desc = MMG_inf1194_template_4_stats_d
+	picture = GFX_MMG_infantry1194_template_4_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.104 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.204 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.10 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.20
+	title = MMG_inf1194_menu_20_t
+	desc = MMG_inf1194_menu_20_d
+	picture = GFX_MMG_infantry1194_menu_20
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_5_label
+		country_event = { id = MMG_infantry.105 }
+	}
+	option = {
+		name = MMG_inf1194_template_6_label
+		country_event = { id = MMG_infantry.106 }
+	}
+	option = {
+		name = MMG_inf1194_template_7_label
+		country_event = { id = MMG_infantry.107 }
+	}
+	option = {
+		name = MMG_inf1194_template_8_label
+		country_event = { id = MMG_infantry.108 }
+	}
+	option = {
+		name = MMG_inf1194_menu_next
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.21
+	title = MMG_inf1194_menu_21_t
+	desc = MMG_inf1194_menu_21_d
+	picture = GFX_MMG_infantry1194_menu_21
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_9_label
+		country_event = { id = MMG_infantry.109 }
+	}
+	option = {
+		name = MMG_inf1194_template_10_label
+		country_event = { id = MMG_infantry.110 }
+	}
+	option = {
+		name = MMG_inf1194_menu_prev
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.105
+	title = MMG_inf1194_template_5_full_t
+	desc = MMG_inf1194_template_5_full_d
+	picture = GFX_MMG_infantry1194_template_5_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.205 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.305 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.106 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.205
+	title = MMG_inf1194_template_5_layout_t
+	desc = MMG_inf1194_template_5_layout_d
+	picture = GFX_MMG_infantry1194_template_5_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.105 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.305 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.305
+	title = MMG_inf1194_template_5_stats_t
+	desc = MMG_inf1194_template_5_stats_d
+	picture = GFX_MMG_infantry1194_template_5_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.105 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.205 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.106
+	title = MMG_inf1194_template_6_full_t
+	desc = MMG_inf1194_template_6_full_d
+	picture = GFX_MMG_infantry1194_template_6_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.206 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.306 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.105 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.107 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.206
+	title = MMG_inf1194_template_6_layout_t
+	desc = MMG_inf1194_template_6_layout_d
+	picture = GFX_MMG_infantry1194_template_6_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.106 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.306 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.306
+	title = MMG_inf1194_template_6_stats_t
+	desc = MMG_inf1194_template_6_stats_d
+	picture = GFX_MMG_infantry1194_template_6_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.106 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.206 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.107
+	title = MMG_inf1194_template_7_full_t
+	desc = MMG_inf1194_template_7_full_d
+	picture = GFX_MMG_infantry1194_template_7_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.207 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.307 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.106 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.108 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.207
+	title = MMG_inf1194_template_7_layout_t
+	desc = MMG_inf1194_template_7_layout_d
+	picture = GFX_MMG_infantry1194_template_7_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.107 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.307 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.307
+	title = MMG_inf1194_template_7_stats_t
+	desc = MMG_inf1194_template_7_stats_d
+	picture = GFX_MMG_infantry1194_template_7_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.107 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.207 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.108
+	title = MMG_inf1194_template_8_full_t
+	desc = MMG_inf1194_template_8_full_d
+	picture = GFX_MMG_infantry1194_template_8_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.208 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.308 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.107 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.109 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.208
+	title = MMG_inf1194_template_8_layout_t
+	desc = MMG_inf1194_template_8_layout_d
+	picture = GFX_MMG_infantry1194_template_8_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.108 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.308 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.308
+	title = MMG_inf1194_template_8_stats_t
+	desc = MMG_inf1194_template_8_stats_d
+	picture = GFX_MMG_infantry1194_template_8_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.108 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.208 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.20 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.109
+	title = MMG_inf1194_template_9_full_t
+	desc = MMG_inf1194_template_9_full_d
+	picture = GFX_MMG_infantry1194_template_9_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.209 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.309 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.108 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.110 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.209
+	title = MMG_inf1194_template_9_layout_t
+	desc = MMG_inf1194_template_9_layout_d
+	picture = GFX_MMG_infantry1194_template_9_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.109 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.309 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.309
+	title = MMG_inf1194_template_9_stats_t
+	desc = MMG_inf1194_template_9_stats_d
+	picture = GFX_MMG_infantry1194_template_9_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.109 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.209 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.110
+	title = MMG_inf1194_template_10_full_t
+	desc = MMG_inf1194_template_10_full_d
+	picture = GFX_MMG_infantry1194_template_10_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.210 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.310 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.109 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.210
+	title = MMG_inf1194_template_10_layout_t
+	desc = MMG_inf1194_template_10_layout_d
+	picture = GFX_MMG_infantry1194_template_10_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.110 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.310 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.310
+	title = MMG_inf1194_template_10_stats_t
+	desc = MMG_inf1194_template_10_stats_d
+	picture = GFX_MMG_infantry1194_template_10_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.110 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.210 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.21 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.30
+	title = MMG_inf1194_menu_30_t
+	desc = MMG_inf1194_menu_30_d
+	picture = GFX_MMG_infantry1194_menu_30
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_11_label
+		country_event = { id = MMG_infantry.111 }
+	}
+	option = {
+		name = MMG_inf1194_template_12_label
+		country_event = { id = MMG_infantry.112 }
+	}
+	option = {
+		name = MMG_inf1194_template_13_label
+		country_event = { id = MMG_infantry.113 }
+	}
+	option = {
+		name = MMG_inf1194_template_14_label
+		country_event = { id = MMG_infantry.114 }
+	}
+	option = {
+		name = MMG_inf1194_menu_next
+		country_event = { id = MMG_infantry.31 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.31
+	title = MMG_inf1194_menu_31_t
+	desc = MMG_inf1194_menu_31_d
+	picture = GFX_MMG_infantry1194_menu_31
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_15_label
+		country_event = { id = MMG_infantry.115 }
+	}
+	option = {
+		name = MMG_inf1194_menu_prev
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.111
+	title = MMG_inf1194_template_11_full_t
+	desc = MMG_inf1194_template_11_full_d
+	picture = GFX_MMG_infantry1194_template_11_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.211 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.311 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.112 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.211
+	title = MMG_inf1194_template_11_layout_t
+	desc = MMG_inf1194_template_11_layout_d
+	picture = GFX_MMG_infantry1194_template_11_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.111 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.311 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.311
+	title = MMG_inf1194_template_11_stats_t
+	desc = MMG_inf1194_template_11_stats_d
+	picture = GFX_MMG_infantry1194_template_11_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.111 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.211 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.112
+	title = MMG_inf1194_template_12_full_t
+	desc = MMG_inf1194_template_12_full_d
+	picture = GFX_MMG_infantry1194_template_12_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.212 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.312 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.111 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.113 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.212
+	title = MMG_inf1194_template_12_layout_t
+	desc = MMG_inf1194_template_12_layout_d
+	picture = GFX_MMG_infantry1194_template_12_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.112 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.312 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.312
+	title = MMG_inf1194_template_12_stats_t
+	desc = MMG_inf1194_template_12_stats_d
+	picture = GFX_MMG_infantry1194_template_12_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.112 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.212 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.113
+	title = MMG_inf1194_template_13_full_t
+	desc = MMG_inf1194_template_13_full_d
+	picture = GFX_MMG_infantry1194_template_13_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.213 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.313 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.112 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.114 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.213
+	title = MMG_inf1194_template_13_layout_t
+	desc = MMG_inf1194_template_13_layout_d
+	picture = GFX_MMG_infantry1194_template_13_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.113 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.313 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.313
+	title = MMG_inf1194_template_13_stats_t
+	desc = MMG_inf1194_template_13_stats_d
+	picture = GFX_MMG_infantry1194_template_13_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.113 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.213 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.114
+	title = MMG_inf1194_template_14_full_t
+	desc = MMG_inf1194_template_14_full_d
+	picture = GFX_MMG_infantry1194_template_14_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.214 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.314 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.113 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.115 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.214
+	title = MMG_inf1194_template_14_layout_t
+	desc = MMG_inf1194_template_14_layout_d
+	picture = GFX_MMG_infantry1194_template_14_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.114 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.314 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.314
+	title = MMG_inf1194_template_14_stats_t
+	desc = MMG_inf1194_template_14_stats_d
+	picture = GFX_MMG_infantry1194_template_14_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.114 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.214 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.30 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.115
+	title = MMG_inf1194_template_15_full_t
+	desc = MMG_inf1194_template_15_full_d
+	picture = GFX_MMG_infantry1194_template_15_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.215 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.315 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.114 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.31 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.215
+	title = MMG_inf1194_template_15_layout_t
+	desc = MMG_inf1194_template_15_layout_d
+	picture = GFX_MMG_infantry1194_template_15_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.115 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.315 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.31 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.315
+	title = MMG_inf1194_template_15_stats_t
+	desc = MMG_inf1194_template_15_stats_d
+	picture = GFX_MMG_infantry1194_template_15_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.115 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.215 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.31 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.40
+	title = MMG_inf1194_menu_40_t
+	desc = MMG_inf1194_menu_40_d
+	picture = GFX_MMG_infantry1194_menu_40
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_template_16_label
+		country_event = { id = MMG_infantry.116 }
+	}
+	option = {
+		name = MMG_inf1194_template_17_label
+		country_event = { id = MMG_infantry.117 }
+	}
+	option = {
+		name = MMG_inf1194_template_18_label
+		country_event = { id = MMG_infantry.118 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.116
+	title = MMG_inf1194_template_16_full_t
+	desc = MMG_inf1194_template_16_full_d
+	picture = GFX_MMG_infantry1194_template_16_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.216 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.316 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.117 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.216
+	title = MMG_inf1194_template_16_layout_t
+	desc = MMG_inf1194_template_16_layout_d
+	picture = GFX_MMG_infantry1194_template_16_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.116 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.316 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.316
+	title = MMG_inf1194_template_16_stats_t
+	desc = MMG_inf1194_template_16_stats_d
+	picture = GFX_MMG_infantry1194_template_16_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.116 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.216 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.117
+	title = MMG_inf1194_template_17_full_t
+	desc = MMG_inf1194_template_17_full_d
+	picture = GFX_MMG_infantry1194_template_17_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.217 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.317 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.116 }
+	}
+	option = {
+		name = MMG_inf1194_next
+		country_event = { id = MMG_infantry.118 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.217
+	title = MMG_inf1194_template_17_layout_t
+	desc = MMG_inf1194_template_17_layout_d
+	picture = GFX_MMG_infantry1194_template_17_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.117 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.317 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.317
+	title = MMG_inf1194_template_17_stats_t
+	desc = MMG_inf1194_template_17_stats_d
+	picture = GFX_MMG_infantry1194_template_17_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.117 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.217 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.118
+	title = MMG_inf1194_template_18_full_t
+	desc = MMG_inf1194_template_18_full_d
+	picture = GFX_MMG_infantry1194_template_18_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.218 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.318 }
+	}
+	option = {
+		name = MMG_inf1194_prev
+		country_event = { id = MMG_infantry.117 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.218
+	title = MMG_inf1194_template_18_layout_t
+	desc = MMG_inf1194_template_18_layout_d
+	picture = GFX_MMG_infantry1194_template_18_layout
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.118 }
+	}
+	option = {
+		name = MMG_inf1194_stats
+		country_event = { id = MMG_infantry.318 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}
+country_event = {
+	id = MMG_infantry.318
+	title = MMG_inf1194_template_18_stats_t
+	desc = MMG_inf1194_template_18_stats_d
+	picture = GFX_MMG_infantry1194_template_18_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_inf1194_full
+		country_event = { id = MMG_infantry.118 }
+	}
+	option = {
+		name = MMG_inf1194_layout
+		country_event = { id = MMG_infantry.218 }
+	}
+	option = {
+		name = MMG_inf1194_group
+		country_event = { id = MMG_infantry.40 }
+	}
+	option = {
+		name = MMG_inf1194_index
+		country_event = { id = MMG_guide.400 }
+	}
+	option = {
+		name = MMG_inf1194_close
+	}
+}

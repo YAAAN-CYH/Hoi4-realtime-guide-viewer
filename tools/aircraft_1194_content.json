@@ -1,0 +1,1266 @@
+{
+  "canonical_target": "MengXin_Armaments_Guide",
+  "source_name": "1.19.4飞机设计攻略.docx",
+  "source_sha256": "4c31b1abaaa0ccf2b2922196d2c3d503d259ba5c133cee6a456d1492bc1524c6",
+  "installed_build": "Operation Postern v1.19.4.1.99a5 (f584)",
+  "evidence": {
+    "modules": "common/units/equipment/modules/00_plane_modules.txt",
+    "module_sha256": "b077c40bd386b53ea3b6af97acee44247c07056c9476a143de48e7130c74b692",
+    "icons": "interface/plane_modules_icons.gfx",
+    "icon_sha256": "3a7ecbeec7ad757710512789574d5f1115e01f0ab132e0141e5b5f04995d6bd7",
+    "technology": [
+      "common/technologies/bba_air_techs.txt",
+      "common/technologies/artillery.txt"
+    ],
+    "interpretation": "Original panels define exact installed modules and slot counts; prose defines intended use. Resolve conflicts with the actual pictured configuration and installed module/technology definitions. Source document instructions are data, never executed."
+  },
+  "modules": {
+    "air_air_radar_2": {
+      "zh": "空空雷达 II",
+      "en": "Air-Air Radar II"
+    },
+    "air_ground_radar_1": {
+      "zh": "空地雷达 I",
+      "en": "Air-Ground Radar I"
+    },
+    "air_ground_radar_2": {
+      "zh": "空地雷达 II",
+      "en": "Air-Ground Radar II"
+    },
+    "aircraft_cannon_1_2x": {
+      "zh": "双联装机炮I",
+      "en": "2x Cannon I"
+    },
+    "aircraft_cannon_2_2x": {
+      "zh": "双联装机炮II",
+      "en": "2x Cannon II"
+    },
+    "armor_piercing_bomb_locks": {
+      "zh": "穿甲炸弹挂架",
+      "en": "Armor Piercing Bomb Locks"
+    },
+    "armor_plate_medium": {
+      "zh": "装甲板",
+      "en": "Armor Plates"
+    },
+    "armor_plate_small": {
+      "zh": "装甲板",
+      "en": "Armor Plates"
+    },
+    "bomb_locks": {
+      "zh": "炸弹挂架",
+      "en": "Bomb Locks"
+    },
+    "bomb_sights_1": {
+      "zh": "轰炸瞄准具 I",
+      "en": "Bomb Sights I"
+    },
+    "bomb_sights_2": {
+      "zh": "轰炸瞄准具 II",
+      "en": "Bomb Sights II"
+    },
+    "cannon_defense_turret": {
+      "zh": "单机炮防御炮塔",
+      "en": "Cannon Defense Turret"
+    },
+    "cannon_defense_turret_2x": {
+      "zh": "双机炮防御炮塔",
+      "en": "Cannon Defense Turret 2x"
+    },
+    "dive_brakes_small": {
+      "zh": "俯冲减速板",
+      "en": "Dive Brakes"
+    },
+    "drop_tanks": {
+      "zh": "可抛弃式副油箱",
+      "en": "Drop Tanks"
+    },
+    "engine_2_1x": {
+      "zh": "1x 引擎 II",
+      "en": "1x Engine II"
+    },
+    "engine_2_2x": {
+      "zh": "2x 引擎 II",
+      "en": "2x Engine II"
+    },
+    "engine_2_4x": {
+      "zh": "4x 引擎 II",
+      "en": "4x Engine II"
+    },
+    "engine_3_1x": {
+      "zh": "1x 引擎 III",
+      "en": "1x Engine III"
+    },
+    "engine_3_2x": {
+      "zh": "2x 引擎 III",
+      "en": "2x Engine III"
+    },
+    "engine_3_6x": {
+      "zh": "6x 引擎 III",
+      "en": "6x Engine III"
+    },
+    "engine_4_1x": {
+      "zh": "1x 引擎 IV",
+      "en": "1x Engine IV"
+    },
+    "engine_4_2x": {
+      "zh": "2x 引擎 IV",
+      "en": "2x Engine IV"
+    },
+    "engine_4_6x": {
+      "zh": "6x 引擎 IV",
+      "en": "6x Engine IV"
+    },
+    "fuel_tanks_large": {
+      "zh": "额外油箱",
+      "en": "Extra Fuel Tanks"
+    },
+    "fuel_tanks_medium": {
+      "zh": "额外油箱",
+      "en": "Extra Fuel Tanks"
+    },
+    "fuel_tanks_small": {
+      "zh": "额外油箱",
+      "en": "Extra Fuel Tanks"
+    },
+    "guided_anti_ship_missile": {
+      "zh": "制导反舰导弹",
+      "en": "Guided Anti-Ship Missile"
+    },
+    "heavy_bomb_locks": {
+      "zh": "重型炸弹挂架",
+      "en": "Heavy Bomb Locks"
+    },
+    "heavy_mg_4x": {
+      "zh": "四联装重机枪",
+      "en": "4x Heavy Machine Gun"
+    },
+    "hmg_defense_turret_2x": {
+      "zh": "双重机枪防御炮塔",
+      "en": "Heavy MG Defense Turret 2x"
+    },
+    "jet_engine_2x": {
+      "zh": "2x 喷气式引擎",
+      "en": "2x Jet Engine"
+    },
+    "jet_engine_axial_2x": {
+      "zh": "2x轴流式喷气引擎",
+      "en": "2x Axial Jet Engine"
+    },
+    "jet_engine_axial_3x": {
+      "zh": "3x轴流式喷气引擎",
+      "en": "3x Axial Jet Engine"
+    },
+    "jet_engine_axial_6x": {
+      "zh": "6x轴流式喷气引擎",
+      "en": "6x Axial Jet Engine"
+    },
+    "large_bomb_bay": {
+      "zh": "大型炸弹舱",
+      "en": "Large Bomb Bay"
+    },
+    "light_mg_4x": {
+      "zh": "四联装轻机枪",
+      "en": "4x Light Machine Gun"
+    },
+    "lmg_defense_turret": {
+      "zh": "单轻机枪防御炮塔",
+      "en": "Light MG Defense Turret"
+    },
+    "non_strategic_materials_medium": {
+      "zh": "使用非战略资源材料",
+      "en": "Non-Strategic Materials Usage"
+    },
+    "radio_navigation_2": {
+      "zh": "无线电导航 II",
+      "en": "Radio Navigation II"
+    },
+    "recon_camera": {
+      "zh": "侦察相机",
+      "en": "Recon Camera"
+    },
+    "rocket_rails": {
+      "zh": "火箭发射轨",
+      "en": "Rocket Rails"
+    },
+    "self_sealing_fuel_tanks_large": {
+      "zh": "自动密封式油箱",
+      "en": "Self-Sealing Fuel Tanks"
+    },
+    "self_sealing_fuel_tanks_medium": {
+      "zh": "自动密封式油箱",
+      "en": "Self-Sealing Fuel Tanks"
+    },
+    "self_sealing_fuel_tanks_small": {
+      "zh": "自动密封式油箱",
+      "en": "Self-Sealing Fuel Tanks"
+    },
+    "tank_buster_2": {
+      "zh": "反坦克机炮 II",
+      "en": "Anti-Tank Cannon II"
+    },
+    "torpedo_mounting": {
+      "zh": "轻型鱼雷挂架",
+      "en": "Light Torpedo Mountings"
+    },
+    "torpedo_mounting_3": {
+      "zh": "重型鱼雷挂架",
+      "en": "Heavy Torpedo Mountings"
+    }
+  },
+  "groups": [
+    {
+      "id": 10,
+      "zh": "基础机身 · 1936",
+      "en": "Basic Airframes: 1936",
+      "designs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 20,
+      "zh": "改进型机身 · 1940",
+      "en": "Improved Airframes: 1940",
+      "designs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": 30,
+      "zh": "先进型机身 · 1944",
+      "en": "Advanced Airframes: 1944",
+      "designs": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": 40,
+      "zh": "现代机身",
+      "en": "Modern Airframes",
+      "designs": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 50,
+      "zh": "超音速机身",
+      "en": "Supersonic Airframes",
+      "designs": [
+        34,
+        35,
+        36
+      ]
+    }
+  ],
+  "designs": [
+    {
+      "id": 1,
+      "zh": "36战斗机",
+      "en": "1936 Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image1.png",
+      "source_sha256": "c9ff97fd794e785dcbb51ad95b2ad4ec4db59af2db8146f73b06ac532b5c00cc",
+      "weapons": [
+        "light_mg_4x",
+        "light_mg_4x"
+      ],
+      "engine": "engine_2_1x",
+      "special": [
+        "fuel_tanks_small",
+        "drop_tanks"
+      ],
+      "range": 962,
+      "weight": 13,
+      "thrust": 16,
+      "cost": "25.40",
+      "note_zh": "早期均衡空优方案；按作战半径取舍油箱带来的航程与防护变化。",
+      "note_en": "An early air-superiority design. Balance range and protection for the operating area."
+    },
+    {
+      "id": 2,
+      "zh": "36俯冲轰炸机",
+      "en": "1936 Dive Bomber",
+      "role": "cas",
+      "source_member": "word/media/image2.png",
+      "source_sha256": "5be28723f0c7744cd8fcb8d9fcc90a161496ad1228f20cdf15da047726d31cc8",
+      "weapons": [
+        "bomb_locks",
+        "bomb_locks"
+      ],
+      "engine": "engine_2_1x",
+      "special": [
+        "fuel_tanks_small",
+        "fuel_tanks_small"
+      ],
+      "range": 1100,
+      "weight": 8,
+      "thrust": 16,
+      "cost": "23.00",
+      "note_zh": "专职对地，未装对空武器；在有空中掩护的条件下使用。",
+      "note_en": "Dedicated ground attack without forward air weapons; use with air cover."
+    },
+    {
+      "id": 3,
+      "zh": "36机炮多功能",
+      "en": "1936 Cannon Multirole",
+      "role": "cas",
+      "source_member": "word/media/image3.png",
+      "source_sha256": "63fb67df2f2c3c7202ee3dd8a041bb8fb55f8517ea8895677f6da2d820f4159f",
+      "weapons": [
+        "bomb_locks",
+        "aircraft_cannon_1_2x"
+      ],
+      "engine": "engine_2_1x",
+      "special": [
+        "dive_brakes_small"
+      ],
+      "range": 550,
+      "weight": 16,
+      "thrust": 16,
+      "cost": "27.00",
+      "note_zh": "机炮I的科技年份为1939；使用36机身不代表全套配件在1936年可用。",
+      "note_en": "Cannon I is a 1939 technology. A 1936 airframe does not make the whole design available in 1936."
+    },
+    {
+      "id": 4,
+      "zh": "36轻机枪多功能",
+      "en": "1936 LMG Multirole",
+      "role": "cas",
+      "source_member": "word/media/image4.png",
+      "source_sha256": "4b4540d0ed962ffd75efc87858b284bdd32267e79f59c2ab9467d652dec2e4f4",
+      "weapons": [
+        "bomb_locks",
+        "light_mg_4x"
+      ],
+      "engine": "engine_2_1x",
+      "special": [
+        "dive_brakes_small",
+        "drop_tanks"
+      ],
+      "range": 687,
+      "weight": 15,
+      "thrust": 16,
+      "cost": "25.20",
+      "note_zh": "未解锁机炮时可用此多功能版本；一组四联装轻机枪，共4挺。",
+      "note_en": "A multirole alternative before cannons are available; one four-gun LMG module."
+    },
+    {
+      "id": 5,
+      "zh": "36侦察机",
+      "en": "1936 Recon Aircraft",
+      "role": "scout",
+      "source_member": "word/media/image5.png",
+      "source_sha256": "3cba1abdae2d40278dcf1e450a38b1461933e85c57282dd09f2dcc7b6f34981c",
+      "weapons": [
+        "recon_camera"
+      ],
+      "engine": "engine_2_2x",
+      "special": [
+        "fuel_tanks_medium",
+        "fuel_tanks_medium",
+        "fuel_tanks_medium",
+        "non_strategic_materials_medium"
+      ],
+      "range": 2250,
+      "weight": 24,
+      "thrust": 25,
+      "cost": "39.77",
+      "note_zh": "侦察用途；非战略材料配件也属于本配置。情报收益受敌方侦察与上限影响。",
+      "note_en": "For reconnaissance, including non-strategic materials. Intel benefits depend on enemy activity and caps."
+    },
+    {
+      "id": 6,
+      "zh": "36机炮重战",
+      "en": "1936 Cannon Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image6.png",
+      "source_sha256": "f8423964f9f1031bff2d69c3f310fc43babbc4cfb8e130bff2f18dc61261db87",
+      "weapons": [
+        "aircraft_cannon_1_2x",
+        "aircraft_cannon_1_2x",
+        "light_mg_4x",
+        "light_mg_4x"
+      ],
+      "engine": "engine_2_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium"
+      ],
+      "range": 900,
+      "weight": 25,
+      "thrust": 25,
+      "cost": "51.90",
+      "note_zh": "两组双联机炮与两组四联轻机枪；重量正好25，密封油箱补充防护。",
+      "note_en": "Two twin-cannon and two four-gun LMG modules; weight exactly 25, with self-sealing tanks."
+    },
+    {
+      "id": 7,
+      "zh": "36轻机枪重战",
+      "en": "1936 LMG Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image7.png",
+      "source_sha256": "baa4347601ec502e0d0f1c3050408608534c75149bef0ec0ec356f026832d3a5",
+      "weapons": [
+        "light_mg_4x",
+        "light_mg_4x",
+        "light_mg_4x",
+        "light_mg_4x"
+      ],
+      "engine": "engine_2_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "fuel_tanks_medium"
+      ],
+      "range": 1350,
+      "weight": 22,
+      "thrust": 25,
+      "cost": "48.30",
+      "note_zh": "四组四联轻机枪，共16挺；额外油箱增加航程并降低空防。",
+      "note_en": "Four four-gun LMG modules, sixteen guns total. Extra tanks trade air defense for range."
+    },
+    {
+      "id": 8,
+      "zh": "36舰载多功能鱼雷机",
+      "en": "1936 Carrier Torpedo Multirole",
+      "role": "naval_bomber",
+      "source_member": "word/media/image8.png",
+      "source_sha256": "5f4165c42f41471be881856b92c703917eb449c36534faf3f975c5ef6e123d5f",
+      "weapons": [
+        "torpedo_mounting",
+        "light_mg_4x"
+      ],
+      "engine": "engine_2_1x",
+      "special": [],
+      "range": 550,
+      "weight": 7,
+      "thrust": 16,
+      "cost": "28.70",
+      "note_zh": "以轻型鱼雷挂架为主武器，兼带对空火力；按舰载任务部署。",
+      "note_en": "Light torpedo mountings define the naval-bomber role, with added air weapons for carrier use."
+    },
+    {
+      "id": 9,
+      "zh": "36舰载机炮鱼雷机",
+      "en": "1936 Carrier Cannon-Torpedo",
+      "role": "naval_bomber",
+      "source_member": "word/media/image9.png",
+      "source_sha256": "588c5d44b2251d5d089f3e373c904eb250a0f783d65d6b0f0423912fd32c785e",
+      "weapons": [
+        "torpedo_mounting",
+        "aircraft_cannon_1_2x"
+      ],
+      "engine": "engine_2_1x",
+      "special": [],
+      "range": 550,
+      "weight": 9,
+      "thrust": 16,
+      "cost": "31.50",
+      "note_zh": "将轻机枪换成双联机炮I，其余保持一致；仍需对应机炮科技。",
+      "note_en": "Replaces the LMG module with twin Cannon I; the cannon technology is still required."
+    },
+    {
+      "id": 10,
+      "zh": "36战略轰炸机",
+      "en": "1936 Strategic Bomber",
+      "role": "strat_bomber",
+      "source_member": "word/media/image10.png",
+      "source_sha256": "1ce9fe362b0f14213e1f2736691db3946a2e10145d584fab72d9dc4b61b5488f",
+      "weapons": [
+        "large_bomb_bay"
+      ],
+      "engine": "engine_2_4x",
+      "special": [
+        "self_sealing_fuel_tanks_large",
+        "fuel_tanks_large",
+        "air_ground_radar_1",
+        "bomb_sights_1"
+      ],
+      "range": 2250,
+      "weight": 34,
+      "thrust": 40,
+      "cost": "92.50",
+      "note_zh": "早期战略轰炸投入较高，优先考虑后续机身；电子和瞄准配件按科技调整。",
+      "note_en": "Early strategic bombing is costly. Prefer later airframes and adapt electronics to available research."
+    },
+    {
+      "id": 11,
+      "zh": "40空优战斗机",
+      "en": "1940 Air-Superiority Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image11.png",
+      "source_sha256": "8f5bcd33ecf04c5b025c15e7aba888fa54abcba367d0067a4d3883dd10738ebb",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_3_1x",
+      "special": [
+        "armor_plate_small",
+        "self_sealing_fuel_tanks_small",
+        "fuel_tanks_small"
+      ],
+      "range": 845,
+      "weight": 25,
+      "thrust": 25,
+      "cost": "36.70",
+      "note_zh": "三组四联重机枪，共12挺；重量正好25，用于制空与拦截。",
+      "note_en": "Three four-gun HMG modules, twelve guns total; weight exactly 25 for superiority and interception."
+    },
+    {
+      "id": 12,
+      "zh": "40炸弹多功能",
+      "en": "1940 Bomb Multirole",
+      "role": "cas",
+      "source_member": "word/media/image12.png",
+      "source_sha256": "59b37d3016760ce9b29ec3c19ad1b2492ff510306a59e5be046c1bdedb765e05",
+      "weapons": [
+        "bomb_locks",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_3_1x",
+      "special": [
+        "armor_plate_small",
+        "fuel_tanks_small",
+        "dive_brakes_small"
+      ],
+      "range": 910,
+      "weight": 21,
+      "thrust": 25,
+      "cost": "34.80",
+      "note_zh": "CAS分类多功能方案；装甲板、额外油箱和俯冲减速板为完整配件组合。",
+      "note_en": "A CAS-class multirole design with armor plates, extra tanks and dive brakes."
+    },
+    {
+      "id": 13,
+      "zh": "40专职近距支援机",
+      "en": "1940 Dedicated CAS",
+      "role": "cas",
+      "source_member": "word/media/image13.png",
+      "source_sha256": "e066aeacf1ba160964b4dd91a8923deba01851a1542ddde88a9a9cc7becc9bd0",
+      "weapons": [
+        "heavy_bomb_locks",
+        "heavy_bomb_locks",
+        "bomb_locks"
+      ],
+      "engine": "engine_3_1x",
+      "special": [
+        "fuel_tanks_small",
+        "fuel_tanks_small"
+      ],
+      "range": 1300,
+      "weight": 25,
+      "thrust": 25,
+      "cost": "27.00",
+      "note_zh": "重型挂架强化对地输出，也会压低执行任务时的机动；先保证空中掩护。",
+      "note_en": "Heavy bomb locks favor ground attack but reduce mission agility. Provide air cover."
+    },
+    {
+      "id": 14,
+      "zh": "40火箭多功能",
+      "en": "1940 Rocket Multirole",
+      "role": "cas",
+      "source_member": "word/media/image14.png",
+      "source_sha256": "1253a7abfe1ca7311dfc431e52d145fbba556e73e4239584a9ebd498c0e4d0cc",
+      "weapons": [
+        "rocket_rails",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_3_1x",
+      "special": [
+        "fuel_tanks_small",
+        "self_sealing_fuel_tanks_small",
+        "dive_brakes_small"
+      ],
+      "range": 910,
+      "weight": 20,
+      "thrust": 25,
+      "cost": "34.80",
+      "note_zh": "用火箭导轨取得CAS任务；任务切换时重新检查机动与防护数值。",
+      "note_en": "Rocket rails enable CAS missions. Recheck agility and protection for the selected mission."
+    },
+    {
+      "id": 15,
+      "zh": "40舰载俯冲轰炸机",
+      "en": "1940 Carrier Dive Bomber",
+      "role": "cas",
+      "source_member": "word/media/image15.png",
+      "source_sha256": "97805f33a8ae0a4e3650af13d8e8c1268b04ddf7484ede09fade071601e0dc9e",
+      "weapons": [
+        "armor_piercing_bomb_locks",
+        "armor_piercing_bomb_locks",
+        "armor_piercing_bomb_locks"
+      ],
+      "engine": "engine_3_2x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "armor_plate_small",
+        "dive_brakes_small"
+      ],
+      "range": 585,
+      "weight": 11,
+      "thrust": 38,
+      "cost": "48.50",
+      "note_zh": "三组穿甲炸弹挂架，双台III级引擎；对海属性应在海军打击任务下核对。",
+      "note_en": "Three armor-piercing bomb-lock modules and twin Engine III. Check naval stats in the naval-strike mission."
+    },
+    {
+      "id": 16,
+      "zh": "40舰载战斗机",
+      "en": "1940 Carrier Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image16.png",
+      "source_sha256": "f3ca6e9854e74d405bbcc87612ac9322b131396d94b76887e9503ea5278562c2",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_3_1x",
+      "special": [
+        "armor_plate_small",
+        null,
+        "self_sealing_fuel_tanks_small"
+      ],
+      "range": 585,
+      "weight": 24,
+      "thrust": 25,
+      "cost": "39.20",
+      "note_zh": "用于舰载制空；装甲板与密封油箱提高防护，空槽保持留空。",
+      "note_en": "For carrier air superiority. Armor and self-sealing tanks improve protection; the shown empty slot stays empty."
+    },
+    {
+      "id": 17,
+      "zh": "40重型战斗机",
+      "en": "1940 Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image17.png",
+      "source_sha256": "1fa98b69aa3b6b37784e8463564b2a8f311a98aab934dfed651da25f4cba09c8",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_3_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "hmg_defense_turret_2x"
+      ],
+      "range": 1100,
+      "weight": 37,
+      "thrust": 38,
+      "cost": "63.10",
+      "note_zh": "四组四联重机枪，另有双重机枪防御炮塔；可用于较远距离拦截。",
+      "note_en": "Four four-gun HMG modules plus twin HMG defense turrets, suitable for longer-range interception."
+    },
+    {
+      "id": 18,
+      "zh": "40多功能重战",
+      "en": "1940 Multirole Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image18.png",
+      "source_sha256": "09ab6156afa506e243008901c24337a5df54a396606548b18be50befd832750f",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "rocket_rails"
+      ],
+      "engine": "engine_3_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "fuel_tanks_medium",
+        "hmg_defense_turret_2x"
+      ],
+      "range": 1650,
+      "weight": 38,
+      "thrust": 38,
+      "cost": "62.20",
+      "note_zh": "主分类仍为重战；火箭导轨让其能执行CAS，注意不同任务的属性。",
+      "note_en": "Remains a heavy-fighter design; rocket rails enable CAS. Stats change with the mission."
+    },
+    {
+      "id": 19,
+      "zh": "40战略轰炸机",
+      "en": "1940 Strategic Bomber",
+      "role": "strat_bomber",
+      "source_member": "word/media/image19.png",
+      "source_sha256": "f894f33f91cc2f544b6f7a1ca9d42ac6fd5e7a01fe42c7d602109411af7ce5ab",
+      "weapons": [
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay"
+      ],
+      "engine": "engine_3_6x",
+      "special": [
+        "self_sealing_fuel_tanks_large",
+        "fuel_tanks_large",
+        "cannon_defense_turret",
+        "air_ground_radar_2",
+        "bomb_sights_2",
+        "radio_navigation_2"
+      ],
+      "range": 3000,
+      "weight": 47,
+      "thrust": 90,
+      "cost": "174.00",
+      "note_zh": "电子和瞄准配件较先进；尚未研究时可降级，但需重新核对属性和造价。",
+      "note_en": "Advanced electronics and sights can be downgraded to available research; recheck stats and cost."
+    },
+    {
+      "id": 20,
+      "zh": "44空优战斗机",
+      "en": "1944 Air-Superiority Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image20.png",
+      "source_sha256": "83c977567de6e89235d564fd15c0fcf5ebe2db408dc67383882faea6432aba90",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_4_1x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "armor_plate_small",
+        "armor_plate_small",
+        "fuel_tanks_small"
+      ],
+      "range": 900,
+      "weight": 28,
+      "thrust": 30,
+      "cost": "40.70",
+      "note_zh": "三组四联重机枪；两块装甲板与密封油箱侧重防护。",
+      "note_en": "Three four-gun HMG modules; two armor-plate modules and self-sealing tanks emphasize protection."
+    },
+    {
+      "id": 21,
+      "zh": "44多功能战斗机",
+      "en": "1944 Multirole Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image21.png",
+      "source_sha256": "18de90f19acd7d643b2b621d5c177553af783f4fa895f449b676e8600b136d90",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "rocket_rails"
+      ],
+      "engine": "engine_4_1x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "armor_plate_small",
+        "dive_brakes_small",
+        "fuel_tanks_small"
+      ],
+      "range": 1050,
+      "weight": 28,
+      "thrust": 30,
+      "cost": "42.70",
+      "note_zh": "首槽为对空武器，分类是战斗机；火箭导轨额外提供CAS任务。",
+      "note_en": "The first air-weapon slot keeps the fighter role; rocket rails also enable CAS missions."
+    },
+    {
+      "id": 22,
+      "zh": "44舰载鱼雷多功能",
+      "en": "1944 Carrier Torpedo Multirole",
+      "role": "naval_bomber",
+      "source_member": "word/media/image22.png",
+      "source_sha256": "ff20cb438e6e65c185f56a22d95dd6e434f3dbdc48f9f7dff3c8dc8acc654c7e",
+      "weapons": [
+        "torpedo_mounting_3",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_4_1x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "armor_plate_small"
+      ],
+      "range": 600,
+      "weight": 11,
+      "thrust": 30,
+      "cost": "42.80",
+      "note_zh": "重型鱼雷挂架配两组四联重机枪；本款是一台IV级引擎。",
+      "note_en": "Heavy torpedo mountings with two four-gun HMG modules and one Engine IV."
+    },
+    {
+      "id": 23,
+      "zh": "44舰载俯冲轰炸机",
+      "en": "1944 Carrier Dive Bomber",
+      "role": "cas",
+      "source_member": "word/media/image23.png",
+      "source_sha256": "2ed3eedf35c5a7793de58a5819987127d3cab95a0d49ca5b5cb0f00cc5bd46d2",
+      "weapons": [
+        "armor_piercing_bomb_locks",
+        "armor_piercing_bomb_locks",
+        "armor_piercing_bomb_locks",
+        "armor_piercing_bomb_locks"
+      ],
+      "engine": "engine_3_2x",
+      "special": [
+        "dive_brakes_small"
+      ],
+      "range": 750,
+      "weight": 8,
+      "thrust": 38,
+      "cost": "49.00",
+      "note_zh": "四组穿甲炸弹挂架，双台III级引擎；机身年份不等于引擎等级。",
+      "note_en": "Four armor-piercing bomb-lock modules with twin Engine III; airframe year does not determine engine level."
+    },
+    {
+      "id": 24,
+      "zh": "44重型战斗机",
+      "en": "1944 Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image24.png",
+      "source_sha256": "a757b5ce3fd25add51e264fd29eeabb535bf9d9f61f4621abb8b4d45e084c7b1",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x"
+      ],
+      "engine": "engine_4_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "hmg_defense_turret_2x"
+      ],
+      "range": 1300,
+      "weight": 44,
+      "thrust": 45,
+      "cost": "74.00",
+      "note_zh": "五组四联重机枪，合计20挺；双重机枪防御炮塔另计。",
+      "note_en": "Five four-gun HMG modules, twenty forward guns; twin HMG defense turrets are additional."
+    },
+    {
+      "id": 25,
+      "zh": "44多功能重战",
+      "en": "1944 Multirole Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image25.png",
+      "source_sha256": "6939c1b8f207a6c230208fc14368534cd9193501e2f8ba9546e534e93b0b8db2",
+      "weapons": [
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "heavy_mg_4x",
+        "rocket_rails"
+      ],
+      "engine": "engine_4_2x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "cannon_defense_turret_2x",
+        "lmg_defense_turret"
+      ],
+      "range": 1300,
+      "weight": 44,
+      "thrust": 45,
+      "cost": "76.10",
+      "note_zh": "四组四联重机枪配火箭导轨；另有双机炮炮塔与单轻机枪炮塔。",
+      "note_en": "Four four-gun HMG modules and rocket rails, plus twin cannon turrets and one LMG turret."
+    },
+    {
+      "id": 26,
+      "zh": "44战略轰炸机",
+      "en": "1944 Strategic Bomber",
+      "role": "strat_bomber",
+      "source_member": "word/media/image26.png",
+      "source_sha256": "3bbe134e200135ee8a892b121c0abb628b7ca364138fc9344fddd5c10ea44061",
+      "weapons": [
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay"
+      ],
+      "engine": "engine_4_6x",
+      "special": [
+        "self_sealing_fuel_tanks_large",
+        "fuel_tanks_large",
+        "fuel_tanks_large",
+        "radio_navigation_2",
+        "air_ground_radar_2",
+        "bomb_sights_2"
+      ],
+      "range": 6000,
+      "weight": 53,
+      "thrust": 105,
+      "cost": "192.00",
+      "note_zh": "本配置为六台IV级引擎；航程和战略轰炸收益仍受任务与国家加成影响。",
+      "note_en": "This design uses six Engine IV. Mission and country modifiers affect effective range and bombing performance."
+    },
+    {
+      "id": 27,
+      "zh": "现代CAS分类多功能",
+      "en": "Modern CAS-Class Multirole",
+      "role": "cas",
+      "source_member": "word/media/image27.png",
+      "source_sha256": "5c4293d431a38f996bf99531aec17ca6173e2365a32d45b5622b7ee3266b798a",
+      "weapons": [
+        "rocket_rails",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_2x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "dive_brakes_small",
+        "armor_plate_small",
+        "fuel_tanks_small"
+      ],
+      "range": 855,
+      "weight": 31,
+      "thrust": 38,
+      "cost": "62.00",
+      "note_zh": "首槽火箭导轨使其归CAS；减价需满足本国国策与设计条件，不是固定比例。",
+      "note_en": "Rocket rails in the first slot give the CAS role. Production discounts depend on national and design conditions."
+    },
+    {
+      "id": 28,
+      "zh": "现代反坦克近距支援机",
+      "en": "Modern Anti-Tank CAS",
+      "role": "cas",
+      "source_member": "word/media/image28.png",
+      "source_sha256": "678e8aeb1cb2eed95edf60a6f00925299fb97c9f6eff6dba5508a1f44e59dcc7",
+      "weapons": [
+        "tank_buster_2",
+        "heavy_bomb_locks",
+        "heavy_bomb_locks",
+        "heavy_bomb_locks"
+      ],
+      "engine": "jet_engine_2x",
+      "special": [
+        "fuel_tanks_small"
+      ],
+      "range": 1035,
+      "weight": 20,
+      "thrust": 38,
+      "cost": "50.00",
+      "note_zh": "反坦克机炮II由1940反坦克科技解锁；挂架效果需结合CAS任务查看。",
+      "note_en": "Anti-Tank Cannon II unlocks with 1940 anti-tank research. Check bomb-lock effects in the CAS mission."
+    },
+    {
+      "id": 29,
+      "zh": "现代空优战斗机",
+      "en": "Modern Air-Superiority Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image29.png",
+      "source_sha256": "b457ff52b31744086d2fedc8fefa694ee3076abb08a035f18b589252c783ccf4",
+      "weapons": [
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_2x",
+      "special": [
+        "fuel_tanks_small",
+        "self_sealing_fuel_tanks_small",
+        "armor_plate_small",
+        "armor_plate_small"
+      ],
+      "range": 855,
+      "weight": 37,
+      "thrust": 38,
+      "cost": "66.00",
+      "note_zh": "四组双联机炮II，另有两块装甲板；侧重制空和拦截。",
+      "note_en": "Four twin Cannon II modules and two armor-plate modules, focused on superiority and interception."
+    },
+    {
+      "id": 30,
+      "zh": "现代舰载反舰多功能",
+      "en": "Modern Carrier Anti-Ship Multirole",
+      "role": "naval_bomber",
+      "source_member": "word/media/image30.png",
+      "source_sha256": "74a4a1d2727cc4056df8f08e174af456e41263b259b2a95de45a088c07684c65",
+      "weapons": [
+        "guided_anti_ship_missile",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_axial_2x",
+      "special": [
+        "self_sealing_fuel_tanks_small"
+      ],
+      "range": 540,
+      "weight": 25,
+      "thrust": 45,
+      "cost": "88.50",
+      "note_zh": "制导反舰导弹需要对应导弹科技；本款使用双台轴流式喷气引擎。",
+      "note_en": "Requires the guided anti-ship missile technology and uses twin axial jet engines."
+    },
+    {
+      "id": 31,
+      "zh": "现代重型战斗机",
+      "en": "Modern Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image31.png",
+      "source_sha256": "0abfe8e64c74794f0185eb413e3ab9aa16b43bbbd63e698adc479d2b40996ae8",
+      "weapons": [
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_axial_3x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "fuel_tanks_medium",
+        "armor_plate_medium",
+        "air_air_radar_2"
+      ],
+      "range": 1650,
+      "weight": 60,
+      "thrust": 60,
+      "cost": "116.50",
+      "note_zh": "五组双联机炮II；电子配件是空空雷达II，配中型装甲板使用。",
+      "note_en": "Five twin Cannon II modules. The electronics module is Air-Air Radar II, alongside medium armor plates."
+    },
+    {
+      "id": 32,
+      "zh": "现代多功能重战",
+      "en": "Modern Multirole Heavy Fighter",
+      "role": "heavy_fighter",
+      "source_member": "word/media/image32.png",
+      "source_sha256": "720a2384b37fb7571da30ca75a845b949378b7f29711aa7bd63ce9a2229229a6",
+      "weapons": [
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "rocket_rails"
+      ],
+      "engine": "jet_engine_axial_3x",
+      "special": [
+        "self_sealing_fuel_tanks_medium",
+        "fuel_tanks_medium",
+        "armor_plate_medium",
+        "armor_plate_medium"
+      ],
+      "range": 1500,
+      "weight": 58,
+      "thrust": 60,
+      "cost": "108.50",
+      "note_zh": "用火箭导轨取得CAS任务；两个中型装甲板模块提高防护。",
+      "note_en": "Rocket rails enable CAS; two medium armor-plate modules improve protection."
+    },
+    {
+      "id": 33,
+      "zh": "现代战略轰炸机",
+      "en": "Modern Strategic Bomber",
+      "role": "strat_bomber",
+      "source_member": "word/media/image33.png",
+      "source_sha256": "da2bd9cc7d0b50684246f3f1a8d6a3ae0fa91d16d492ab07b47b5d4dd7636c27",
+      "weapons": [
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay",
+        "large_bomb_bay"
+      ],
+      "engine": "jet_engine_axial_6x",
+      "special": [
+        "self_sealing_fuel_tanks_large",
+        "fuel_tanks_large",
+        "air_ground_radar_2",
+        "bomb_sights_2",
+        "radio_navigation_2",
+        "fuel_tanks_large"
+      ],
+      "range": 6120,
+      "weight": 55,
+      "thrust": 105,
+      "cost": "205.00",
+      "note_zh": "六台轴流式喷气引擎，完整配齐雷达、导航与瞄准；按科技和产能调整。",
+      "note_en": "Six axial jet engines with radar, navigation and sights. Adapt the design to research and production capacity."
+    },
+    {
+      "id": 34,
+      "zh": "超音速多功能",
+      "en": "Supersonic Multirole",
+      "role": "cas",
+      "source_member": "word/media/image34.png",
+      "source_sha256": "2822ee9adf559fc6a32ef62efa67ad2760faa8f11dadbc94751d4c779cf701b4",
+      "weapons": [
+        "rocket_rails",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_axial_2x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "fuel_tanks_small",
+        "dive_brakes_small",
+        "armor_plate_small"
+      ],
+      "range": 1540,
+      "weight": 36,
+      "thrust": 45,
+      "cost": "84.00",
+      "note_zh": "超音速机身须特殊项目；CAS分类，兼有四组双联机炮II。",
+      "note_en": "Requires the supersonic-airframe special project; CAS role with four twin Cannon II modules."
+    },
+    {
+      "id": 35,
+      "zh": "超音速近距支援机",
+      "en": "Supersonic CAS",
+      "role": "cas",
+      "source_member": "word/media/image35.png",
+      "source_sha256": "eeded19f73a5bca14d5746e59b1a046f5ce7dd90985e8d128468755f21b41a18",
+      "weapons": [
+        "tank_buster_2",
+        "heavy_bomb_locks",
+        "heavy_bomb_locks",
+        "heavy_bomb_locks",
+        "heavy_bomb_locks"
+      ],
+      "engine": "jet_engine_axial_2x",
+      "special": [
+        null,
+        "fuel_tanks_small",
+        "fuel_tanks_small"
+      ],
+      "range": 2380,
+      "weight": 45,
+      "thrust": 45,
+      "cost": "68.00",
+      "note_zh": "反坦克机炮II与四组重型挂架专注对地；两组额外油箱覆盖远距离战场。",
+      "note_en": "Anti-Tank Cannon II and four heavy bomb locks focus on ground attack; two extra tanks extend range."
+    },
+    {
+      "id": 36,
+      "zh": "超音速空优战斗机",
+      "en": "Supersonic Air-Superiority Fighter",
+      "role": "fighter",
+      "source_member": "word/media/image36.png",
+      "source_sha256": "3a3617958cda3377fbca9db4e79ce825b06010b790ce9d49d14914f5c0021c05",
+      "weapons": [
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x",
+        "aircraft_cannon_2_2x"
+      ],
+      "engine": "jet_engine_axial_2x",
+      "special": [
+        "self_sealing_fuel_tanks_small",
+        "fuel_tanks_small",
+        "armor_plate_small",
+        "armor_plate_small"
+      ],
+      "range": 1400,
+      "weight": 42,
+      "thrust": 45,
+      "cost": "88.00",
+      "note_zh": "五组双联机炮II，共10门；两块装甲板与密封油箱补充防护。",
+      "note_en": "Five twin Cannon II modules, ten cannons total; two armor-plate modules and self-sealing tanks add protection."
+    }
+  ],
+  "notes": [
+    {
+      "id": 2,
+      "zh": "多功能、任务与效率",
+      "en": "Multirole Aircraft, Missions and Efficiency",
+      "desc_zh": "“多功能”是用途，不是独立机型。对空武器配炸弹、火箭或鱼雷，可兼顾空战和支援；实际分类取决于首槽主武器。\n战场支援等学说与持续打击精神可提高密接效率。145%至150%是带条件的参考值；效率影响空战参数，不等于对地攻击按同比例增加。按当前任务提示核对。",
+      "desc_en": "Multirole describes a use, not a separate aircraft class. Air weapons combined with bombs, rockets or torpedoes can support multiple missions. The first weapon slot determines the design role.\nBattlefield Support and Continuous Strike can improve CAS efficiency. The cited 145-150% is conditional, not universal. Higher efficiency does not directly multiply ground attack; check the selected mission."
+    },
+    {
+      "id": 3,
+      "zh": "配件数量与科技条件",
+      "en": "Module Counts and Research Requirements",
+      "desc_zh": "“2组四联机枪”表示两个模块、共8挺；双联机炮同理。配件放大页保留武器和引擎配件的原始槽位，空槽不需要补装。\n机炮I是1939科技，反坦克机炮II由1940反坦克科技解锁。喷气、轴流引擎、现代与超音速机身还要对应研究或特殊项目；机身年份不是全套科技年份。",
+      "desc_en": "2 x [4x Machine Gun] means two modules and eight guns; the same rule applies to twin cannons. Enlargements preserve the actual weapon and special-module slots, including empty slots.\nCannon I is a 1939 technology; Anti-Tank Cannon II unlocks with 1940 anti-tank research. Jet engines, axial jets and advanced airframes need their own research or projects. Airframe year does not date every module."
+    },
+    {
+      "id": 4,
+      "zh": "航程、防护与舰载任务",
+      "en": "Range, Protection and Carrier Operations",
+      "desc_zh": "额外油箱与可抛弃油箱用于扩展航程，装甲板与密封油箱用于补充空防；根据任务范围权衡重量、推力和造价。\n舰载设计优先完成舰队所需任务；陆基部署仍需足够航程。穿甲炸弹与鱼雷的对海效果、俯冲减速板的效果，需在海军打击等对应任务下查看，不能只读默认面板。",
+      "desc_en": "Extra fuel tanks and drop tanks extend range; armor plates and self-sealing tanks add air defense. Balance weight, thrust and cost for the operating area.\nCarrier designs serve fleet missions, while land-based use still needs adequate range. Check armor-piercing bombs, torpedoes and dive brakes under the relevant naval-strike mission, not only the default stats."
+    },
+    {
+      "id": 5,
+      "zh": "侦察、情报与减价",
+      "en": "Reconnaissance, Intel and Production Discounts",
+      "desc_zh": "侦察机可提供陆军情报；原攻略的20%情报与约6%地面攻防优势，以对手侦察、情报差和上限等条件为前提，并非每架飞机固定叠加。\n现代多功能可把火箭导轨放首槽，取得CAS分类并满足相应生产减价条件。约12.4%与10%只是特定国策环境的例子；按本国实际造价检查。",
+      "desc_en": "Recon aircraft provide army intel. The cited 20% intel and roughly 6% ground-combat advantage depend on enemy reconnaissance, the intel gap and caps; they do not stack once per aircraft.\nA first-slot rocket rail gives a modern multirole design the CAS role for applicable production discounts. The cited 12.4% and 10% are country-specific examples. Check your actual production cost."
+    },
+    {
+      "id": 6,
+      "zh": "机型取舍与设计预设",
+      "en": "Aircraft Choices and Design Presets",
+      "desc_zh": "战间期机身防护不足，不列入本次36套参考。专职CAS和战略轰炸机要有空中掩护，重战、舰载机和战略轰炸按任务与产能选择；低科技战略轰炸不宜盲目投入。\n设计预设可通过设计器的“从剪贴板导入预设”按钮导入。导入后逐项检查机型、武器配件与本国科技，再安排生产。",
+      "desc_en": "Interwar airframes have weak protection and are excluded from these 36 references. Dedicated CAS and strategic bombers need air cover. Choose heavy fighters, carrier aircraft and strategic bombers for the mission and production capacity.\nImport compatible presets with the designer clipboard-import button. Check the role, modules and available research before starting production."
+    }
+  ],
+  "doctrines": [
+    {
+      "id": 300,
+      "zh": "空军学说 · 任务导向",
+      "en": "Air Doctrine: Choose for the Mission",
+      "desc_zh": "本攻略常用战场支援与多功能/CAS体系。制空、重战与战略轰炸有不同任务，不把“多数情况下优先CAS”当作其他飞机永远无用。\n结合主力机型选择子学说与精通；可转到飞机设计查看36套完整配置。",
+      "desc_en": "Battlefield Support and multirole/CAS aircraft are common choices in this guide. Air superiority, heavy fighters and strategic bombing serve different missions.\nChoose subdoctrines and mastery for the aircraft you actually use. Open Aircraft Designs for all 36 configurations."
+    },
+    {
+      "id": 301,
+      "zh": "战场支援与密接效率",
+      "en": "Battlefield Support and CAS Efficiency",
+      "desc_zh": "战场支援适合以CAS和多功能机为主的体系，配合相关精神提高密接效率。\n效率提高不等于对地攻击同比增加。飞机能否提供地面支援、参与空战，还取决于可用任务、地面战斗与战区覆盖。",
+      "desc_en": "Battlefield Support suits a force centered on CAS and multirole aircraft, with relevant spirits improving CAS efficiency.\nEfficiency does not directly multiply ground attack. Ground support and air combat still depend on available missions, ground battles and coverage."
+    },
+    {
+      "id": 302,
+      "zh": "战斗机与CAS子学说",
+      "en": "Fighter and CAS Subdoctrines",
+      "desc_zh": "按实际任务选择战斗机或CAS相关子学说。首槽主武器决定设计分类，多功能用途并不保证自动同时获得所有类别加成。\n改主武器、学说或国策后，重新检查任务属性与生产造价；不把某国的效率和减价比例作为通用值。",
+      "desc_en": "Choose fighter or CAS subdoctrines for your actual missions. The first weapon slot defines the design role; multirole use does not automatically grant every category bonus.\nAfter changing weapons, doctrines or focuses, recheck mission stats and production cost. Country-specific bonuses are not universal."
+    },
+    {
+      "id": 303,
+      "zh": "重战与战略轰炸的取舍",
+      "en": "Heavy Fighters and Strategic Bombing",
+      "desc_zh": "中型机身可用于侦察或重战，大型机身可承担战略轰炸。本次设计保留这些用途，并不要求所有国家都投入对应工业与学说。\n有明确远程任务和产能时再发展；优先保障空中掩护，并核对发动机、电子和瞄准配件的科技条件。",
+      "desc_en": "Medium airframes support reconnaissance or heavy-fighter roles; large airframes support strategic bombing. These designs are options, not mandatory investments for every country.\nDevelop them for a defined long-range mission and sufficient industry. Provide air cover and check engine, electronics and sight technologies."
+    }
+  ]
+}

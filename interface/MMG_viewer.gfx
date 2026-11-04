@@ -1,0 +1,22 @@
+# Unique viewer sprites only; vanilla sprites and windows are untouched.
+spriteTypes = {
+ SpriteType = {
+  name = "GFX_MMG_UI_frame"
+  texturefile = "gfx/interface/mmg_eventwindow_background.dds"
+  noOfFrames = 1
+ }
+ SpriteType = {
+  name = "GFX_MMG_UI_launcher_grip"
+  texturefile = "gfx/interface/mmg_ui_launcher_grip.dds"
+  noOfFrames = 1
+ }
+ SpriteType = {
+  name = "GFX_MMG_UI_option"
+  texturefile = "gfx/interface/mmg_ui_option.dds"
+  noOfFrames = 3
+ }
+ SpriteType = {
+  name = "GFX_MMG_UI_home"
+  texturefile = "gfx/event_pictures/mmg_ui_home.dds"
+ }
+}

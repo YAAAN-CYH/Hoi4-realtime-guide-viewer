@@ -1,0 +1,215 @@
+# Additive containers only: never define EventWindow or replace vanilla GUI.
+guiTypes = {
+ containerWindowType = {
+  name = "MMG_UI_Launcher"
+  # Root x=0 plus the button's x=16 preserves the original button position.
+  # The uncovered left grip belongs to this moveable parent. A button there
+  # would capture the mouse and prevent the native window drag.
+  position = { x = 0 y = -100 }
+  orientation = lower_left
+  size = { width = 164 height = 34 }
+  moveable = yes
+  background = {
+   name = "MMG_UI_Grip"
+   quadTextureSprite = "GFX_MMG_UI_launcher_grip"
+  }
+  buttonType = {
+   name = "MMG_UI_Open"
+   position = { x = 16 y = 0 }
+   quadTextureSprite = "GFX_button_148x34"
+   buttonText = "MMG_UI_open"
+   buttonFont = "hoi_16mbs"
+   pdx_tooltip = "MMG_UI_open_tt"
+   clicksound = click_default
+  }
+ }
+ containerWindowType = {
+  name = "MMG_UI_Viewer"
+  position = { x = -570 y = -340 }
+  orientation = center
+  size = { width = 1140 height = 680 }
+  moveable = yes
+  click_to_front = yes
+  background = {
+   name = "MMG_UI_Paper"
+   quadTextureSprite = "GFX_MMG_UI_frame"
+  }
+  buttonType = {
+   name = "MMG_UI_Home"
+   position = { x = 918 y = 14 }
+   quadTextureSprite = "GFX_button_148x34"
+   buttonText = "MMG_UI_home"
+   buttonFont = "hoi_16mbs"
+   clicksound = click_default
+  }
+  buttonType = {
+   name = "MMG_UI_Close"
+   position = { x = 1080 y = 14 }
+   quadTextureSprite = "GFX_closebutton"
+   pdx_tooltip = "MMG_UI_close"
+   clicksound = click_close
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_Title"
+   position = { x = 45 y = 54 }
+   font = "hoi4_typewriter22"
+   text = "MMG_UI_title"
+   maxWidth = 1050
+   maxHeight = 32
+   format = centre
+   alwaystransparent = yes
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_Description"
+   position = { x = 30 y = 94 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_description"
+   maxWidth = 1080
+   maxHeight = 100
+   format = left
+   alwaystransparent = yes
+  }
+  iconType = {
+   name = "MMG_UI_Picture"
+   position = { x = 24 y = 206 }
+   spriteType = "GFX_MMG_UI_home"
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_1"
+   position = { x = 764 y = 206 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_1"
+   position = { x = 774 y = 209 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_1"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_2"
+   position = { x = 764 y = 262 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_2"
+   position = { x = 774 y = 265 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_2"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_3"
+   position = { x = 764 y = 318 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_3"
+   position = { x = 774 y = 321 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_3"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_4"
+   position = { x = 764 y = 374 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_4"
+   position = { x = 774 y = 377 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_4"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_5"
+   position = { x = 764 y = 430 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_5"
+   position = { x = 774 y = 433 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_5"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_6"
+   position = { x = 764 y = 486 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_6"
+   position = { x = 774 y = 489 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_6"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_7"
+   position = { x = 764 y = 542 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_7"
+   position = { x = 774 y = 545 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_7"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+  buttonType = {
+   name = "MMG_UI_Option_8"
+   position = { x = 764 y = 598 }
+   quadTextureSprite = "GFX_MMG_UI_option"
+   clicksound = click_default
+  }
+  instantTextBoxType = {
+   name = "MMG_UI_OptionLabel_8"
+   position = { x = 774 y = 601 }
+   font = "hoi4_typewriter16"
+   text = "MMG_UI_option_8"
+   maxWidth = 332
+   maxHeight = 44
+   format = center
+   vertical_alignment = center
+   alwaystransparent = yes
+  }
+ }
+}

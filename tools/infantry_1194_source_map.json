@@ -1,0 +1,592 @@
+{
+  "sources": {
+    "word": {
+      "name": "1.19.4步兵设计攻略.docx",
+      "sha256": "68712244b8d3a7a5547df77baed9f5fb1eb26e3b23a6e9f5c2190efb0cafb442"
+    },
+    "ppt": {
+      "name": "萌新向军备攻略 (1).pptx",
+      "sha256": "fb821a0446a7e3e90aea02ad62c6fd80732f85d56a581fb42c642dd494c205e5"
+    },
+    "patch": {
+      "title": "Hearts of Iron IV | QoL Patch Notes 1.19.4",
+      "published": "2026-10-27",
+      "url": "https://steamcommunity.com/games/394360/announcements/detail/684142629662760620",
+      "api": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=394360&count=10&maxlength=0&feeds=steam_community_announcements",
+      "retrieved_content_sha256": "caf025feda107aca2cb78cbe5f68f44cbeaf63e0620c12217648d45a3dbc3929",
+      "scope": "October 27 a783 balance/gameplay section; appended October 29 f584 hotfix kept separate",
+      "steam_news_gid": "1847286114049046"
+    }
+  },
+  "templates": 18,
+  "word_images": 19,
+  "events": 83,
+  "textures": 83,
+  "formation_sources": [
+    {
+      "id": 1,
+      "member": "word/media/image2.png",
+      "sha256": "620450098890e00daac8ab4452777c70e3a4bdd89e9f32fc82bbb7ef5d1ad267",
+      "full": "MMG_infantry.101",
+      "layout": "MMG_infantry.201",
+      "stats": "MMG_infantry.301"
+    },
+    {
+      "id": 2,
+      "member": "word/media/image3.png",
+      "sha256": "dfbe739828e5a23031e7df0082544eb1824ee6e183a60cd766b9719b52fdf059",
+      "full": "MMG_infantry.102",
+      "layout": "MMG_infantry.202",
+      "stats": "MMG_infantry.302"
+    },
+    {
+      "id": 3,
+      "member": "word/media/image4.png",
+      "sha256": "1f81cf11ff1d381f46b52a3a3ab249a9948c6c81a57002f09939fd9dce4fb4f4",
+      "full": "MMG_infantry.103",
+      "layout": "MMG_infantry.203",
+      "stats": "MMG_infantry.303"
+    },
+    {
+      "id": 4,
+      "member": "word/media/image5.png",
+      "sha256": "ee7415b430f9151177360bb14e59dabbf29243b1b72364f4fcbc0ebb2ee54f4c",
+      "full": "MMG_infantry.104",
+      "layout": "MMG_infantry.204",
+      "stats": "MMG_infantry.304"
+    },
+    {
+      "id": 5,
+      "member": "word/media/image6.png",
+      "sha256": "e5fe993dd8b1e4b9c95978476bfe883cf062195546516e2c70c7d938094b6c4c",
+      "full": "MMG_infantry.105",
+      "layout": "MMG_infantry.205",
+      "stats": "MMG_infantry.305"
+    },
+    {
+      "id": 6,
+      "member": "word/media/image7.png",
+      "sha256": "9b122c1bbc50d3eb0e521a7cbd86551360b0800874674ce1c2931b5d1ebc2bec",
+      "full": "MMG_infantry.106",
+      "layout": "MMG_infantry.206",
+      "stats": "MMG_infantry.306"
+    },
+    {
+      "id": 7,
+      "member": "word/media/image8.png",
+      "sha256": "37f3f236a3f1f8e4f4fffd217794852110dfbd95906653c1c73d603a6f74c7f8",
+      "full": "MMG_infantry.107",
+      "layout": "MMG_infantry.207",
+      "stats": "MMG_infantry.307"
+    },
+    {
+      "id": 8,
+      "member": "word/media/image9.png",
+      "sha256": "a6ec22b5c1413cb4c9a0d1927dad302439a6a57542a08c153a30041d5e6d034f",
+      "full": "MMG_infantry.108",
+      "layout": "MMG_infantry.208",
+      "stats": "MMG_infantry.308"
+    },
+    {
+      "id": 9,
+      "member": "word/media/image10.png",
+      "sha256": "3ebb7ec04afcf66b2d0f9376c614f3cd22b39a32f6d0f12f079020e37d72b518",
+      "full": "MMG_infantry.109",
+      "layout": "MMG_infantry.209",
+      "stats": "MMG_infantry.309"
+    },
+    {
+      "id": 10,
+      "member": "word/media/image11.png",
+      "sha256": "58abd8a604fd16da08f8ad88f8730e890a95f5dea28712dfc2d68a18ac39505f",
+      "full": "MMG_infantry.110",
+      "layout": "MMG_infantry.210",
+      "stats": "MMG_infantry.310"
+    },
+    {
+      "id": 11,
+      "member": "word/media/image12.png",
+      "sha256": "a3f0e1f00c1fb65659b64b967964a8dcaf124a2913e5e3f1554d578a0a2aee2f",
+      "full": "MMG_infantry.111",
+      "layout": "MMG_infantry.211",
+      "stats": "MMG_infantry.311"
+    },
+    {
+      "id": 12,
+      "member": "word/media/image13.png",
+      "sha256": "8a21770881bb4edbed5f85f6e7be12ca96ba65cd171dd9abaded8d2422658a15",
+      "full": "MMG_infantry.112",
+      "layout": "MMG_infantry.212",
+      "stats": "MMG_infantry.312"
+    },
+    {
+      "id": 13,
+      "member": "word/media/image14.png",
+      "sha256": "bc281eaf420e895eae1a8ca29af8ba039951f9bbd6257250d0bd07dffebb2031",
+      "full": "MMG_infantry.113",
+      "layout": "MMG_infantry.213",
+      "stats": "MMG_infantry.313"
+    },
+    {
+      "id": 14,
+      "member": "word/media/image15.png",
+      "sha256": "1c27636321c2963ed01dcd3a09bb1de54bc647b74864e7b516db029561720df3",
+      "full": "MMG_infantry.114",
+      "layout": "MMG_infantry.214",
+      "stats": "MMG_infantry.314"
+    },
+    {
+      "id": 15,
+      "member": "word/media/image16.png",
+      "sha256": "42ce2394fe640020fe9d427177aa91501e535802276abff7924ee2094ec6cd0a",
+      "full": "MMG_infantry.115",
+      "layout": "MMG_infantry.215",
+      "stats": "MMG_infantry.315"
+    },
+    {
+      "id": 16,
+      "member": "word/media/image17.png",
+      "sha256": "da92f21c7c2448ccbfff0fd5a2056b605fa225a22c256f7ba12ab9d57a7c9239",
+      "full": "MMG_infantry.116",
+      "layout": "MMG_infantry.216",
+      "stats": "MMG_infantry.316"
+    },
+    {
+      "id": 17,
+      "member": "word/media/image18.png",
+      "sha256": "11b7a3e8e97c49aa7cb021a2ddc186c850522a62a37cb302d5084628bdb20103",
+      "full": "MMG_infantry.117",
+      "layout": "MMG_infantry.217",
+      "stats": "MMG_infantry.317"
+    },
+    {
+      "id": 18,
+      "member": "word/media/image19.png",
+      "sha256": "17cb843fac4f7bfc58568b025827131215aefbc1046f9ad5c18cdcc37a079288",
+      "full": "MMG_infantry.118",
+      "layout": "MMG_infantry.218",
+      "stats": "MMG_infantry.318"
+    }
+  ],
+  "preset": {
+    "source_member": "word/media/image1.png",
+    "source_sha256": "58135e53ddc1db60302ebb6517920f4c0ec8e684a5d77b8d2104fc1f3956c6f9"
+  },
+  "objects": [
+    {
+      "event": "MMG_guide.400",
+      "picture": "index",
+      "key": "MMG_inf1194_index"
+    },
+    {
+      "event": "MMG_infantry.1",
+      "picture": "preset",
+      "key": "MMG_inf1194_note_1"
+    },
+    {
+      "event": "MMG_infantry.2",
+      "picture": "note_2",
+      "key": "MMG_inf1194_note_2"
+    },
+    {
+      "event": "MMG_infantry.3",
+      "picture": "note_3",
+      "key": "MMG_inf1194_note_3"
+    },
+    {
+      "event": "MMG_infantry.4",
+      "picture": "note_4",
+      "key": "MMG_inf1194_note_4"
+    },
+    {
+      "event": "MMG_infantry.51",
+      "picture": "note_51",
+      "key": "MMG_inf1194_note_51"
+    },
+    {
+      "event": "MMG_infantry.52",
+      "picture": "note_52",
+      "key": "MMG_inf1194_note_52"
+    },
+    {
+      "event": "MMG_infantry.53",
+      "picture": "note_53",
+      "key": "MMG_inf1194_note_53"
+    },
+    {
+      "event": "MMG_infantry.54",
+      "picture": "note_54",
+      "key": "MMG_inf1194_note_54"
+    },
+    {
+      "event": "MMG_infantry.55",
+      "picture": "note_55",
+      "key": "MMG_inf1194_note_55"
+    },
+    {
+      "event": "MMG_infantry.56",
+      "picture": "note_56",
+      "key": "MMG_inf1194_note_56"
+    },
+    {
+      "event": "MMG_infantry.61",
+      "picture": "note_61",
+      "key": "MMG_inf1194_note_61"
+    },
+    {
+      "event": "MMG_infantry.62",
+      "picture": "note_62",
+      "key": "MMG_inf1194_note_62"
+    },
+    {
+      "event": "MMG_infantry.64",
+      "picture": "note_64",
+      "key": "MMG_inf1194_note_64"
+    },
+    {
+      "event": "MMG_infantry.63",
+      "picture": "note_63",
+      "key": "MMG_inf1194_note_63"
+    },
+    {
+      "event": "MMG_infantry.50",
+      "picture": "support_menu",
+      "key": "MMG_inf1194_support_menu"
+    },
+    {
+      "event": "MMG_guide.106",
+      "picture": "spirit_menu",
+      "key": "MMG_inf1194_spirit_menu"
+    },
+    {
+      "event": "MMG_guide.100",
+      "picture": "land_100",
+      "key": "MMG_inf1194_land_100"
+    },
+    {
+      "event": "MMG_guide.101",
+      "picture": "land_101",
+      "key": "MMG_inf1194_land_101"
+    },
+    {
+      "event": "MMG_guide.102",
+      "picture": "land_102",
+      "key": "MMG_inf1194_land_102"
+    },
+    {
+      "event": "MMG_guide.103",
+      "picture": "land_103",
+      "key": "MMG_inf1194_land_103"
+    },
+    {
+      "event": "MMG_guide.104",
+      "picture": "land_104",
+      "key": "MMG_inf1194_land_104"
+    },
+    {
+      "event": "MMG_guide.105",
+      "picture": "land_105",
+      "key": "MMG_inf1194_land_105"
+    },
+    {
+      "event": "MMG_infantry.10",
+      "picture": "menu_10",
+      "key": "MMG_inf1194_menu_10"
+    },
+    {
+      "event": "MMG_infantry.101",
+      "picture": "template_1_full",
+      "key": "MMG_inf1194_template_1_full"
+    },
+    {
+      "event": "MMG_infantry.201",
+      "picture": "template_1_layout",
+      "key": "MMG_inf1194_template_1_layout"
+    },
+    {
+      "event": "MMG_infantry.301",
+      "picture": "template_1_stats",
+      "key": "MMG_inf1194_template_1_stats"
+    },
+    {
+      "event": "MMG_infantry.102",
+      "picture": "template_2_full",
+      "key": "MMG_inf1194_template_2_full"
+    },
+    {
+      "event": "MMG_infantry.202",
+      "picture": "template_2_layout",
+      "key": "MMG_inf1194_template_2_layout"
+    },
+    {
+      "event": "MMG_infantry.302",
+      "picture": "template_2_stats",
+      "key": "MMG_inf1194_template_2_stats"
+    },
+    {
+      "event": "MMG_infantry.103",
+      "picture": "template_3_full",
+      "key": "MMG_inf1194_template_3_full"
+    },
+    {
+      "event": "MMG_infantry.203",
+      "picture": "template_3_layout",
+      "key": "MMG_inf1194_template_3_layout"
+    },
+    {
+      "event": "MMG_infantry.303",
+      "picture": "template_3_stats",
+      "key": "MMG_inf1194_template_3_stats"
+    },
+    {
+      "event": "MMG_infantry.104",
+      "picture": "template_4_full",
+      "key": "MMG_inf1194_template_4_full"
+    },
+    {
+      "event": "MMG_infantry.204",
+      "picture": "template_4_layout",
+      "key": "MMG_inf1194_template_4_layout"
+    },
+    {
+      "event": "MMG_infantry.304",
+      "picture": "template_4_stats",
+      "key": "MMG_inf1194_template_4_stats"
+    },
+    {
+      "event": "MMG_infantry.20",
+      "picture": "menu_20",
+      "key": "MMG_inf1194_menu_20"
+    },
+    {
+      "event": "MMG_infantry.21",
+      "picture": "menu_21",
+      "key": "MMG_inf1194_menu_21"
+    },
+    {
+      "event": "MMG_infantry.105",
+      "picture": "template_5_full",
+      "key": "MMG_inf1194_template_5_full"
+    },
+    {
+      "event": "MMG_infantry.205",
+      "picture": "template_5_layout",
+      "key": "MMG_inf1194_template_5_layout"
+    },
+    {
+      "event": "MMG_infantry.305",
+      "picture": "template_5_stats",
+      "key": "MMG_inf1194_template_5_stats"
+    },
+    {
+      "event": "MMG_infantry.106",
+      "picture": "template_6_full",
+      "key": "MMG_inf1194_template_6_full"
+    },
+    {
+      "event": "MMG_infantry.206",
+      "picture": "template_6_layout",
+      "key": "MMG_inf1194_template_6_layout"
+    },
+    {
+      "event": "MMG_infantry.306",
+      "picture": "template_6_stats",
+      "key": "MMG_inf1194_template_6_stats"
+    },
+    {
+      "event": "MMG_infantry.107",
+      "picture": "template_7_full",
+      "key": "MMG_inf1194_template_7_full"
+    },
+    {
+      "event": "MMG_infantry.207",
+      "picture": "template_7_layout",
+      "key": "MMG_inf1194_template_7_layout"
+    },
+    {
+      "event": "MMG_infantry.307",
+      "picture": "template_7_stats",
+      "key": "MMG_inf1194_template_7_stats"
+    },
+    {
+      "event": "MMG_infantry.108",
+      "picture": "template_8_full",
+      "key": "MMG_inf1194_template_8_full"
+    },
+    {
+      "event": "MMG_infantry.208",
+      "picture": "template_8_layout",
+      "key": "MMG_inf1194_template_8_layout"
+    },
+    {
+      "event": "MMG_infantry.308",
+      "picture": "template_8_stats",
+      "key": "MMG_inf1194_template_8_stats"
+    },
+    {
+      "event": "MMG_infantry.109",
+      "picture": "template_9_full",
+      "key": "MMG_inf1194_template_9_full"
+    },
+    {
+      "event": "MMG_infantry.209",
+      "picture": "template_9_layout",
+      "key": "MMG_inf1194_template_9_layout"
+    },
+    {
+      "event": "MMG_infantry.309",
+      "picture": "template_9_stats",
+      "key": "MMG_inf1194_template_9_stats"
+    },
+    {
+      "event": "MMG_infantry.110",
+      "picture": "template_10_full",
+      "key": "MMG_inf1194_template_10_full"
+    },
+    {
+      "event": "MMG_infantry.210",
+      "picture": "template_10_layout",
+      "key": "MMG_inf1194_template_10_layout"
+    },
+    {
+      "event": "MMG_infantry.310",
+      "picture": "template_10_stats",
+      "key": "MMG_inf1194_template_10_stats"
+    },
+    {
+      "event": "MMG_infantry.30",
+      "picture": "menu_30",
+      "key": "MMG_inf1194_menu_30"
+    },
+    {
+      "event": "MMG_infantry.31",
+      "picture": "menu_31",
+      "key": "MMG_inf1194_menu_31"
+    },
+    {
+      "event": "MMG_infantry.111",
+      "picture": "template_11_full",
+      "key": "MMG_inf1194_template_11_full"
+    },
+    {
+      "event": "MMG_infantry.211",
+      "picture": "template_11_layout",
+      "key": "MMG_inf1194_template_11_layout"
+    },
+    {
+      "event": "MMG_infantry.311",
+      "picture": "template_11_stats",
+      "key": "MMG_inf1194_template_11_stats"
+    },
+    {
+      "event": "MMG_infantry.112",
+      "picture": "template_12_full",
+      "key": "MMG_inf1194_template_12_full"
+    },
+    {
+      "event": "MMG_infantry.212",
+      "picture": "template_12_layout",
+      "key": "MMG_inf1194_template_12_layout"
+    },
+    {
+      "event": "MMG_infantry.312",
+      "picture": "template_12_stats",
+      "key": "MMG_inf1194_template_12_stats"
+    },
+    {
+      "event": "MMG_infantry.113",
+      "picture": "template_13_full",
+      "key": "MMG_inf1194_template_13_full"
+    },
+    {
+      "event": "MMG_infantry.213",
+      "picture": "template_13_layout",
+      "key": "MMG_inf1194_template_13_layout"
+    },
+    {
+      "event": "MMG_infantry.313",
+      "picture": "template_13_stats",
+      "key": "MMG_inf1194_template_13_stats"
+    },
+    {
+      "event": "MMG_infantry.114",
+      "picture": "template_14_full",
+      "key": "MMG_inf1194_template_14_full"
+    },
+    {
+      "event": "MMG_infantry.214",
+      "picture": "template_14_layout",
+      "key": "MMG_inf1194_template_14_layout"
+    },
+    {
+      "event": "MMG_infantry.314",
+      "picture": "template_14_stats",
+      "key": "MMG_inf1194_template_14_stats"
+    },
+    {
+      "event": "MMG_infantry.115",
+      "picture": "template_15_full",
+      "key": "MMG_inf1194_template_15_full"
+    },
+    {
+      "event": "MMG_infantry.215",
+      "picture": "template_15_layout",
+      "key": "MMG_inf1194_template_15_layout"
+    },
+    {
+      "event": "MMG_infantry.315",
+      "picture": "template_15_stats",
+      "key": "MMG_inf1194_template_15_stats"
+    },
+    {
+      "event": "MMG_infantry.40",
+      "picture": "menu_40",
+      "key": "MMG_inf1194_menu_40"
+    },
+    {
+      "event": "MMG_infantry.116",
+      "picture": "template_16_full",
+      "key": "MMG_inf1194_template_16_full"
+    },
+    {
+      "event": "MMG_infantry.216",
+      "picture": "template_16_layout",
+      "key": "MMG_inf1194_template_16_layout"
+    },
+    {
+      "event": "MMG_infantry.316",
+      "picture": "template_16_stats",
+      "key": "MMG_inf1194_template_16_stats"
+    },
+    {
+      "event": "MMG_infantry.117",
+      "picture": "template_17_full",
+      "key": "MMG_inf1194_template_17_full"
+    },
+    {
+      "event": "MMG_infantry.217",
+      "picture": "template_17_layout",
+      "key": "MMG_inf1194_template_17_layout"
+    },
+    {
+      "event": "MMG_infantry.317",
+      "picture": "template_17_stats",
+      "key": "MMG_inf1194_template_17_stats"
+    },
+    {
+      "event": "MMG_infantry.118",
+      "picture": "template_18_full",
+      "key": "MMG_inf1194_template_18_full"
+    },
+    {
+      "event": "MMG_infantry.218",
+      "picture": "template_18_layout",
+      "key": "MMG_inf1194_template_18_layout"
+    },
+    {
+      "event": "MMG_infantry.318",
+      "picture": "template_18_stats",
+      "key": "MMG_inf1194_template_18_stats"
+    }
+  ]
+}

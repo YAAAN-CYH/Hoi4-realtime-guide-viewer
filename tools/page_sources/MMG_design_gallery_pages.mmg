@@ -1,0 +1,124 @@
+# Additional pages keep base event IDs and chapter navigation stable.
+# Each event file must register its namespace before using namespaced IDs.
+# Without this declaration HOI4 1.19 parses these targets as MMG_guide.0000.
+add_namespace = MMG_guide
+
+country_event = {
+	id = MMG_guide.7012
+	title = MMG_gallery_7012_t
+	desc = MMG_gallery_7012_d
+	picture = GFX_MMG_ship_fleet_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.701 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.7022
+	title = MMG_gallery_7022_t
+	desc = MMG_gallery_7022_d
+	picture = GFX_MMG_ship_capital_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.702 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.7032
+	title = MMG_gallery_7032_t
+	desc = MMG_gallery_7032_d
+	picture = GFX_MMG_ship_cruiser_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.703 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.7042
+	title = MMG_gallery_7042_t
+	desc = MMG_gallery_7042_d
+	picture = GFX_MMG_ship_dd_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.704 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.7052
+	title = MMG_gallery_7052_t
+	desc = MMG_gallery_7052_d
+	picture = GFX_MMG_ship_sub_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.705 }
+	}
+}
+
+country_event = {
+	id = MMG_guide.7062
+	title = MMG_gallery_7062_t
+	desc = MMG_gallery_7062_d
+	picture = GFX_MMG_ship_carair_page2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_detail_understood
+	}
+	option = {
+		name = MMG_detail_back
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_gallery_prev
+		country_event = { id = MMG_guide.706 }
+	}
+}

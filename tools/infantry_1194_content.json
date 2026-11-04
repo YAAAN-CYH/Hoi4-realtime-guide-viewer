@@ -1,0 +1,555 @@
+{
+  "canonical_target": "MengXin_Armaments_Guide",
+  "sources": {
+    "word": {
+      "name": "1.19.4步兵设计攻略.docx",
+      "sha256": "68712244b8d3a7a5547df77baed9f5fb1eb26e3b23a6e9f5c2190efb0cafb442"
+    },
+    "ppt": {
+      "name": "萌新向军备攻略 (1).pptx",
+      "sha256": "fb821a0446a7e3e90aea02ad62c6fd80732f85d56a581fb42c642dd494c205e5"
+    },
+    "patch": {
+      "title": "Hearts of Iron IV | QoL Patch Notes 1.19.4",
+      "published": "2026-10-27",
+      "url": "https://steamcommunity.com/games/394360/announcements/detail/684142629662760620",
+      "api": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=394360&count=10&maxlength=0&feeds=steam_community_announcements",
+      "retrieved_content_sha256": "caf025feda107aca2cb78cbe5f68f44cbeaf63e0620c12217648d45a3dbc3929",
+      "scope": "October 27 a783 balance/gameplay section; appended October 29 f584 hotfix kept separate",
+      "steam_news_gid": "1847286114049046"
+    }
+  },
+  "preset": {
+    "source_member": "word/media/image1.png",
+    "source_sha256": "58135e53ddc1db60302ebb6517920f4c0ec8e684a5d77b8d2104fc1f3956c6f9"
+  },
+  "groups": [
+    {
+      "id": 10,
+      "zh": "步兵与早期主力",
+      "en": "Infantry and Early Main Formations",
+      "templates": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 20,
+      "zh": "登陆与机械化",
+      "en": "Amphibious and Mechanized Formations",
+      "templates": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 30,
+      "zh": "超宽特种混编",
+      "en": "Wide Special Forces Formations",
+      "templates": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 40,
+      "zh": "需更换学说的方案",
+      "en": "Formations Requiring Doctrine Changes",
+      "templates": [
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "zh": "五步填线（9宽）",
+      "en": "5 Infantry: Line Holders (9 Width)",
+      "config_zh": "5个步兵营；以低成本覆盖战线。",
+      "config_en": "Five infantry battalions for inexpensive frontline coverage.",
+      "note_zh": "用于主力不能覆盖的地段，争取反应时间；不要把填线与有持续输出的防守主力混同。",
+      "note_en": "Holds gaps beyond the main force's reach and buys time to react. Its limited firepower makes it unsuitable as the main defensive formation.",
+      "stats_zh": "宽度9；组织度68.0；HP125.0。",
+      "stats_en": "Width 9; organization 68.0; HP 125.0.",
+      "source_member": "word/media/image2.png",
+      "source_sha256": "620450098890e00daac8ab4452777c70e3a4bdd89e9f32fc82bbb7ef5d1ad267",
+      "doctrine_switch": false
+    },
+    {
+      "id": 2,
+      "zh": "二十步吃线（36宽）",
+      "en": "20 Infantry: Frontline (36 Width)",
+      "config_zh": "20个步兵营，配工兵、支援炮与侦察；完整配置见图。",
+      "config_en": "Twenty infantry battalions with engineer, support artillery and recon companies.",
+      "note_zh": "用于德国对苏作战前的低地与法国等战场。36宽依赖人海步兵里程碑，不能把减宽前后混算。",
+      "note_en": "Suited to Germany's campaigns in the Low Countries and France before war with the Soviet Union. Combat width 36 requires the Mass Assault infantry milestone.",
+      "stats_zh": "宽度36；组织度60.8；HP504.2。",
+      "stats_en": "Width 36; organization 60.8; HP 504.2.",
+      "source_member": "word/media/image3.png",
+      "source_sha256": "dfbe739828e5a23031e7df0082544eb1824ee6e183a60cd766b9719b52fdf059",
+      "doctrine_switch": false
+    },
+    {
+      "id": 3,
+      "zh": "基础步炮（10步6炮）",
+      "en": "Basic Infantry-Artillery: 10 Inf / 6 Art",
+      "config_zh": "图中10个步兵营、6个火炮营，支援连按图配置。",
+      "config_en": "Ten infantry and six artillery battalions, with support companies as shown.",
+      "note_zh": "增加步兵以维持组织度。此例未改为大规模部队与集中火力；与专门改学说的步炮方案分开使用。",
+      "note_en": "The extra infantry helps sustain organization. Keep the default doctrines for this example; Large Unit Tactics and Fire Concentration belong to the separate doctrine-change variant.",
+      "stats_zh": "宽度36；组织度36.9；软攻614.5。",
+      "stats_en": "Width 36; organization 36.9; soft attack 614.5.",
+      "source_member": "word/media/image4.png",
+      "source_sha256": "1f81cf11ff1d381f46b52a3a3ab249a9948c6c81a57002f09939fd9dce4fb4f4",
+      "doctrine_switch": false
+    },
+    {
+      "id": 4,
+      "zh": "十步九坦",
+      "en": "10 Infantry / 9 Medium Tanks",
+      "config_zh": "10步兵、9中坦；配工兵、中喷火、轻坦侦察、后勤与野战医院。",
+      "config_en": "Ten infantry and nine medium tank battalions; engineers, medium flame tanks, light tank recon, logistics and a field hospital.",
+      "note_zh": "使用较新中型底盘维持突破；换成早期底盘后不能直接沿用本图数值。",
+      "note_en": "The newer medium chassis provides breakthrough. Using an earlier chassis changes the division's stats.",
+      "stats_zh": "宽度36；组织度35.1；突破965.1。",
+      "stats_en": "Width 36; organization 35.1; breakthrough 965.1.",
+      "source_member": "word/media/image5.png",
+      "source_sha256": "ee7415b430f9151177360bb14e59dabbf29243b1b72364f4fcbc0ebb2ee54f4c",
+      "doctrine_switch": false
+    },
+    {
+      "id": 5,
+      "zh": "登陆坦（海军陆战队 / 中坦）",
+      "en": "Marines / Medium Amphibious Tanks",
+      "config_zh": "9海军陆战队、9螺旋桨中坦；2摩托重武器团支、3坦歼团支及图示支援连。",
+      "config_en": "Nine marine and nine medium amphibious tank battalions; two Motorized Heavy Weapons Companies and three regimental TD companies.",
+      "note_zh": "西线登陆参考。重点核对两栖地形加成；70以上是参考目标，最终登陆惩罚以战斗界面为准。",
+      "note_en": "For landings in the western theater. Aim for strong amphibious modifiers; verify the suggested 70 target against the actual combat tooltip.",
+      "stats_zh": "宽度36；组织度42.0；突破685.0。",
+      "stats_en": "Width 36; organization 42.0; breakthrough 685.0.",
+      "source_member": "word/media/image6.png",
+      "source_sha256": "e5fe993dd8b1e4b9c95978476bfe883cf062195546516e2c70c7d938094b6c4c",
+      "doctrine_switch": false
+    },
+    {
+      "id": 6,
+      "zh": "两栖螺旋桨重坦（进阶）",
+      "en": "Advanced Amphibious Heavy Tanks",
+      "config_zh": "两栖机械化步兵与两栖重坦混编，支援及团支按图。",
+      "config_en": "Amphibious mechanized infantry with heavy amphibious tanks and support companies as shown.",
+      "note_zh": "后期特种混编，科技与装备投入较高；按已解锁的特种加成核对结果。",
+      "note_en": "A specialist late-game formation with substantial research and equipment costs. Check which special forces bonuses you have unlocked.",
+      "stats_zh": "宽度36；组织度35.6；突破1113.9。",
+      "stats_en": "Width 36; organization 35.6; breakthrough 1113.9.",
+      "source_member": "word/media/image7.png",
+      "source_sha256": "9b122c1bbc50d3eb0e521a7cbd86551360b0800874674ce1c2931b5d1ebc2bec",
+      "doctrine_switch": false
+    },
+    {
+      "id": 7,
+      "zh": "机械化坦克（九机九中坦）",
+      "en": "9 Mechanized / 9 Medium Tanks",
+      "config_zh": "9机械化步兵、9中坦，支援和团支按图配置。",
+      "config_en": "Nine mechanized infantry and nine medium tank battalions, with support companies as shown.",
+      "note_zh": "装备充足时的PVE进攻方案。缺少团支坦歼时，可考虑摩托重武器连替代，并重新检查整师数值。",
+      "note_en": "For offensives against the AI when equipment is available. Motorized Heavy Weapons Companies can replace unavailable regimental TDs; recheck the division's stats.",
+      "stats_zh": "宽度36；组织度32.0；突破1109.5。",
+      "stats_en": "Width 36; organization 32.0; breakthrough 1109.5.",
+      "source_member": "word/media/image8.png",
+      "source_sha256": "37f3f236a3f1f8e4f4fffd217794852110dfbd95906653c1c73d603a6f74c7f8",
+      "doctrine_switch": false
+    },
+    {
+      "id": 8,
+      "zh": "机械化坦歼（进攻）",
+      "en": "Mechanized / Medium TDs: Offensive",
+      "config_zh": "机械化步兵配中型坦歼，支援及团支见图。",
+      "config_en": "Mechanized infantry with medium tank destroyers; divisional and regimental support companies as shown.",
+      "note_zh": "坦歼营的突破惩罚为-75%，团支才是-90%。若突破不足，可用部分中坦营补充，不能把团支惩罚泛化到整师。",
+      "note_en": "Line TD breakthrough has a -75% modifier; -90% applies to regimental TDs. Add some tank battalions if breakthrough is insufficient.",
+      "stats_zh": "宽度36；组织度35.9；硬攻778.4。",
+      "stats_en": "Width 36; organization 35.9; hard attack 778.4.",
+      "source_member": "word/media/image9.png",
+      "source_sha256": "a6ec22b5c1413cb4c9a0d1927dad302439a6a57542a08c153a30041d5e6d034f",
+      "doctrine_switch": false
+    },
+    {
+      "id": 9,
+      "zh": "机械化坦歼（蹲坑）",
+      "en": "Mechanized / Medium TDs: Entrenched",
+      "config_zh": "机械化步兵配43高速炮坦歼及堑壕设计；用装甲通信连替换中喷火。",
+      "config_en": "Mechanized infantry with 1943 high-velocity TDs and entrenchment modules; an Armored Signal Company replaces the medium flame tank company.",
+      "note_zh": "以防守反装甲为主，进攻地形收益优先级较低；不要按进攻坦歼的用途理解此图。",
+      "note_en": "A defensive anti-armor formation prioritizing entrenchment over offensive terrain bonuses.",
+      "stats_zh": "宽度36；组织度35.5；硬攻975.4。",
+      "stats_en": "Width 36; organization 35.5; hard attack 975.4.",
+      "source_member": "word/media/image10.png",
+      "source_sha256": "3ebb7ec04afcf66b2d0f9376c614f3cd22b39a32f6d0f12f079020e37d72b518",
+      "doctrine_switch": false
+    },
+    {
+      "id": 10,
+      "zh": "机械化重坦歼",
+      "en": "Mechanized / Heavy Tank Destroyers",
+      "config_zh": "机械化步兵配重型坦歼，其他支援见完整图。",
+      "config_en": "Mechanized infantry with heavy tank destroyers and support companies as shown.",
+      "note_zh": "后期高投入方案。可由其他装甲车辆补突破，但500不是固定合格线，应比较敌方实际攻击。",
+      "note_en": "An expensive late-game option. Other armored vehicles can add breakthrough; 500 is not a universal threshold against every enemy.",
+      "stats_zh": "宽度36；组织度35.9；硬攻981.7。",
+      "stats_en": "Width 36; organization 35.9; hard attack 981.7.",
+      "source_member": "word/media/image11.png",
+      "source_sha256": "58abd8a604fd16da08f8ad88f8730e890a95f5dea28712dfc2d68a18ac39505f",
+      "doctrine_switch": false
+    },
+    {
+      "id": 11,
+      "zh": "超宽特种坦（轻坦歼）",
+      "en": "Wide Special Forces / Light TDs",
+      "config_zh": "13游骑兵、1步兵、9轻坦歼；团支含中型防空，其他按图。",
+      "config_en": "Thirteen Ranger battalions, one infantry battalion and nine light TD battalions; regimental support includes medium SPAA.",
+      "note_zh": "低装甲率、高HP思路。火炮子学说可比较机动侦察与突击，但切换后要重新检查突破与补给。",
+      "note_en": "Combines high HP with low hardness. Consider Mobile Recon & Assault, then recalculate breakthrough and supply use after switching.",
+      "stats_zh": "宽度45.8；组织度54.5；HP415.1。",
+      "stats_en": "Width 45.8; organization 54.5; HP 415.1.",
+      "source_member": "word/media/image12.png",
+      "source_sha256": "a3f0e1f00c1fb65659b64b967964a8dcaf124a2913e5e3f1554d578a0a2aee2f",
+      "doctrine_switch": false
+    },
+    {
+      "id": 12,
+      "zh": "超宽中坦歼",
+      "en": "Wide Medium Tank Destroyers",
+      "config_zh": "延续游骑兵与步兵骨架，将轻坦歼换成中型坦歼；按图配团支。",
+      "config_en": "Retains the Rangers and infantry, replacing light TDs with medium TDs; regimental support companies as shown.",
+      "note_zh": "与轻坦歼方案比较攻击、突破和造价；产能不足时不必强行追求更贵的车辆。",
+      "note_en": "Compare attack, breakthrough and production cost with the light TD variant. Choose a chassis your industry can sustain.",
+      "stats_zh": "宽度45.8；组织度55.1；突破564.7。",
+      "stats_en": "Width 45.8; organization 55.1; breakthrough 564.7.",
+      "source_member": "word/media/image13.png",
+      "source_sha256": "8a21770881bb4edbed5f85f6e7be12ca96ba65cd171dd9abaded8d2422658a15",
+      "doctrine_switch": false
+    },
+    {
+      "id": 13,
+      "zh": "超宽重坦歼",
+      "en": "Wide Heavy Tank Destroyers",
+      "config_zh": "游骑兵、步兵与重型坦歼混编，使用叠甲车辆方案。",
+      "config_en": "Rangers and infantry with heavy tank destroyers upgraded for armor.",
+      "note_zh": "图中展示的是叠甲成品；车辆升级影响整师结果，不把其他未展示方案的突破值当作本图数值。",
+      "note_en": "The displayed stats apply to this armored configuration. Other designs can have different breakthrough values.",
+      "stats_zh": "宽度45.8；组织度55.1；突破543.9。",
+      "stats_en": "Width 45.8; organization 55.1; breakthrough 543.9.",
+      "source_member": "word/media/image14.png",
+      "source_sha256": "bc281eaf420e895eae1a8ca29af8ba039951f9bbd6257250d0bd07dffebb2031",
+      "doctrine_switch": false
+    },
+    {
+      "id": 14,
+      "zh": "超宽现代坦歼",
+      "en": "Wide Modern Tank Destroyers",
+      "config_zh": "游骑兵与步兵骨架，配现代坦歼及图示团支。",
+      "config_en": "Rangers and infantry with modern tank destroyers and regimental support companies as shown.",
+      "note_zh": "本图软攻635.0、硬攻920.4。车辆面板和整师面板属于不同层级，不能将单车突破直接写成整师突破。",
+      "note_en": "This division has 635.0 soft attack and 920.4 hard attack. Compare vehicle stats and division totals separately.",
+      "stats_zh": "宽度45.8；组织度55.1；硬攻920.4。",
+      "stats_en": "Width 45.8; organization 55.1; hard attack 920.4.",
+      "source_member": "word/media/image15.png",
+      "source_sha256": "1c27636321c2963ed01dcd3a09bb1de54bc647b74864e7b516db029561720df3",
+      "doctrine_switch": false
+    },
+    {
+      "id": 15,
+      "zh": "超宽自行火炮（现代底盘）",
+      "en": "Wide Modern Self-Propelled Artillery",
+      "config_zh": "游骑兵与步兵骨架，配现代自行火炮及图示团支。",
+      "config_en": "Rangers and infantry with modern self-propelled artillery and regimental support companies as shown.",
+      "note_zh": "偏向攻击低装甲率目标；对装甲目标还要核对穿甲与硬攻，不能只看软攻。",
+      "note_en": "Prioritizes low-hardness targets; against armor, check piercing and hard attack rather than soft attack alone.",
+      "stats_zh": "宽度45.8；组织度53.5；软攻1225.2。",
+      "stats_en": "Width 45.8; organization 53.5; soft attack 1225.2.",
+      "source_member": "word/media/image16.png",
+      "source_sha256": "42ce2394fe640020fe9d427177aa91501e535802276abff7924ee2094ec6cd0a",
+      "doctrine_switch": false
+    },
+    {
+      "id": 16,
+      "zh": "步兵超宽中坦歼（改学说）",
+      "en": "Wide Infantry / Medium TDs: Doctrine Change",
+      "config_zh": "15步兵、10中坦歼；步兵子学说改为大规模部队，其余支援按图。",
+      "config_en": "Fifteen infantry and ten medium TD battalions; requires Large Unit Tactics as the infantry subdoctrine.",
+      "note_zh": "人海里程碑-0.2宽与大规模部队-0.2宽叠加，步兵1.6宽；15×1.6+10×2=44。",
+      "note_en": "Mass Assault and Large Unit Tactics each remove 0.2 infantry width: 15 x 1.6 + 10 x 2 = 44.",
+      "stats_zh": "宽度44；组织度45.8；HP438.9。",
+      "stats_en": "Width 44; organization 45.8; HP 438.9.",
+      "source_member": "word/media/image17.png",
+      "source_sha256": "da92f21c7c2448ccbfff0fd5a2056b605fa225a22c256f7ba12ab9d57a7c9239",
+      "doctrine_switch": true
+    },
+    {
+      "id": 17,
+      "zh": "大宽步炮（12步8炮 / 改学说）",
+      "en": "Wide Infantry-Artillery: 12 Inf / 8 Art",
+      "config_zh": "按图为12步兵、8火炮；改为大规模部队与集中火力，配五个团步兵炮。",
+      "config_en": "Twelve infantry and eight artillery battalions; requires Large Unit Tactics and Fire Concentration, with five Infantry Guns regimental companies.",
+      "note_zh": "高软攻参考，需关注组织度。图中有两列各四个火炮营，不是12步4炮。",
+      "note_en": "A high-soft-attack reference with an organization trade-off. The image has two columns of four artillery battalions, not four in total.",
+      "stats_zh": "宽度36.8；组织度37.0；软攻942.6。",
+      "stats_en": "Width 36.8; organization 37.0; soft attack 942.6.",
+      "source_member": "word/media/image18.png",
+      "source_sha256": "11b7a3e8e97c49aa7cb021a2ddc186c850522a62a37cb302d5084628bdb20103",
+      "doctrine_switch": true
+    },
+    {
+      "id": 18,
+      "zh": "九骑八炮（改学说）",
+      "en": "9 Cavalry / 8 Artillery: Doctrine Change",
+      "config_zh": "9骑兵、8火炮；步兵改骑乘步兵，火炮改集中火力；支援按图。",
+      "config_en": "Nine cavalry and eight artillery battalions; requires Mounted Infantry and Fire Concentration, with support companies as shown.",
+      "note_zh": "骑兵突破已增强，可作为备选。本图速度6.4；调整侦察后是否达到8速，仍需按最慢单位和装备重新计算。",
+      "note_en": "Benefits from the cavalry breakthrough buff. The displayed speed is 6.4; removing recon alone does not guarantee a speed of 8.",
+      "stats_zh": "宽度35.6；组织度38.6；速度6.4。",
+      "stats_en": "Width 35.6; organization 38.6; speed 6.4.",
+      "source_member": "word/media/image19.png",
+      "source_sha256": "17cb843fac4f7bfc58568b025827131215aefbc1046f9ad5c18cdcc37a079288",
+      "doctrine_switch": true
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "zh": "参考条件与默认学说",
+      "en": "Reference Conditions and Doctrine Preset",
+      "desc_zh": "默认：人海突击；步兵卓越单兵；炮兵与战斗支援自行式支援；装甲自行反坦克；作战大规模强袭。\n数值按推荐学说与满精通环境展示。最后三套须另换学说；装备不足时优先按本国科技与产能调整。",
+      "desc_en": "Default: Mass Assault; Individual Excellence; Self-propelled Support; Tank Destroyer Force; Grand Assault.\nStats assume these doctrines and full mastery. The final three formations require doctrine changes. Adapt the designs to your research and production.",
+      "evidence": [
+        "word:1-6"
+      ]
+    },
+    {
+      "id": 2,
+      "zh": "1.19.4 · 突破与装甲单位",
+      "en": "1.19.4: Breakthrough and Armored Units",
+      "desc_zh": "坦歼、自行防空、自行火炮的营级突破惩罚统一为-75%；团支坦歼与团支自行防空为-90%。\n坦歼与自火另有+25%防御，团支坦歼防御惩罚为-33%。突破仍需按整师核对，不能将坦歼当作坦克的无条件上位替代。",
+      "desc_en": "Tank destroyer (TD), self-propelled anti-air (SPAA) and self-propelled artillery (SPG) line battalions have -75% breakthrough; regimental TD/SPAA have -90%.\nTDs and SPGs get +25% defense; regimental TDs have -33% defense. Check the whole division's breakthrough before replacing tanks with TDs.",
+      "evidence": [
+        "patch:balance"
+      ]
+    },
+    {
+      "id": 3,
+      "zh": "1.19.4 · 减宽与后勤",
+      "en": "1.19.4: Width and Logistics",
+      "desc_zh": "人海步兵里程碑减0.2步兵宽度；大规模部队的相关奖励也减0.2。\n集中火力的采用奖励给线列火炮+10组织；机动侦察与突击让后勤再减5%补给。卓越单兵中后勤对摩托/机步的HP加成降为2.5；人海作战里程碑另有-15%补给。",
+      "desc_en": "Mass Assault's infantry milestone and Large Unit Tactics each reduce infantry combat width by 0.2.\nFire Concentration adoption gives line artillery +10 organization. Mobile Recon & Assault gives logistics an extra -5% supply use. Individual Excellence's logistics HP bonus for motorized/mechanized is 2.5. Mass Assault's operations milestone gives -15% supply use.",
+      "evidence": [
+        "patch:balance"
+      ]
+    },
+    {
+      "id": 4,
+      "zh": "1.19.4 · 团规模与成长",
+      "en": "1.19.4: Regiment Size and Scaling",
+      "desc_zh": "人海步兵里程碑不再给团规模+1；这一奖励已移到炮兵与战斗支援里程碑，后者另给+2%增援率。\n自火科技的软攻成长收缩；坦歼硬攻科技成长为每项5%，团支为2.5%。装甲HP随可靠性缩放，营级与团支的基础HP也不同。",
+      "desc_en": "Mass Assault's +1 brigade size moved from the infantry milestone to artillery/combat support, which also gives +2% reinforce rate.\nSPG soft attack gains from technology were reduced. TD hard attack gains are 5% per technology, or 2.5% for regimental TDs. Armored HP scales with reliability; line and regimental units have different base HP.",
+      "evidence": [
+        "patch:balance"
+      ]
+    },
+    {
+      "id": 51,
+      "zh": "工兵与喷火支援",
+      "en": "Engineers and Flame Support",
+      "desc_zh": "工兵、侦察与喷火提供重要地形修正，按战场选择。突击工兵、装甲工兵等改型要有对应科技与装备。\n中型喷火是常用参考；按足额配装检查效果，不把旧版本“无装备也生效”的现象当作当前保证。装甲支援车已纳入中坦MIO适用类别。",
+      "desc_en": "Engineers, recon and flame tanks provide terrain modifiers. Assault and armored engineers require the relevant research and equipment.\nMedium flame tanks are the usual choice. Supply the required equipment to obtain their bonuses. Armored support vehicles are eligible for medium tank Military Industrial Organizations (MIOs).",
+      "evidence": [
+        "ppt:34-36",
+        "patch:gameplay"
+      ]
+    },
+    {
+      "id": 52,
+      "zh": "侦察连的分工",
+      "en": "Recon Company Roles",
+      "desc_zh": "游骑兵侦察重在地形修正，并有特种学说解锁要求；轻坦侦察可给装甲及衍生车辆营+10%硬攻。\n装甲汽车侦察是另一类型：纵深战斗首项奖励现可让它给徒步步兵+5%软攻与防御，不能与轻坦侦察混称。",
+      "desc_en": "Recon Rangers provide terrain bonuses and require the relevant special forces unlock. Armored Recon Company (light tanks) gives armored and derivative battalions +10% hard attack.\nLight Armored Recon Company (armored cars) is a separate unit: Deep Battle's first reward lets it give leg infantry +5% soft attack and defense.",
+      "evidence": [
+        "ppt:37",
+        "patch:balance",
+        "installed:recon"
+      ]
+    },
+    {
+      "id": 53,
+      "zh": "后勤与野战医院",
+      "en": "Logistics and Field Hospitals",
+      "desc_zh": "后勤降低补给与油耗；医院降低经验损失并为步兵类营提供10%HP，不能当作整师所有兵种一律加10%。\n选卓越单兵时，其后勤对摩托与机步的额外HP现为2.5；机动侦察与突击另增强后勤补给效果。回收伤员比例仍有上限。",
+      "desc_en": "Logistics companies reduce supply and fuel use. Field Hospitals reduce experience loss and give infantry-category battalions +10% HP; this does not apply to every battalion.\nIndividual Excellence's logistics HP bonus for motorized/mechanized is now 2.5. Mobile Recon & Assault further reduces supply use. Trickleback has an upper limit.",
+      "evidence": [
+        "ppt:38",
+        "patch:balance/gameplay",
+        "installed:field_hospital"
+      ]
+    },
+    {
+      "id": 54,
+      "zh": "火力支援与团支",
+      "en": "Fire Support and Regimental Support",
+      "desc_zh": "普通支援炮是低成本早期补充，防空按敌方空军与穿甲需求选择。团支通常需同团至少3个作战营。\n团步兵炮、重武器、防空和装甲团支各有用途；团支坦歼的突破为-90%修正，不能拿旧图中的高输出推出它全面优于坦克。",
+      "desc_en": "Support artillery offers inexpensive early firepower. Choose anti-air support to counter aircraft or improve piercing. Regimental support normally requires at least three combat battalions in that regiment.\nInfantry Guns, heavy weapons, AA and armored support have distinct roles. Regimental TDs have a -90% breakthrough modifier, so high attack alone does not make them a universal tank replacement.",
+      "evidence": [
+        "ppt:39,41-42",
+        "patch:balance"
+      ]
+    },
+    {
+      "id": 55,
+      "zh": "维修与可靠性的取舍",
+      "en": "Maintenance and Reliability",
+      "desc_zh": "维修连占用支援位并消耗装备，按损耗、缴获与工业条件取舍。装甲HP随可靠性缩放，不能再把维修一概判为无用。\n易维护改装现为造价-5%、可靠性+7.5%、设计20XP；装备缴获计算已修正并按最高100%计算。",
+      "desc_en": "Maintenance costs a support slot and equipment; weigh attrition, capture and industry. Reliability now affects armored-equipment HP.\nEasy Maintenance gives -5% cost, +7.5% reliability and costs 20 XP to design. Equipment-capture calculations were fixed and capped at 100%.",
+      "evidence": [
+        "ppt:40",
+        "patch:balance/bugfix"
+      ]
+    },
+    {
+      "id": 56,
+      "zh": "占领法案与顺从",
+      "en": "Occupation Laws and Compliance",
+      "desc_zh": "占领收益取决于顺从度、驻军装备和抵抗状况。民间监督可用于积累顺从；民主国家可比较地方自治。\n共产国家的解放工人有工厂与资源收益，但会牺牲顺从增长；不要只看即时收益，需结合当地抵抗和驻军负担调整。",
+      "desc_en": "Occupation benefits depend on compliance, garrison equipment and resistance. Civilian Oversight builds compliance; democracies can consider Local Autonomy.\nCommunist countries can use Liberated Workers for more factories and resources at the cost of compliance growth. Balance immediate gains against resistance and garrison needs.",
+      "evidence": [
+        "ppt:43-44"
+      ]
+    },
+    {
+      "id": 61,
+      "zh": "20XP · 学院精神",
+      "en": "20 XP: Spirit of the Academy",
+      "desc_zh": "大胆进攻适合希望培养进攻型将领的路线：将领升级有50%几率额外获得+1进攻。\n这是升级倾向，不是直接给所有师增加攻击；是否可选还受军官学院与DLC条件限制。",
+      "desc_en": "Bold Attack helps develop offensive commanders: officers have a 50% chance to gain an extra +1 Attack when leveling up.\nThis affects officer development rather than directly increasing division attack. Availability depends on academy and DLC requirements.",
+      "evidence": [
+        "ppt:12",
+        "installed:army_spirits"
+      ]
+    },
+    {
+      "id": 62,
+      "zh": "35XP · 编制与工程",
+      "en": "35 XP: Templates and Engineering",
+      "desc_zh": "人海专用刺刀之锋可降低步兵、摩托、机步等编制修改的经验花费，并增加步兵战斗经验获取。\n工程兵团降低工兵编制花费、提高堑壕挖掘速度。按是否正在集中改编制、修筑防线选择。",
+      "desc_en": "Bayonet Strength, available with Mass Assault, reduces template XP costs for infantry, motorized and mechanized units and increases infantry combat experience gain.\nElevated Engineer Corps reduces engineer template XP costs and improves entrenchment speed. Choose according to your current template changes or defensive preparations.",
+      "evidence": [
+        "ppt:12-13",
+        "installed:army_spirits"
+      ]
+    },
+    {
+      "id": 64,
+      "zh": "35XP · 政体限定精神",
+      "en": "35 XP: Ideology-Specific Spirits",
+      "desc_zh": "国家服务军队：法西斯，进攻战争稳定修正+10%。\n解除指挥权：民主，陆军经验获取+25%、陆军顾问花费-50%。\n忠于意识形态：共产，每周+500人力并降低包围惩罚。先核对本国政体和可用选项。",
+      "desc_en": "State serves the Military: fascist, +10% offensive war stability modifier.\nRelief of Command: democratic, +25% army XP gain and -50% army advisor cost.\nIdeological Loyalty: communist, +500 weekly manpower and a reduced encirclement penalty. Check your ideology and available spirits first.",
+      "evidence": [
+        "ppt:12-13",
+        "installed:army_spirits"
+      ]
+    },
+    {
+      "id": 63,
+      "zh": "50XP · 师级指挥精神",
+      "en": "50 XP: Spirit of Division Command",
+      "desc_zh": "战术储备：人海，+10%HP。专注后勤：决战，补给-10%，海空油耗-10%；不等于陆军油耗也减10%。\n静态战争适合堑壕防守，灵活组织侧重移动与组织保持；两者有学说条件，按可用选项选择。",
+      "desc_en": "Operational Reserves: Mass Assault, +10% HP. Logistical Focus: Grand Battleplan, -10% supply use and -10% air/naval fuel use; army fuel use is unaffected.\nStatic Warfare suits entrenchment; Flexible Organization helps maintain organization while moving. Both have doctrine requirements.",
+      "evidence": [
+        "ppt:14-15",
+        "installed:army_spirits"
+      ]
+    }
+  ],
+  "land": [
+    {
+      "id": 100,
+      "zh": "陆军学说 · 1.19.4参考",
+      "en": "Army Doctrine: 1.19.4 Reference",
+      "desc_zh": "按主学说、步兵、炮兵与战斗支援、装甲、作战五条分别选择。多数编制采用人海与卓越单兵，但最后三套另有切换要求。\n学说与精通会改变宽度、组织和后勤收益；先核对编制条件，再比较路线。",
+      "desc_en": "Choose a grand doctrine and separate infantry, artillery/combat support, armor and operations subdoctrines. Most templates use Mass Assault and Individual Excellence; the final three require changes.\nDoctrines and mastery affect combat width, organization and logistics. Check each template's requirements before comparing.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    },
+    {
+      "id": 101,
+      "zh": "主学说：人海 / 决战 / 机动取舍",
+      "en": "Grand Doctrine: Choosing a Main Path",
+      "desc_zh": "常用参考为人海突击或决战计划。人海步兵里程碑现减0.2步兵宽度；与大规模部队的减宽可叠加。\n机动作战装甲里程碑已给全军+15%突破，装甲路线值得重新比较，不再沿用“无人问津”的旧判断。",
+      "desc_en": "Mass Assault or Grand Battleplan are the usual references. The Mass Assault infantry milestone removes 0.2 infantry width and can combine with Large Unit Tactics.\nMobile Warfare now gives the army +15% breakthrough at its armor milestone, so reassess it for armor-focused play.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    },
+    {
+      "id": 102,
+      "zh": "步兵：卓越单兵与改学说方案",
+      "en": "Infantry: Individual Excellence and Alternatives",
+      "desc_zh": "多数图例使用卓越单兵；其后勤对摩托、机步的额外HP已由5降为2.5。\n超宽步兵和大宽步炮另改大规模部队，九骑八炮另改骑乘步兵；不要把换学说前的组织与宽度继续套用。",
+      "desc_en": "Most templates use Individual Excellence. Its logistics HP bonus for motorized/mechanized fell from 5 to 2.5.\nThe wide infantry and infantry-artillery variants require Large Unit Tactics; cavalry-artillery requires Mounted Infantry. Recalculate combat width and organization after switching.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    },
+    {
+      "id": 103,
+      "zh": "炮兵：自行支援 / 机侦 / 集火",
+      "en": "Artillery and Combat Support Subdoctrines",
+      "desc_zh": "自行式支援适合相应车辆体系；机动侦察与突击能让后勤再减5%补给。\n集中火力采用奖励的线列火炮组织现为+10；步炮与骑炮切换此线后，应连同宽度、组织和团支一起核对。自火加成也已收缩，不能无条件视为火炮上位替代。",
+      "desc_en": "Self-propelled Support suits armored support vehicles. Mobile Recon & Assault gives logistics an extra -5% supply use. Fire Concentration adoption gives line artillery +10 organization.\nSPG bonuses were reduced. After changing doctrines, recheck combat width, organization and regimental support alongside cost and firepower.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    },
+    {
+      "id": 104,
+      "zh": "装甲：坦歼与坦克的角色",
+      "en": "Armor: Tank Destroyer and Tank Roles",
+      "desc_zh": "坦歼侧重硬攻与穿甲，坦克仍有补突破的价值。自行反坦克部队与机动防御按主力车辆选择。\n1.19.4区分营级-75%突破和团支-90%；高硬攻不代表适合所有进攻，堑壕防守与突破攻坚应分开看。",
+      "desc_en": "Tank destroyers emphasize hard attack and piercing; tanks still provide breakthrough. Choose Tank Destroyer Force or Mobile Defense to suit your main vehicles.\nFor TDs, line battalions have a -75% breakthrough modifier and regimental support has -90%. Defensive anti-armor and offensive breakthrough require different designs.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    },
+    {
+      "id": 105,
+      "zh": "作战：大规模强袭 / 渗透",
+      "en": "Operations: Grand Assault / Infiltration Tactics",
+      "desc_zh": "大规模强袭与渗透战术是常用参考路线，按主力打法和可用精通选择。\n主学说人海的作战里程碑另有-15%补给，最低训练等级修正由-5%变为-10%，旧+5%堑壕速度已移除；不要与子学说名称混为一谈。",
+      "desc_en": "Grand Assault and Infiltration Tactics are common choices. Choose for your force and available mastery.\nSeparately, Mass Assault's operations milestone gives -15% supply use. Its minimum training modifier changes from -5% to -10%, and its former +5% entrenchment speed is removed.",
+      "evidence": [
+        "ppt:3-11",
+        "patch:balance",
+        "word:doctrine_preset"
+      ]
+    }
+  ]
+}
