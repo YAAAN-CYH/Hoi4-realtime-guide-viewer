@@ -3,8 +3,6 @@
 
  MMG_naval_doctrine_decision: "Naval Doctrine"
  MMG_naval_doctrine_decision_desc: "Review naval doctrine tradeoffs and recommended naval spirits."
- MMG_ship_design_decision: "Ship Designs"
- MMG_ship_design_decision_desc: "View recommended carriers, capital ships, screens, and carrier aircraft."
 
  MMG_menu_close: "Close"
  MMG_detail_understood: "Understood"
@@ -21,33 +19,3 @@
  MMG_naval_main_d: "The three doctrines differ little. Choose a submarine, screen, battleship, or carrier branch and continue down it. Even mastering the British or US navy may not provide enough mastery for another doctrine. Indoctrinated Aggression at 20 XP can stack attack."
  MMG_naval_spirits_t: "Naval Spirits and Visibility"
  MMG_naval_spirits_d: "Naval Refit Yards greatly speeds repairs and refits. Raiding Fleet Designer lowers visibility, reducing interception risk and combat losses. Lower visibility means greater effectiveness; several useful 50 XP options are also available."
-
-
-
-
-
-
-
-
-
- MMG_ship_menu_t: "Ship Designs - Select a Topic"
- MMG_ship_menu_d: "Capital ships include battleships, battlecruisers, and heavy cruisers. A typical carrier fleet uses about 4 carriers, 4 battleships, 8 light cruisers, and 20 destroyers. Select a topic for designs and examples."
- MMG_ship_menu_opt_fleet: "Carriers and Main Fleet Composition"
- MMG_ship_menu_opt_capital: "Battleship / Battlecruiser"
- MMG_ship_menu_opt_cruiser: "Light Cruisers and Main Screens"
- MMG_ship_menu_opt_dd: "Destroyers"
- MMG_ship_menu_opt_sub: "Submarines and Anti-Submarine Warfare"
- MMG_ship_menu_opt_carair: "Carrier Aircraft"
-
- MMG_ship_fleet_t: "Carriers and Main Fleet Composition"
- MMG_ship_fleet_d: "A 1936 carrier filled with hangars is the standard design. Carriers need capital-ship screening to sortie effectively; use no more carriers than battleships and battlecruisers. A typical fleet is 4 carriers, 4 battleships, 8 light cruisers, and 20 destroyers."
- MMG_ship_capital_t: "Battleship / Battlecruiser"
- MMG_ship_capital_d: "Battleships and battlecruisers differ mainly in armor: battleships are tougher and slower, while battlecruisers are faster and more fragile. Secondary-heavy battleships are cheaper; heavy-gun builds are stronger but costly. Tank battleships absorb damage for carriers."
- MMG_ship_cruiser_t: "Light Cruisers and Main Screens"
- MMG_ship_cruiser_d: "Place 2-3 scout light cruisers in a separate patrol set to Never Engage; they find enemies rather than fight. Main-fleet light cruisers destroy enemy screens and can use advanced fire control. Heavy cruisers are viable but harder to use."
- MMG_ship_dd_t: "Destroyers"
- MMG_ship_dd_d: "Cheap screening destroyers absorb frontline damage and maintain screening efficiency so capital ships and carriers can keep firing. Torpedo destroyers suit a green-water strategy: after light cruisers clear enemy screens, massed torpedoes finish the capital ships behind them."
- MMG_ship_sub_t: "Submarines and Anti-Submarine Warfare"
- MMG_ship_sub_d: "This topic presents ASW configurations rather than submarine designs. For submarines, use at least a 1940 hull, maximize torpedoes, minimize visibility, avoid shallow seas, and deploy enough boats. For ASW, prefer carrier torpedo bombers or naval bombers; ASW destroyers come second."
- MMG_ship_carair_t: "Carrier Aircraft"
- MMG_ship_carair_d: "Carrier designs fall into torpedo/naval bombers and dive/CAS bombers. Torpedo aircraft attack capital ships and submarines; multirole torpedo bombers with heavy machine guns are stronger, while carrier CAS is weaker. A carrier can use only multirole torpedo bombers."

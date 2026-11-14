@@ -1,4 +1,4 @@
-"""Rebuild legacy naval textures; Word army, tank and aircraft assets have separate owners."""
+"""Rebuild the retained PPT naval doctrine textures."""
 
 import argparse
 import io
@@ -9,19 +9,12 @@ import zipfile
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
 
-from design_gallery import DESIGN_PICTURES
-
-
 # IDs refer to ppt/media/imageN.png in the source guide, not slide numbers.
 PICTURES = {
     'naval_menu': [46],
     'naval_main': [46],
     'naval_spirits': [47, 50, 54, 56, 58],
-    'ship_menu': [133],
 }
-
-# Design pages override old collages; each screenshot gets the entire viewport.
-PICTURES.update(DESIGN_PICTURES)
 
 SIZE = (720, 450)
 GAP = 12

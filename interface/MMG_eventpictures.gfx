@@ -1,7 +1,4 @@
-# MMG pictures are rebuilt from original PPT media, not resized legacy DDS files.
-# Each 720x450 RGBA texture fits the left column of EventWindow at native scale.
-# Outer black padding is cropped; unused canvas space is transparent.
-
+# Retained naval doctrine artwork from the original guide.
 spriteTypes = {
 	SpriteType = {
 		name = "GFX_MMG_naval_menu"
@@ -14,33 +11,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_MMG_naval_spirits"
 		texturefile = "gfx/event_pictures/mmg_naval_spirits.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_menu"
-		texturefile = "gfx/event_pictures/mmg_ship_menu.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_fleet"
-		texturefile = "gfx/event_pictures/mmg_ship_fleet.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_capital"
-		texturefile = "gfx/event_pictures/mmg_ship_capital.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_cruiser"
-		texturefile = "gfx/event_pictures/mmg_ship_cruiser.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_dd"
-		texturefile = "gfx/event_pictures/mmg_ship_dd.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_sub"
-		texturefile = "gfx/event_pictures/mmg_ship_sub.dds"
-	}
-	SpriteType = {
-		name = "GFX_MMG_ship_carair"
-		texturefile = "gfx/event_pictures/mmg_ship_carair.dds"
 	}
 }

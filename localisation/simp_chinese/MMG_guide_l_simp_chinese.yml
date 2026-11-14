@@ -3,8 +3,6 @@
 
  MMG_naval_doctrine_decision: "海军学说"
  MMG_naval_doctrine_decision_desc: "查看海军学说的取舍与海军精神推荐。"
- MMG_ship_design_decision: "舰船设计"
- MMG_ship_design_decision_desc: "查看航母、主力舰、屏卫与舰载机设计推荐。"
 
  MMG_menu_close: "关闭"
  MMG_detail_understood: "了解了"
@@ -21,33 +19,3 @@
  MMG_naval_main_d: "三个海军学说差别不大，潜艇、屏卫、战列、航母四系选一个顺眼的往下点即可；刷完英美海军也未必够精通去开别的学说。20XP的灌输侵略可叠攻击。"
  MMG_naval_spirits_t: "海军精神与可见度"
  MMG_naval_spirits_d: "海军整修船坞修船/改船加速很有用；袭击舰队制造商压低可见度，能降低被抓包风险与战斗损失。可见度越低强度越高，50XP内也有实用条目可自选。"
-
-
-
-
-
-
-
-
-
- MMG_ship_menu_t: "舰船设计 · 请选择"
- MMG_ship_menu_d: "主力舰指战列舰、战巡与重巡；典型航母舰队约4航母+4战列舰+8轻巡+20驱逐。选一项查看对应设计建议与配图。"
- MMG_ship_menu_opt_fleet: "航母与主力舰队结构"
- MMG_ship_menu_opt_capital: "战列舰 / 战列巡洋舰"
- MMG_ship_menu_opt_cruiser: "轻巡洋舰与主力屏卫"
- MMG_ship_menu_opt_dd: "驱逐舰"
- MMG_ship_menu_opt_sub: "潜艇与反潜"
- MMG_ship_menu_opt_carair: "航母舰载机"
-
- MMG_ship_fleet_t: "航母与主力舰队结构"
- MMG_ship_fleet_d: "36年航母塞满机库最常见。航母需要主力舰屏卫才能正常出击，航母数量等于或略少于战列/战巡数量；典型配置4航母加4战列舰加8轻巡加20驱逐。"
- MMG_ship_capital_t: "战列舰 / 战列巡洋舰"
- MMG_ship_capital_d: "战列与战巡只差护甲：战列更厚更慢，战巡更快更脆。战列舰叠副炮较便宜，叠重炮更强但造价高；肉盾战列专门替航母扛伤害。"
- MMG_ship_cruiser_t: "轻巡与主力屏卫"
- MMG_ship_cruiser_d: "侦查轻巡单独编队开避免交战巡逻，2到3条就够，负责找人而非打仗；主力轻巡用于融化敌方屏卫，可换先进火控。重巡也能打但玩法门槛较高。"
- MMG_ship_dd_t: "驱逐舰"
- MMG_ship_dd_d: "肉盾驱逐在前排承伤，维持屏卫效率，让主力舰与航母持续输出。鱼雷驱逐是绿水学派武器：轻巡融化屏卫后，由雷驱用大量鱼雷收割后排主力舰。"
- MMG_ship_sub_t: "潜艇与反潜"
- MMG_ship_sub_d: "本条展示的是反潜方案，不是潜艇设计。潜艇建议至少采用40年型船体、装满鱼雷并压低可见度，避开英吉利海峡等浅海，同时保证部署数量；反潜优先使用舰载鱼雷机与海军轰炸机，反潜驱逐舰次之。"
- MMG_ship_carair_t: "航母舰载机"
- MMG_ship_carair_d: "舰载机只有舰攻（鱼雷/海军轰炸机）与舰爆（近距支援机）两类设计。舰攻能打主力舰与潜艇，鱼雷机上重机枪的多功能更强，舰爆较落后；航母可以只塞多功能舰攻。"

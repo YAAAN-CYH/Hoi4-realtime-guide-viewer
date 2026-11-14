@@ -30,6 +30,8 @@ def retire_legacy(root):
     """Remove only old aircraft/air-doctrine definitions; preserve naval pages."""
     for filename in ('MMG_guide_pages.mmg', 'MMG_design_gallery_pages.mmg'):
         path = root / 'tools/page_sources' / filename
+        if not path.exists():
+            continue
         old = path.read_text(encoding='utf-8')
         text = old
         for match in reversed(list(re.finditer(r'^country_event\s*=\s*\{.*?^\}', old, re.M | re.S))):
@@ -44,6 +46,8 @@ def retire_legacy(root):
             path.write_text(text, encoding='utf-8', newline='\n')
     for filename in ('MMG_eventpictures.gfx', 'MMG_design_gallery.gfx'):
         path = root / 'interface' / filename
+        if not path.exists():
+            continue
         old = path.read_text(encoding='utf-8')
         text = re.sub(r'^\tSpriteType\s*=\s*\{\n\t\tname\s*=\s*"GFX_MMG_(?:air|plane)_[^"]*".*?^\t}\n', '', old, flags=re.M | re.S)
         if text != old:
@@ -51,6 +55,8 @@ def retire_legacy(root):
     for language in ('simp_chinese', 'english'):
         for stem in ('MMG_guide', 'MMG_design_gallery'):
             path = root / f'localisation/{language}/{stem}_l_{language}.yml'
+            if not path.exists():
+                continue
             old = path.read_text(encoding='utf-8-sig')
             text = ''.join(line for line in old.splitlines(keepends=True)
                            if not re.match(r' MMG_(?:air|plane)_', line)

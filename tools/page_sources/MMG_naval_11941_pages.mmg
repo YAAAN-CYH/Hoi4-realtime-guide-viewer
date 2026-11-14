@@ -1,0 +1,5383 @@
+# Offline page data. The viewer compiler owns all in-game navigation.
+add_namespace = MMG_guide
+add_namespace = MMG_naval
+
+country_event = {
+	id = MMG_naval.1
+	title = MMG_naval11941_note_1_t
+	desc = MMG_naval11941_note_1_d
+	picture = GFX_MMG_naval11941_note_1
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.2
+	title = MMG_naval11941_note_2_t
+	desc = MMG_naval11941_note_2_d
+	picture = GFX_MMG_naval11941_note_2
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_aircraft
+		country_event = { id = MMG_guide.600 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_guide.700
+	title = MMG_naval11941_index_t
+	desc = MMG_naval11941_index_d
+	picture = GFX_MMG_naval11941_index
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_group_10
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_group_20
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_group_30
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_group_40
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_group_50
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_note_1
+		country_event = { id = MMG_naval.1 }
+	}
+	option = {
+		name = MMG_naval11941_note_2
+		country_event = { id = MMG_naval.2 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.10
+	title = MMG_naval11941_menu_10_t
+	desc = MMG_naval11941_menu_10_d
+	picture = GFX_MMG_naval11941_menu_10
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_01
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_design_02
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_design_03
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_design_04
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.11
+	title = MMG_naval11941_menu_11_t
+	desc = MMG_naval11941_menu_11_d
+	picture = GFX_MMG_naval11941_menu_11
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_05
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_design_06
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_design_07
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_design_08
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.12
+	title = MMG_naval11941_menu_12_t
+	desc = MMG_naval11941_menu_12_d
+	picture = GFX_MMG_naval11941_menu_12
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_09
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_design_10
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.101
+	title = MMG_naval11941_01_full_t
+	desc = MMG_naval11941_01_full_d
+	picture = GFX_MMG_naval11941_01_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.201 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.301 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.201
+	title = MMG_naval11941_01_modules_t
+	desc = MMG_naval11941_01_modules_d
+	picture = GFX_MMG_naval11941_01_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.301 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.301
+	title = MMG_naval11941_01_stats_t
+	desc = MMG_naval11941_01_stats_d
+	picture = GFX_MMG_naval11941_01_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.201 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.102
+	title = MMG_naval11941_02_full_t
+	desc = MMG_naval11941_02_full_d
+	picture = GFX_MMG_naval11941_02_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.202 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.302 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.202
+	title = MMG_naval11941_02_modules_t
+	desc = MMG_naval11941_02_modules_d
+	picture = GFX_MMG_naval11941_02_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.302 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.302
+	title = MMG_naval11941_02_stats_t
+	desc = MMG_naval11941_02_stats_d
+	picture = GFX_MMG_naval11941_02_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.202 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.101 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.103
+	title = MMG_naval11941_03_full_t
+	desc = MMG_naval11941_03_full_d
+	picture = GFX_MMG_naval11941_03_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.203 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.303 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.203
+	title = MMG_naval11941_03_modules_t
+	desc = MMG_naval11941_03_modules_d
+	picture = GFX_MMG_naval11941_03_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.303 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.303
+	title = MMG_naval11941_03_stats_t
+	desc = MMG_naval11941_03_stats_d
+	picture = GFX_MMG_naval11941_03_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.203 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.102 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.104
+	title = MMG_naval11941_04_full_t
+	desc = MMG_naval11941_04_full_d
+	picture = GFX_MMG_naval11941_04_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.204 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.304 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.204
+	title = MMG_naval11941_04_modules_t
+	desc = MMG_naval11941_04_modules_d
+	picture = GFX_MMG_naval11941_04_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.304 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.304
+	title = MMG_naval11941_04_stats_t
+	desc = MMG_naval11941_04_stats_d
+	picture = GFX_MMG_naval11941_04_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.204 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.103 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.10 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.105
+	title = MMG_naval11941_05_full_t
+	desc = MMG_naval11941_05_full_d
+	picture = GFX_MMG_naval11941_05_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.205 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.305 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.205
+	title = MMG_naval11941_05_modules_t
+	desc = MMG_naval11941_05_modules_d
+	picture = GFX_MMG_naval11941_05_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.305 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.305
+	title = MMG_naval11941_05_stats_t
+	desc = MMG_naval11941_05_stats_d
+	picture = GFX_MMG_naval11941_05_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.205 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.104 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.106
+	title = MMG_naval11941_06_full_t
+	desc = MMG_naval11941_06_full_d
+	picture = GFX_MMG_naval11941_06_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.206 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.306 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.206
+	title = MMG_naval11941_06_modules_t
+	desc = MMG_naval11941_06_modules_d
+	picture = GFX_MMG_naval11941_06_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.306 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.306
+	title = MMG_naval11941_06_stats_t
+	desc = MMG_naval11941_06_stats_d
+	picture = GFX_MMG_naval11941_06_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.206 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.105 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.107
+	title = MMG_naval11941_07_full_t
+	desc = MMG_naval11941_07_full_d
+	picture = GFX_MMG_naval11941_07_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.207 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.307 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.207
+	title = MMG_naval11941_07_modules_t
+	desc = MMG_naval11941_07_modules_d
+	picture = GFX_MMG_naval11941_07_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.307 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.307
+	title = MMG_naval11941_07_stats_t
+	desc = MMG_naval11941_07_stats_d
+	picture = GFX_MMG_naval11941_07_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.207 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.106 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.108
+	title = MMG_naval11941_08_full_t
+	desc = MMG_naval11941_08_full_d
+	picture = GFX_MMG_naval11941_08_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.208 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.308 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.208
+	title = MMG_naval11941_08_modules_t
+	desc = MMG_naval11941_08_modules_d
+	picture = GFX_MMG_naval11941_08_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.308 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.308
+	title = MMG_naval11941_08_stats_t
+	desc = MMG_naval11941_08_stats_d
+	picture = GFX_MMG_naval11941_08_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.208 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.107 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.11 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.109
+	title = MMG_naval11941_09_full_t
+	desc = MMG_naval11941_09_full_d
+	picture = GFX_MMG_naval11941_09_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.209 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.309 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.209
+	title = MMG_naval11941_09_modules_t
+	desc = MMG_naval11941_09_modules_d
+	picture = GFX_MMG_naval11941_09_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.309 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.309
+	title = MMG_naval11941_09_stats_t
+	desc = MMG_naval11941_09_stats_d
+	picture = GFX_MMG_naval11941_09_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.209 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.108 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.110
+	title = MMG_naval11941_10_full_t
+	desc = MMG_naval11941_10_full_d
+	picture = GFX_MMG_naval11941_10_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.210 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.310 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.210
+	title = MMG_naval11941_10_modules_t
+	desc = MMG_naval11941_10_modules_d
+	picture = GFX_MMG_naval11941_10_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.310 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.310
+	title = MMG_naval11941_10_stats_t
+	desc = MMG_naval11941_10_stats_d
+	picture = GFX_MMG_naval11941_10_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.110 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.210 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.109 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.12 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.20
+	title = MMG_naval11941_menu_20_t
+	desc = MMG_naval11941_menu_20_d
+	picture = GFX_MMG_naval11941_menu_20
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_11
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_design_12
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_design_13
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_design_14
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.21
+	title = MMG_naval11941_menu_21_t
+	desc = MMG_naval11941_menu_21_d
+	picture = GFX_MMG_naval11941_menu_21
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_15
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_design_16
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_design_17
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_design_18
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.22
+	title = MMG_naval11941_menu_22_t
+	desc = MMG_naval11941_menu_22_d
+	picture = GFX_MMG_naval11941_menu_22
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_19
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_design_20
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_design_21
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.111
+	title = MMG_naval11941_11_full_t
+	desc = MMG_naval11941_11_full_d
+	picture = GFX_MMG_naval11941_11_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.211 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.311 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.211
+	title = MMG_naval11941_11_modules_t
+	desc = MMG_naval11941_11_modules_d
+	picture = GFX_MMG_naval11941_11_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.311 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.311
+	title = MMG_naval11941_11_stats_t
+	desc = MMG_naval11941_11_stats_d
+	picture = GFX_MMG_naval11941_11_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.211 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.112
+	title = MMG_naval11941_12_full_t
+	desc = MMG_naval11941_12_full_d
+	picture = GFX_MMG_naval11941_12_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.212 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.312 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.212
+	title = MMG_naval11941_12_modules_t
+	desc = MMG_naval11941_12_modules_d
+	picture = GFX_MMG_naval11941_12_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.312 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.312
+	title = MMG_naval11941_12_stats_t
+	desc = MMG_naval11941_12_stats_d
+	picture = GFX_MMG_naval11941_12_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.212 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.111 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.113
+	title = MMG_naval11941_13_full_t
+	desc = MMG_naval11941_13_full_d
+	picture = GFX_MMG_naval11941_13_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.213 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.313 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.213
+	title = MMG_naval11941_13_modules_t
+	desc = MMG_naval11941_13_modules_d
+	picture = GFX_MMG_naval11941_13_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.313 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.313
+	title = MMG_naval11941_13_stats_t
+	desc = MMG_naval11941_13_stats_d
+	picture = GFX_MMG_naval11941_13_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.213 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.112 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.114
+	title = MMG_naval11941_14_full_t
+	desc = MMG_naval11941_14_full_d
+	picture = GFX_MMG_naval11941_14_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.214 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.314 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.214
+	title = MMG_naval11941_14_modules_t
+	desc = MMG_naval11941_14_modules_d
+	picture = GFX_MMG_naval11941_14_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.314 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.314
+	title = MMG_naval11941_14_stats_t
+	desc = MMG_naval11941_14_stats_d
+	picture = GFX_MMG_naval11941_14_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.214 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.113 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.20 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.115
+	title = MMG_naval11941_15_full_t
+	desc = MMG_naval11941_15_full_d
+	picture = GFX_MMG_naval11941_15_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.215 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.315 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.215
+	title = MMG_naval11941_15_modules_t
+	desc = MMG_naval11941_15_modules_d
+	picture = GFX_MMG_naval11941_15_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.315 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.315
+	title = MMG_naval11941_15_stats_t
+	desc = MMG_naval11941_15_stats_d
+	picture = GFX_MMG_naval11941_15_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.215 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.114 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.116
+	title = MMG_naval11941_16_full_t
+	desc = MMG_naval11941_16_full_d
+	picture = GFX_MMG_naval11941_16_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.216 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.316 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.216
+	title = MMG_naval11941_16_modules_t
+	desc = MMG_naval11941_16_modules_d
+	picture = GFX_MMG_naval11941_16_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.316 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.316
+	title = MMG_naval11941_16_stats_t
+	desc = MMG_naval11941_16_stats_d
+	picture = GFX_MMG_naval11941_16_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.216 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.115 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.117
+	title = MMG_naval11941_17_full_t
+	desc = MMG_naval11941_17_full_d
+	picture = GFX_MMG_naval11941_17_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.217 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.317 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.217
+	title = MMG_naval11941_17_modules_t
+	desc = MMG_naval11941_17_modules_d
+	picture = GFX_MMG_naval11941_17_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.317 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.317
+	title = MMG_naval11941_17_stats_t
+	desc = MMG_naval11941_17_stats_d
+	picture = GFX_MMG_naval11941_17_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.217 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.116 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.118
+	title = MMG_naval11941_18_full_t
+	desc = MMG_naval11941_18_full_d
+	picture = GFX_MMG_naval11941_18_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.218 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.318 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.218
+	title = MMG_naval11941_18_modules_t
+	desc = MMG_naval11941_18_modules_d
+	picture = GFX_MMG_naval11941_18_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.318 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.318
+	title = MMG_naval11941_18_stats_t
+	desc = MMG_naval11941_18_stats_d
+	picture = GFX_MMG_naval11941_18_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.218 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.117 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.21 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.119
+	title = MMG_naval11941_19_full_t
+	desc = MMG_naval11941_19_full_d
+	picture = GFX_MMG_naval11941_19_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.219 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.319 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.219
+	title = MMG_naval11941_19_modules_t
+	desc = MMG_naval11941_19_modules_d
+	picture = GFX_MMG_naval11941_19_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.319 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.319
+	title = MMG_naval11941_19_stats_t
+	desc = MMG_naval11941_19_stats_d
+	picture = GFX_MMG_naval11941_19_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.219 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.118 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.120
+	title = MMG_naval11941_20_full_t
+	desc = MMG_naval11941_20_full_d
+	picture = GFX_MMG_naval11941_20_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.220 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.320 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.220
+	title = MMG_naval11941_20_modules_t
+	desc = MMG_naval11941_20_modules_d
+	picture = GFX_MMG_naval11941_20_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.320 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.320
+	title = MMG_naval11941_20_stats_t
+	desc = MMG_naval11941_20_stats_d
+	picture = GFX_MMG_naval11941_20_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.220 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.119 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.121
+	title = MMG_naval11941_21_full_t
+	desc = MMG_naval11941_21_full_d
+	picture = GFX_MMG_naval11941_21_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.221 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.321 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.221
+	title = MMG_naval11941_21_modules_t
+	desc = MMG_naval11941_21_modules_d
+	picture = GFX_MMG_naval11941_21_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.321 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.321
+	title = MMG_naval11941_21_stats_t
+	desc = MMG_naval11941_21_stats_d
+	picture = GFX_MMG_naval11941_21_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.121 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.221 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.120 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.22 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.30
+	title = MMG_naval11941_menu_30_t
+	desc = MMG_naval11941_menu_30_d
+	picture = GFX_MMG_naval11941_menu_30
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_22
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_design_23
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_design_24
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_design_25
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.31
+	title = MMG_naval11941_menu_31_t
+	desc = MMG_naval11941_menu_31_d
+	picture = GFX_MMG_naval11941_menu_31
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_26
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_design_27
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_design_28
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_design_29
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.122
+	title = MMG_naval11941_22_full_t
+	desc = MMG_naval11941_22_full_d
+	picture = GFX_MMG_naval11941_22_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.222 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.322 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.222
+	title = MMG_naval11941_22_modules_t
+	desc = MMG_naval11941_22_modules_d
+	picture = GFX_MMG_naval11941_22_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.322 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.322
+	title = MMG_naval11941_22_stats_t
+	desc = MMG_naval11941_22_stats_d
+	picture = GFX_MMG_naval11941_22_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.222 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.123
+	title = MMG_naval11941_23_full_t
+	desc = MMG_naval11941_23_full_d
+	picture = GFX_MMG_naval11941_23_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.223 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.323 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.223
+	title = MMG_naval11941_23_modules_t
+	desc = MMG_naval11941_23_modules_d
+	picture = GFX_MMG_naval11941_23_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.323 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.323
+	title = MMG_naval11941_23_stats_t
+	desc = MMG_naval11941_23_stats_d
+	picture = GFX_MMG_naval11941_23_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.223 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.122 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.124
+	title = MMG_naval11941_24_full_t
+	desc = MMG_naval11941_24_full_d
+	picture = GFX_MMG_naval11941_24_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.224 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.324 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.224
+	title = MMG_naval11941_24_modules_t
+	desc = MMG_naval11941_24_modules_d
+	picture = GFX_MMG_naval11941_24_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.324 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.324
+	title = MMG_naval11941_24_stats_t
+	desc = MMG_naval11941_24_stats_d
+	picture = GFX_MMG_naval11941_24_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.224 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.123 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.125
+	title = MMG_naval11941_25_full_t
+	desc = MMG_naval11941_25_full_d
+	picture = GFX_MMG_naval11941_25_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.225 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.325 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.225
+	title = MMG_naval11941_25_modules_t
+	desc = MMG_naval11941_25_modules_d
+	picture = GFX_MMG_naval11941_25_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.325 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.325
+	title = MMG_naval11941_25_stats_t
+	desc = MMG_naval11941_25_stats_d
+	picture = GFX_MMG_naval11941_25_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.225 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.124 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.30 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.126
+	title = MMG_naval11941_26_full_t
+	desc = MMG_naval11941_26_full_d
+	picture = GFX_MMG_naval11941_26_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.226 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.326 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.226
+	title = MMG_naval11941_26_modules_t
+	desc = MMG_naval11941_26_modules_d
+	picture = GFX_MMG_naval11941_26_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.326 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.326
+	title = MMG_naval11941_26_stats_t
+	desc = MMG_naval11941_26_stats_d
+	picture = GFX_MMG_naval11941_26_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.226 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.125 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.127
+	title = MMG_naval11941_27_full_t
+	desc = MMG_naval11941_27_full_d
+	picture = GFX_MMG_naval11941_27_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.227 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.327 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.227
+	title = MMG_naval11941_27_modules_t
+	desc = MMG_naval11941_27_modules_d
+	picture = GFX_MMG_naval11941_27_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.327 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.327
+	title = MMG_naval11941_27_stats_t
+	desc = MMG_naval11941_27_stats_d
+	picture = GFX_MMG_naval11941_27_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.227 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.126 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.128
+	title = MMG_naval11941_28_full_t
+	desc = MMG_naval11941_28_full_d
+	picture = GFX_MMG_naval11941_28_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.228 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.328 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.228
+	title = MMG_naval11941_28_modules_t
+	desc = MMG_naval11941_28_modules_d
+	picture = GFX_MMG_naval11941_28_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.328 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.328
+	title = MMG_naval11941_28_stats_t
+	desc = MMG_naval11941_28_stats_d
+	picture = GFX_MMG_naval11941_28_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.228 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.127 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.129
+	title = MMG_naval11941_29_full_t
+	desc = MMG_naval11941_29_full_d
+	picture = GFX_MMG_naval11941_29_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.229 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.329 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.229
+	title = MMG_naval11941_29_modules_t
+	desc = MMG_naval11941_29_modules_d
+	picture = GFX_MMG_naval11941_29_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.329 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.329
+	title = MMG_naval11941_29_stats_t
+	desc = MMG_naval11941_29_stats_d
+	picture = GFX_MMG_naval11941_29_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.129 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.229 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.128 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.31 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.40
+	title = MMG_naval11941_menu_40_t
+	desc = MMG_naval11941_menu_40_d
+	picture = GFX_MMG_naval11941_menu_40
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_30
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_design_31
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_design_32
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_design_33
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.41
+	title = MMG_naval11941_menu_41_t
+	desc = MMG_naval11941_menu_41_d
+	picture = GFX_MMG_naval11941_menu_41
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_34
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_design_35
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_design_36
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_design_37
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.130
+	title = MMG_naval11941_30_full_t
+	desc = MMG_naval11941_30_full_d
+	picture = GFX_MMG_naval11941_30_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.230 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.330 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.230
+	title = MMG_naval11941_30_modules_t
+	desc = MMG_naval11941_30_modules_d
+	picture = GFX_MMG_naval11941_30_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.330 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.330
+	title = MMG_naval11941_30_stats_t
+	desc = MMG_naval11941_30_stats_d
+	picture = GFX_MMG_naval11941_30_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.230 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.131
+	title = MMG_naval11941_31_full_t
+	desc = MMG_naval11941_31_full_d
+	picture = GFX_MMG_naval11941_31_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.231 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.331 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.231
+	title = MMG_naval11941_31_modules_t
+	desc = MMG_naval11941_31_modules_d
+	picture = GFX_MMG_naval11941_31_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.331 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.331
+	title = MMG_naval11941_31_stats_t
+	desc = MMG_naval11941_31_stats_d
+	picture = GFX_MMG_naval11941_31_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.231 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.130 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.132
+	title = MMG_naval11941_32_full_t
+	desc = MMG_naval11941_32_full_d
+	picture = GFX_MMG_naval11941_32_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.232 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.332 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.232
+	title = MMG_naval11941_32_modules_t
+	desc = MMG_naval11941_32_modules_d
+	picture = GFX_MMG_naval11941_32_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.332 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.332
+	title = MMG_naval11941_32_stats_t
+	desc = MMG_naval11941_32_stats_d
+	picture = GFX_MMG_naval11941_32_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.232 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.131 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.133
+	title = MMG_naval11941_33_full_t
+	desc = MMG_naval11941_33_full_d
+	picture = GFX_MMG_naval11941_33_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.233 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.333 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.233
+	title = MMG_naval11941_33_modules_t
+	desc = MMG_naval11941_33_modules_d
+	picture = GFX_MMG_naval11941_33_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.333 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.333
+	title = MMG_naval11941_33_stats_t
+	desc = MMG_naval11941_33_stats_d
+	picture = GFX_MMG_naval11941_33_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.233 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.132 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.40 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.134
+	title = MMG_naval11941_34_full_t
+	desc = MMG_naval11941_34_full_d
+	picture = GFX_MMG_naval11941_34_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.234 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.334 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.234
+	title = MMG_naval11941_34_modules_t
+	desc = MMG_naval11941_34_modules_d
+	picture = GFX_MMG_naval11941_34_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.334 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.334
+	title = MMG_naval11941_34_stats_t
+	desc = MMG_naval11941_34_stats_d
+	picture = GFX_MMG_naval11941_34_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.234 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.133 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.135
+	title = MMG_naval11941_35_full_t
+	desc = MMG_naval11941_35_full_d
+	picture = GFX_MMG_naval11941_35_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.235 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.335 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.235
+	title = MMG_naval11941_35_modules_t
+	desc = MMG_naval11941_35_modules_d
+	picture = GFX_MMG_naval11941_35_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.335 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.335
+	title = MMG_naval11941_35_stats_t
+	desc = MMG_naval11941_35_stats_d
+	picture = GFX_MMG_naval11941_35_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.235 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.134 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.136
+	title = MMG_naval11941_36_full_t
+	desc = MMG_naval11941_36_full_d
+	picture = GFX_MMG_naval11941_36_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.236 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.336 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.236
+	title = MMG_naval11941_36_modules_t
+	desc = MMG_naval11941_36_modules_d
+	picture = GFX_MMG_naval11941_36_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.336 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.336
+	title = MMG_naval11941_36_stats_t
+	desc = MMG_naval11941_36_stats_d
+	picture = GFX_MMG_naval11941_36_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.236 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.135 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.137
+	title = MMG_naval11941_37_full_t
+	desc = MMG_naval11941_37_full_d
+	picture = GFX_MMG_naval11941_37_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.237 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.337 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.237
+	title = MMG_naval11941_37_modules_t
+	desc = MMG_naval11941_37_modules_d
+	picture = GFX_MMG_naval11941_37_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.337 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.337
+	title = MMG_naval11941_37_stats_t
+	desc = MMG_naval11941_37_stats_d
+	picture = GFX_MMG_naval11941_37_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.137 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.237 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.136 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.41 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.50
+	title = MMG_naval11941_menu_50_t
+	desc = MMG_naval11941_menu_50_d
+	picture = GFX_MMG_naval11941_menu_50
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_38
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_design_39
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_design_40
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_design_41
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.51
+	title = MMG_naval11941_menu_51_t
+	desc = MMG_naval11941_menu_51_d
+	picture = GFX_MMG_naval11941_menu_51
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_42
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_design_43
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_design_44
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_design_45
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_menu_next
+		country_event = { id = MMG_naval.52 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.52
+	title = MMG_naval11941_menu_52_t
+	desc = MMG_naval11941_menu_52_d
+	picture = GFX_MMG_naval11941_menu_52
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_design_46
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_menu_prev
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.138
+	title = MMG_naval11941_38_full_t
+	desc = MMG_naval11941_38_full_d
+	picture = GFX_MMG_naval11941_38_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.238 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.338 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.238
+	title = MMG_naval11941_38_modules_t
+	desc = MMG_naval11941_38_modules_d
+	picture = GFX_MMG_naval11941_38_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.338 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.338
+	title = MMG_naval11941_38_stats_t
+	desc = MMG_naval11941_38_stats_d
+	picture = GFX_MMG_naval11941_38_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.238 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.139
+	title = MMG_naval11941_39_full_t
+	desc = MMG_naval11941_39_full_d
+	picture = GFX_MMG_naval11941_39_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.239 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.339 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.239
+	title = MMG_naval11941_39_modules_t
+	desc = MMG_naval11941_39_modules_d
+	picture = GFX_MMG_naval11941_39_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.339 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.339
+	title = MMG_naval11941_39_stats_t
+	desc = MMG_naval11941_39_stats_d
+	picture = GFX_MMG_naval11941_39_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.239 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.138 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.140
+	title = MMG_naval11941_40_full_t
+	desc = MMG_naval11941_40_full_d
+	picture = GFX_MMG_naval11941_40_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.240 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.340 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.240
+	title = MMG_naval11941_40_modules_t
+	desc = MMG_naval11941_40_modules_d
+	picture = GFX_MMG_naval11941_40_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.340 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.340
+	title = MMG_naval11941_40_stats_t
+	desc = MMG_naval11941_40_stats_d
+	picture = GFX_MMG_naval11941_40_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.240 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.139 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.141
+	title = MMG_naval11941_41_full_t
+	desc = MMG_naval11941_41_full_d
+	picture = GFX_MMG_naval11941_41_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.241 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.341 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.241
+	title = MMG_naval11941_41_modules_t
+	desc = MMG_naval11941_41_modules_d
+	picture = GFX_MMG_naval11941_41_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.341 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.341
+	title = MMG_naval11941_41_stats_t
+	desc = MMG_naval11941_41_stats_d
+	picture = GFX_MMG_naval11941_41_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.241 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.140 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.50 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.142
+	title = MMG_naval11941_42_full_t
+	desc = MMG_naval11941_42_full_d
+	picture = GFX_MMG_naval11941_42_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.242 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.342 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.242
+	title = MMG_naval11941_42_modules_t
+	desc = MMG_naval11941_42_modules_d
+	picture = GFX_MMG_naval11941_42_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.342 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.342
+	title = MMG_naval11941_42_stats_t
+	desc = MMG_naval11941_42_stats_d
+	picture = GFX_MMG_naval11941_42_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.242 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.141 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.143
+	title = MMG_naval11941_43_full_t
+	desc = MMG_naval11941_43_full_d
+	picture = GFX_MMG_naval11941_43_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.243 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.343 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.243
+	title = MMG_naval11941_43_modules_t
+	desc = MMG_naval11941_43_modules_d
+	picture = GFX_MMG_naval11941_43_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.343 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.343
+	title = MMG_naval11941_43_stats_t
+	desc = MMG_naval11941_43_stats_d
+	picture = GFX_MMG_naval11941_43_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.243 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.142 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.144
+	title = MMG_naval11941_44_full_t
+	desc = MMG_naval11941_44_full_d
+	picture = GFX_MMG_naval11941_44_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.244 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.344 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.244
+	title = MMG_naval11941_44_modules_t
+	desc = MMG_naval11941_44_modules_d
+	picture = GFX_MMG_naval11941_44_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.344 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.344
+	title = MMG_naval11941_44_stats_t
+	desc = MMG_naval11941_44_stats_d
+	picture = GFX_MMG_naval11941_44_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.244 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.143 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.145
+	title = MMG_naval11941_45_full_t
+	desc = MMG_naval11941_45_full_d
+	picture = GFX_MMG_naval11941_45_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.245 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.345 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.245
+	title = MMG_naval11941_45_modules_t
+	desc = MMG_naval11941_45_modules_d
+	picture = GFX_MMG_naval11941_45_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.345 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.345
+	title = MMG_naval11941_45_stats_t
+	desc = MMG_naval11941_45_stats_d
+	picture = GFX_MMG_naval11941_45_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.245 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.144 }
+	}
+	option = {
+		name = MMG_naval11941_next
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.51 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.146
+	title = MMG_naval11941_46_full_t
+	desc = MMG_naval11941_46_full_d
+	picture = GFX_MMG_naval11941_46_full
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.246 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.346 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.52 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.246
+	title = MMG_naval11941_46_modules_t
+	desc = MMG_naval11941_46_modules_d
+	picture = GFX_MMG_naval11941_46_modules
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_stats
+		country_event = { id = MMG_naval.346 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.52 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}
+
+country_event = {
+	id = MMG_naval.346
+	title = MMG_naval11941_46_stats_t
+	desc = MMG_naval11941_46_stats_d
+	picture = GFX_MMG_naval11941_46_stats
+	is_triggered_only = yes
+
+	option = {
+		name = MMG_naval11941_full
+		country_event = { id = MMG_naval.146 }
+	}
+	option = {
+		name = MMG_naval11941_modules
+		country_event = { id = MMG_naval.246 }
+	}
+	option = {
+		name = MMG_naval11941_prev
+		country_event = { id = MMG_naval.145 }
+	}
+	option = {
+		name = MMG_naval11941_group
+		country_event = { id = MMG_naval.52 }
+	}
+	option = {
+		name = MMG_naval11941_index
+		country_event = { id = MMG_guide.700 }
+	}
+	option = {
+		name = MMG_naval11941_close
+	}
+}

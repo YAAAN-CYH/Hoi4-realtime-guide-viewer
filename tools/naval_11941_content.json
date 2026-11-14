@@ -1,0 +1,767 @@
+{
+  "source_name": "1.19.4.1海军更新.docx",
+  "source_sha256": "720f6b284c95f3ce0d1bccfec0ddf5db835179a6cfe90b91ca677e5508e20c9b",
+  "groups": [
+    {
+      "id": 10,
+      "title": [
+        "潜艇",
+        "Submarines"
+      ],
+      "designs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 20,
+      "title": [
+        "驱逐舰",
+        "Destroyers"
+      ],
+      "designs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": 30,
+      "title": [
+        "巡洋舰",
+        "Cruisers"
+      ],
+      "designs": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "id": 40,
+      "title": [
+        "战列舰与超重型战舰",
+        "Battleships and Super-Heavies"
+      ],
+      "designs": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": 50,
+      "title": [
+        "航母与护航航母",
+        "Carriers and Escort Carriers"
+      ],
+      "designs": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": [
+        "解锁、航程与支援舰",
+        "Research, Range and Support Ships"
+      ],
+      "description": [
+        "部分船体、消声瓦、无氧推进器和超重组件来自海军专项科研或后续科技。导弹潜艇没有配套设计图。袖珍潜艇的500公里航程适合近海，能覆盖哪些海域取决于基地。支援船可延伸舰队航程，维修船可降低严重战损风险。两者使用现成型号直接建造。",
+        "Naval special projects and follow-up techs unlock specialist hulls and modules. No conventional missile-submarine design is listed. A 500 km midget sub needs a nearby base. Support ships extend fleet range, while repair ships help limit severe damage. Build these two support types from their existing models."
+      ]
+    },
+    {
+      "id": 2,
+      "title": [
+        "载机量、出击与舰载机",
+        "Carrier Capacity and Sorties"
+      ],
+      "description": [
+        "单甲板护航航母基础搭载10架。合适的制造商采用高空间利用率设计后可达到20架。载机量与实战出击规模分开看，后者受对手舰队、出击效率等条件影响。潜水航母的舰载机可执行航母空中任务。哈巴库克可部署非舰载型飞机，具体机型看部署列表。",
+        "A single-deck escort carrier holds 10 aircraft, or 20 with Space Efficient Design from an eligible MIO. Check the opposing fleet and sortie efficiency when judging combat sorties. Submarine carriers can fly carrier air missions. Habakkuk accepts non-carrier aircraft listed in its deployment menu."
+      ]
+    }
+  ],
+  "designs": [
+    {
+      "id": 1,
+      "title": [
+        "1936 基础潜艇",
+        "1936 Basic Submarine"
+      ],
+      "source_member": "word/media/image1.png",
+      "source_sha256": "9187b2607cee045975f561c763a6f70a6a21ccc8e5a39da84b192b1321374f68",
+      "cost": 618,
+      "description": [
+        "2组潜艇鱼雷发射管II、潜艇引擎II。图示航程2500公里，适合前期从近海基地袭击运输船。",
+        "Two Submarine Torpedo Tubes II and Submarine Engine II. The shown range is 2,500 km. Use nearby bases for early convoy raiding."
+      ]
+    },
+    {
+      "id": 2,
+      "title": [
+        "1940 潜艇 · 通气管",
+        "1940 Submarine: Schnorkel"
+      ],
+      "source_member": "word/media/image2.png",
+      "source_sha256": "614b888c083a8c06a0ba5ed46d73f3b1c1ad9037f35d90e3c5264b91a73104bb",
+      "cost": 954,
+      "description": [
+        "3组潜艇鱼雷发射管III、浮控阀通气管、潜艇引擎III。图示航程3000公里、鱼雷攻击72。",
+        "Three Submarine Torpedo Tubes III, a Basic Schnorkel and Submarine Engine III. Shown range is 3,000 km and torpedo attack is 72."
+      ]
+    },
+    {
+      "id": 3,
+      "title": [
+        "1940 潜艇 · 消声瓦",
+        "1940 Submarine: Anechoic Tiles"
+      ],
+      "source_member": "word/media/image3.png",
+      "source_sha256": "5478ef59c08fb41f2d9edae318a9ebf8ff9ef0463582b3c2fcd9e99192b40f1a",
+      "cost": 1092,
+      "description": [
+        "3组潜艇鱼雷发射管III、消声瓦、潜艇引擎III。消声瓦由海军专项科研解锁，降低水下可见度，同时消耗橡胶并增加造价。",
+        "Three Submarine Torpedo Tubes III, Anechoic Tiles and Submarine Engine III. The special project unlocks tiles that reduce submarine visibility at the cost of rubber and production."
+      ]
+    },
+    {
+      "id": 4,
+      "title": [
+        "1944 潜艇 · 沃尔特引擎",
+        "1944 Submarine: Walter Engine"
+      ],
+      "source_member": "word/media/image4.png",
+      "source_sha256": "2670e266aabaa4cee7c7b896a32484e8d7900458dce0656a7138493b6d43d0bd",
+      "cost": 1552,
+      "description": [
+        "3组潜艇鱼雷发射管IV、消声瓦、高速沃尔特引擎。通过海军科技解锁无氧推进III，本版本该引擎不减航程。图示航程3500公里。",
+        "Three Submarine Torpedo Tubes IV, Anechoic Tiles and High Speed Walter Engines. The naval tech unlocks AIP III. This engine carries no range penalty here, and the shown range is 3,500 km."
+      ]
+    },
+    {
+      "id": 5,
+      "title": [
+        "袖珍潜艇 · 顶配",
+        "Midget Submarine: High Spec"
+      ],
+      "source_member": "word/media/image5.png",
+      "source_sha256": "6f9256c03abb8cb9a0ed02301dcaad570d81ed7048bc034702008db9f6de5c83",
+      "cost": 391,
+      "description": [
+        "潜艇鱼雷发射管IV、高速沃尔特引擎。图示航程500公里、鱼雷攻击30，适合贴近基地的低成本消耗战。",
+        "Submarine Torpedo Tubes IV and High Speed Walter Engines. The shown range is 500 km and torpedo attack is 30. Use it for low-cost attrition near a base."
+      ]
+    },
+    {
+      "id": 6,
+      "title": [
+        "袖珍潜艇 · 低成本",
+        "Midget Submarine: Economy"
+      ],
+      "source_member": "word/media/image6.png",
+      "source_sha256": "17cd537475ae4a3bc55d7885571465a1831252acd2694036af6c4190c90a9b7a",
+      "cost": 310,
+      "description": [
+        "潜艇鱼雷发射管III、潜艇引擎III。仍是500公里航程，图示鱼雷攻击24，以较低造价换取数量。",
+        "Submarine Torpedo Tubes III and Submarine Engine III. The range remains 500 km, with 24 torpedo attack at a lower production cost."
+      ]
+    },
+    {
+      "id": 7,
+      "title": [
+        "巡洋潜艇",
+        "Cruiser Submarine"
+      ],
+      "source_member": "word/media/image7.png",
+      "source_sha256": "53222b32df669f47d8aed074e52a10ad56c82f7d86a3293b3c1edebc100f88ac",
+      "cost": 1275,
+      "description": [
+        "3组潜艇鱼雷发射管III、消声瓦、无氧推进I。对应专项科研船体，图示航程1700公里。",
+        "Three Submarine Torpedo Tubes III, Anechoic Tiles and Air-Independent Propulsion I on a special-project hull. The shown range is 1,700 km."
+      ]
+    },
+    {
+      "id": 8,
+      "title": [
+        "舰队潜艇",
+        "Fleet Submarine"
+      ],
+      "source_member": "word/media/image8.png",
+      "source_sha256": "66df7e7f3e80bef4bae4483973e6a0c5a303bae79d189ba851b002c756d8d825",
+      "cost": 1712,
+      "description": [
+        "3组潜艇鱼雷发射管IV、消声瓦、高速沃尔特引擎。图示航程6500公里，适合比普通1944潜艇更远的任务区。",
+        "Three Submarine Torpedo Tubes IV, Anechoic Tiles and High Speed Walter Engines. Shown range is 6,500 km, compared with 3,500 km for the 1944 example."
+      ]
+    },
+    {
+      "id": 9,
+      "title": [
+        "潜水航母",
+        "Submarine Carrier"
+      ],
+      "source_member": "word/media/image9.png",
+      "source_sha256": "8c2aaf384e46e983f7e795b993a00d1c1098e5eed0fec47fb1293e64bf92b3e7",
+      "cost": 2368,
+      "description": [
+        "2组潜艇鱼雷发射管IV、消声瓦、潜水航母机库、高速沃尔特引擎。可派舰载机执行航母空中任务，舰体本身仍以潜艇方式参加海战。",
+        "Two Submarine Torpedo Tubes IV, Anechoic Tiles, a Submarine Carrier Hangar and High Speed Walter Engines. Its carrier aircraft can fly carrier air missions. The hull fights as a submarine."
+      ]
+    },
+    {
+      "id": 10,
+      "title": [
+        "核潜艇 · 核导弹",
+        "Nuclear Submarine: Nuclear Missile"
+      ],
+      "source_member": "word/media/image10.png",
+      "source_sha256": "56d4cbb449bb9f192ba5ac93fa361ff6545bd39fe46c86bfc8389d186789f584",
+      "cost": 5355,
+      "description": [
+        "3组潜艇鱼雷发射管IV、消声瓦、核导弹发射器、核动力反应堆。解锁并满足核袭击条件后，可选该艇执行相应袭击。图示航程10000公里。",
+        "Three Submarine Torpedo Tubes IV, Anechoic Tiles, a nuclear missile launcher and a nuclear reactor. Once the nuclear raid requirements are met, select the submarine for the raid. Shown range is 10,000 km."
+      ]
+    },
+    {
+      "id": 11,
+      "title": [
+        "早期驱逐舰 · 低成本屏卫",
+        "Early Destroyer: Budget Screen"
+      ],
+      "source_member": "word/media/image11.png",
+      "source_sha256": "26d000937c86dc678ae8a5d51df4919441d3842fc1d0f9ec6c134245087ef20a",
+      "cost": 551,
+      "description": [
+        "轻炮I、驱逐舰引擎I，其他槽留空。用低造价维持屏卫数量并分担伤害。",
+        "Light Battery I and Destroyer Engine I. Leave the other slots empty to field inexpensive screens and spread incoming damage."
+      ]
+    },
+    {
+      "id": 12,
+      "title": [
+        "1936 驱逐舰 · 低成本屏卫",
+        "1936 Destroyer: Budget Screen"
+      ],
+      "source_member": "word/media/image12.png",
+      "source_sha256": "2919b71dcd8bb738d1de0bb2272dd0e256ec2575f1226962a318c41ea8289693",
+      "cost": 713,
+      "description": [
+        "轻炮II、驱逐舰引擎II，其他槽留空。适合补充屏卫数量。",
+        "Light Battery II and Destroyer Engine II, with other slots empty. Use it to replenish the screen line."
+      ]
+    },
+    {
+      "id": 13,
+      "title": [
+        "1936 驱逐舰 · 反潜",
+        "1936 Destroyer: ASW"
+      ],
+      "source_member": "word/media/image13.png",
+      "source_sha256": "5ecaa12d3ddf2d51ac20c91d002777f1f23bf5e04055eda8a74d8a3ac1991596",
+      "cost": 1058,
+      "description": [
+        "轻炮II、驱逐舰引擎II、水听器II及2组深水炸弹投掷器II。图示深水炸弹攻击27、对潜探测16.5。",
+        "Light Battery II, Destroyer Engine II, Sonar II and two Depth Charge Throwers II. The design shows 27 depth-charge attack and 16.5 sub detection."
+      ]
+    },
+    {
+      "id": 14,
+      "title": [
+        "1936 驱逐舰 · 鱼雷",
+        "1936 Destroyer: Torpedoes"
+      ],
+      "source_member": "word/media/image14.png",
+      "source_sha256": "748792664880a817055017362fb11ad4f1816f2949abb83cae81da4c2fbf2bdc",
+      "cost": 1127,
+      "description": [
+        "轻炮II、驱逐舰引擎II、3组鱼雷发射器II。用鱼雷威胁失去屏卫的敌方主力舰。",
+        "Light Battery II, Destroyer Engine II and three Torpedo Launchers II. Threaten enemy capital ships after their screens are cleared."
+      ]
+    },
+    {
+      "id": 15,
+      "title": [
+        "1936 驱逐舰 · 侦察",
+        "1936 Destroyer: Patrol"
+      ],
+      "source_member": "word/media/image15.png",
+      "source_sha256": "f32f0b067d8a9e670370221cb05da41578c25e2ddb416f865a45db7aaae4cedf",
+      "cost": 885,
+      "description": [
+        "轻炮II、驱逐舰引擎II、2组改进型水上飞机弹射器。编入巡逻队查找敌舰，避免让侦察队独自接战。",
+        "Light Battery II, Destroyer Engine II and two Improved Floatplane Catapults. Use the ship to spot enemy fleets on patrol and avoid unsupported engagements."
+      ]
+    },
+    {
+      "id": 16,
+      "title": [
+        "1940 驱逐舰 · 低成本屏卫",
+        "1940 Destroyer: Budget Screen"
+      ],
+      "source_member": "word/media/image16.png",
+      "source_sha256": "bc91b0ff5fc4500e66e6a51642b1bb7a3d3434f8fb44ccbce9c9d26820783cc3",
+      "cost": 822,
+      "description": [
+        "轻炮III、驱逐舰引擎III，其他槽留空。该船体的舰首与舰尾可选槽不能装水上飞机，侦察方案继续参考1936型。",
+        "Light Battery III and Destroyer Engine III, with other slots empty. The bow and stern optional slots cannot mount floatplanes. See the 1936 hull for the patrol build."
+      ]
+    },
+    {
+      "id": 17,
+      "title": [
+        "1940 驱逐舰 · 反潜",
+        "1940 Destroyer: ASW"
+      ],
+      "source_member": "word/media/image17.png",
+      "source_sha256": "b6e4ec772551d006188d474d48e109402c0fe1fa9c183c5ed3c78f7fe9fd76fe",
+      "cost": 1421,
+      "description": [
+        "轻炮III、驱逐舰引擎III、水听器II和3组深水炸弹投掷器III。研发雷达II后可加装，提高对潜探测。",
+        "Light Battery III, Destroyer Engine III, Sonar II and three Depth Charge Throwers III. Add Radar II when available to improve sub detection."
+      ]
+    },
+    {
+      "id": 18,
+      "title": [
+        "1940 驱逐舰 · 鱼雷",
+        "1940 Destroyer: Torpedoes"
+      ],
+      "source_member": "word/media/image18.png",
+      "source_sha256": "79d3140c034485c82a8fcd1b214a9d69390d181ceebb8d923f4ff495aa90d3aa",
+      "cost": 1480,
+      "description": [
+        "轻炮III、防空炮II、驱逐舰引擎III、3组鱼雷发射器III。图示鱼雷攻击108。",
+        "Light Battery III, Anti-Air II, Destroyer Engine III and three Torpedo Launchers III. The design shows 108 torpedo attack."
+      ]
+    },
+    {
+      "id": 19,
+      "title": [
+        "1944 驱逐舰 · 低成本屏卫",
+        "1944 Destroyer: Budget Screen"
+      ],
+      "source_member": "word/media/image19.png",
+      "source_sha256": "08e0410cc7b1fd92d4f742792d61c29963e65ccd1d8faa9dfb1bc6a3d172f22d",
+      "cost": 930,
+      "description": [
+        "轻炮IV、驱逐舰引擎IV，其余槽留空。图示航速38.7节。",
+        "Light Battery IV and Destroyer Engine IV, with other slots empty. The design shows a speed of 38.7 knots."
+      ]
+    },
+    {
+      "id": 20,
+      "title": [
+        "1944 驱逐舰 · 鱼雷",
+        "1944 Destroyer: Torpedoes"
+      ],
+      "source_member": "word/media/image20.png",
+      "source_sha256": "dafc131bdfe142ad2402e31340ba30556de1721053bbd480c64f61d7955f0609",
+      "cost": 1794,
+      "description": [
+        "轻炮IV、驱逐舰引擎IV、4组鱼雷发射器IV。图示鱼雷攻击172.8。",
+        "Light Battery IV, Destroyer Engine IV and four Torpedo Launchers IV. The design shows 172.8 torpedo attack."
+      ]
+    },
+    {
+      "id": 21,
+      "title": [
+        "1944 驱逐舰 · 反潜",
+        "1944 Destroyer: ASW"
+      ],
+      "source_member": "word/media/image21.png",
+      "source_sha256": "58afe63e82009557f5067090c47829ce96d0fdc9f745b3ab3f131bd7de2234c5",
+      "cost": 2142,
+      "description": [
+        "轻炮IV、驱逐舰引擎IV、水听器IV、雷达IV、4组深水炸弹投掷器IV。图示对潜探测41.8。",
+        "Light Battery IV, Destroyer Engine IV, Sonar IV, Radar IV and four Depth Charge Throwers IV. The design shows 41.8 sub detection."
+      ]
+    },
+    {
+      "id": 22,
+      "title": [
+        "1936 巡洋舰 · 轻炮",
+        "1936 Cruiser: Light Guns"
+      ],
+      "source_member": "word/media/image22.png",
+      "source_sha256": "86bfc20b4524392853fc1944ec29bfc3cd5dab38c6e864e620beb3b1bc99d0d9",
+      "cost": 4542,
+      "description": [
+        "5门轻巡主炮II、副炮组II、火控0、巡洋舰引擎II。用于1936阶段清理屏卫，后续可比较高平两用炮。",
+        "Five Light Cruiser Batteries II, Secondary Battery II, Fire Control 0 and Cruiser Engine II. Use it to clear early screens, then compare dual-purpose designs."
+      ]
+    },
+    {
+      "id": 23,
+      "title": [
+        "1936 巡洋舰 · 无甲重巡",
+        "1936 Heavy Cruiser: Unarmored"
+      ],
+      "source_member": "word/media/image23.png",
+      "source_sha256": "35ab18fa812e1f6ccb7e58743c48339f071e6104569f2409192f5beb35e862dd",
+      "cost": 5738,
+      "description": [
+        "3门重巡主炮II、3组副炮II、防空炮II、火控0、雷达I、巡洋舰引擎II。图示不装甲。面对穿甲27.5的对手，厚度12的装甲无法避免被击穿。",
+        "Three Heavy Cruiser Batteries II, three Secondary Batteries II, Anti-Air II, Fire Control 0, Radar I and Cruiser Engine II. No armor is fitted. A 12-armor option would still be pierced by 27.5 piercing."
+      ]
+    },
+    {
+      "id": 24,
+      "title": [
+        "1936 巡洋舰 · 侦察",
+        "1936 Light Cruiser: Patrol"
+      ],
+      "source_member": "word/media/image24.png",
+      "source_sha256": "603ca1ea6472d404893850274c655fd13447e9b7776a4a6f5191b43af8c0b97e",
+      "cost": 3243,
+      "description": [
+        "轻巡主炮II、火控0、巡洋舰引擎II、3组改进型水上飞机弹射器。单独编队执行巡逻并设为禁止交战，发现目标后交给主力舰队。",
+        "Light Cruiser Battery II, Fire Control 0, Cruiser Engine II and three Improved Floatplane Catapults. Use a separate patrol on Never Engage and let the strike force fight."
+      ]
+    },
+    {
+      "id": 25,
+      "title": [
+        "1940 重巡 · 副炮",
+        "1940 Heavy Cruiser: Secondaries"
+      ],
+      "source_member": "word/media/image25.png",
+      "source_sha256": "8d4d7f31d21ce61c0b7109cae85a840d6d7e4d4c36ec9370831dccdbaa18818e",
+      "cost": 4241,
+      "description": [
+        "重巡主炮III、3组副炮II、火控II、巡洋舰引擎III。以副炮清理屏卫，保留单门重巡主炮维持重巡定位。",
+        "One Heavy Cruiser Battery III, three Secondary Batteries II, Fire Control II and Cruiser Engine III. Secondaries engage screens while the main gun keeps the heavy cruiser role."
+      ]
+    },
+    {
+      "id": 26,
+      "title": [
+        "1940 重巡 · 重炮",
+        "1940 Heavy Cruiser: Heavy Guns"
+      ],
+      "source_member": "word/media/image26.png",
+      "source_sha256": "2426bb1cf2f3bc808c4f376fc4e1137d6c84191a93dc5d42b4f726b3759336dd",
+      "cost": 6926,
+      "description": [
+        "4门重巡主炮III、3组副炮II、防空炮II、火控II、巡洋舰引擎III。未装甲，侧重重炮输出。",
+        "Four Heavy Cruiser Batteries III, three Secondary Batteries II, Anti-Air II, Fire Control II and Cruiser Engine III. This unarmored design emphasizes heavy attack."
+      ]
+    },
+    {
+      "id": 27,
+      "title": [
+        "1944 轻巡 · 高平两用炮",
+        "1944 Light Cruiser: Dual Purpose"
+      ],
+      "source_member": "word/media/image27.png",
+      "source_sha256": "6523ca4dd53df190e09fc9c832a88e926c7fb5ead719fd65fb47d2f105f4a83b",
+      "cost": 8243,
+      "description": [
+        "6门高平两用主炮IV、防空炮II、火控III、雷达IV、巡洋舰引擎IV和巡洋舰装甲IV。作为屏卫，按敌方穿甲与空袭压力调整装甲和防空。",
+        "Six Dual-Purpose Main Batteries IV, Anti-Air II, Fire Control III, Radar IV, Cruiser Engine IV and Cruiser Armor IV. Tune armor and AA to enemy piercing and air pressure."
+      ]
+    },
+    {
+      "id": 28,
+      "title": [
+        "1944 重巡 · 重炮",
+        "1944 Heavy Cruiser: Heavy Guns"
+      ],
+      "source_member": "word/media/image28.png",
+      "source_sha256": "109b3d2fb3c29d5937d8a86c95658c60dd782ad1734091895ea731b7026f2151",
+      "cost": 10012,
+      "description": [
+        "4门重巡主炮IV、3组高平两用副炮IV、防空炮II、火控III、雷达IV、巡洋舰引擎IV和装甲IV。图示装甲12，后排方案可另行比较无甲造价。",
+        "Four Heavy Cruiser Batteries IV, three Dual-Purpose Secondary Batteries IV, Anti-Air II, Fire Control III, Radar IV, Cruiser Engine IV and Armor IV. The shown armor is 12. Compare the unarmored cost for back-line duty."
+      ]
+    },
+    {
+      "id": 29,
+      "title": [
+        "重雷装巡洋舰",
+        "Heavy Torpedo Cruiser"
+      ],
+      "source_member": "word/media/image29.png",
+      "source_sha256": "9c1b134bcb85bce30cdb5f369c93f75e992e3311ecdb2a0a54277de7606caa80",
+      "cost": 5669,
+      "description": [
+        "4组鱼雷发射器IV、2组防空炮IV、轻巡主炮III、火控III、雷达IV、巡洋舰引擎IV、高平两用副炮IV和装甲IV。中间可选槽仅装鱼雷或防空。",
+        "Four Torpedo Launchers IV, two Anti-Air IV, Light Cruiser Battery III, Fire Control III, Radar IV, Cruiser Engine IV, Dual-Purpose Secondary Battery IV and Armor IV. Middle slots accept torpedoes or AA."
+      ]
+    },
+    {
+      "id": 30,
+      "title": [
+        "1936 战列舰 · 重炮",
+        "1936 Battleship: Heavy Guns"
+      ],
+      "source_member": "word/media/image30.png",
+      "source_sha256": "fade85cf65bd7ede0d0c8ae8be39f81febdc1f2e120a2d272e6f00b05fb17fa9",
+      "cost": 11349,
+      "description": [
+        "3门重炮II、3组副炮II、火控0、重型引擎II和战列舰装甲II。图示防空槽为空，遭遇空袭时可按需加装防空炮。",
+        "Three Heavy Batteries II, three Secondary Batteries II, Fire Control 0, Heavy Engine II and Battleship Armor II. The shown AA slot is empty. Add AA if enemy aircraft are a threat."
+      ]
+    },
+    {
+      "id": 31,
+      "title": [
+        "1936 战列舰 · 副炮",
+        "1936 Battleship: Secondaries"
+      ],
+      "source_member": "word/media/image31.png",
+      "source_sha256": "e2df984f3b0d66d17cb12950da1329eb159751cddec959d395799f66418a4f64",
+      "cost": 7202,
+      "description": [
+        "重炮II、3组副炮II、防空炮II、火控0、重型引擎II和战列舰装甲II。减少主炮投入并保留防空。",
+        "One Heavy Battery II, three Secondary Batteries II, Anti-Air II, Fire Control 0, Heavy Engine II and Battleship Armor II. Cut main battery cost while retaining AA."
+      ]
+    },
+    {
+      "id": 32,
+      "title": [
+        "1940 战列舰 · 重炮",
+        "1940 Battleship: Heavy Guns"
+      ],
+      "source_member": "word/media/image32.png",
+      "source_sha256": "4822a5e635eacd72c2d93b771c5e6f744f027626e39262bc831db580fca38585",
+      "cost": 13290,
+      "description": [
+        "3门重炮III、4组副炮II、防空炮II、火控II、雷达III、重型引擎III和战列舰装甲III。图示轻攻22.4、重攻92.4。",
+        "Three Heavy Batteries III, four Secondary Batteries II, Anti-Air II, Fire Control II, Radar III, Heavy Engine III and Battleship Armor III. The design shows 22.4 light and 92.4 heavy attack."
+      ]
+    },
+    {
+      "id": 33,
+      "title": [
+        "1944 战列舰 · 重炮",
+        "1944 Battleship: Heavy Guns"
+      ],
+      "source_member": "word/media/image33.png",
+      "source_sha256": "8aa34cf541fd1ebff13daf0ebeb1055267e41bd66ff1d09b93340c84b18346ca",
+      "cost": 21195,
+      "description": [
+        "6门重炮IV、高平两用副炮IV、防空炮III、火控III、雷达IV、重型引擎IV和战列舰装甲III。若需副炮型，可按槽位替换部分重炮。",
+        "Six Heavy Batteries IV, Dual-Purpose Secondary Battery IV, Anti-Air III, Fire Control III, Radar IV, Heavy Engine IV and Battleship Armor III. Replace some optional guns for a secondary-heavy variant."
+      ]
+    },
+    {
+      "id": 34,
+      "title": [
+        "现代战列舰 · 副炮",
+        "Modern Battleship: Secondaries"
+      ],
+      "source_member": "word/media/image34.png",
+      "source_sha256": "8b7c0966f5066644575dec3a7204c2bab1735c812b8eaf10111fe3133deed804",
+      "cost": 13275,
+      "description": [
+        "2门重炮IV、5组高平两用副炮IV、防空炮III、火控III、雷达IV、重型引擎IV和战列舰装甲III。轻炮用于打击水面屏卫。",
+        "Two Heavy Batteries IV, five Dual-Purpose Secondary Batteries IV, Anti-Air III, Fire Control III, Radar IV, Heavy Engine IV and Battleship Armor III. Use the light attack against surface screens."
+      ]
+    },
+    {
+      "id": 35,
+      "title": [
+        "现代战列舰 · 重炮",
+        "Modern Battleship: Heavy Guns"
+      ],
+      "source_member": "word/media/image35.png",
+      "source_sha256": "5f0edfadab98b6d1a45f2a92900a5802fdd59c7f8b6f7f6f6312c9fdfee655b6",
+      "cost": 21470,
+      "description": [
+        "6门重炮IV、高平两用副炮IV、防空炮III、火控III、雷达IV、重型引擎IV和战列舰装甲III。高重攻方案，用于打击敌方主力舰。",
+        "Six Heavy Batteries IV, Dual-Purpose Secondary Battery IV, Anti-Air III, Fire Control III, Radar IV, Heavy Engine IV and Battleship Armor III. Use its heavy attack against enemy capital ships."
+      ]
+    },
+    {
+      "id": 36,
+      "title": [
+        "超重型战列舰 · 副炮",
+        "Super-Heavy Battleship: Secondaries"
+      ],
+      "source_member": "word/media/image36.png",
+      "source_sha256": "6addab14cad3d0bc22e355f04acf0bb9b4c49040ae1f208344c2131284306961",
+      "cost": 18874,
+      "description": [
+        "3门超重炮、5组副炮II、2组防空炮II、火控II、雷达III、重型引擎III、超重装甲。通过海军专项科研解锁超重船体和对应组件。",
+        "Three Super-Heavy Batteries, five Secondary Batteries II, two Anti-Air II, Fire Control II, Radar III, Heavy Engine III and Super-Heavy Armor. Unlock the hull and specialist components through naval special projects."
+      ]
+    },
+    {
+      "id": 37,
+      "title": [
+        "超重型战列舰 · 防空",
+        "Super-Heavy Battleship: AA"
+      ],
+      "source_member": "word/media/image37.png",
+      "source_sha256": "01ceacf9c7215c81481c1e1b0c11792b4132e1e754b9aab5a52361883b73b0fb",
+      "cost": 17836,
+      "description": [
+        "3门超重炮、6组防空炮III、副炮II、火控0、雷达I、重型引擎II、超重装甲。图示防空27、装甲55。",
+        "Three Super-Heavy Batteries, six Anti-Air III, Secondary Battery II, Fire Control 0, Radar I, Heavy Engine II and Super-Heavy Armor. Shown AA is 27 and armor is 55."
+      ]
+    },
+    {
+      "id": 38,
+      "title": [
+        "改装巡洋舰航母",
+        "Converted Cruiser Carrier"
+      ],
+      "source_member": "word/media/image38.png",
+      "source_sha256": "985cdf502a1fc01cc01ff0ef4371351e00a2c769a5b286f378b0ba6380bf68cc",
+      "cost": 6806,
+      "description": [
+        "2个机库、防空炮II、航母引擎II、副炮II。图示搭载40架，改装花费7320，生产造价另列。",
+        "Two hangars, Anti-Air II, Carrier Engine II and Secondary Battery II. Capacity is 40 aircraft. The displayed conversion cost is 7,320, separate from production cost."
+      ]
+    },
+    {
+      "id": 39,
+      "title": [
+        "改装战列舰航母",
+        "Converted Battleship Carrier"
+      ],
+      "source_member": "word/media/image39.png",
+      "source_sha256": "4a917b752137969e024b7ba9bb5a93bc58ebfdac3e90b126853bf9fbcfd49743",
+      "cost": 8493,
+      "description": [
+        "3个机库、防空炮II、航母引擎II、副炮II。图示搭载60架，改装花费5872，生产造价另列。",
+        "Three hangars, Anti-Air II, Carrier Engine II and Secondary Battery II. Capacity is 60 aircraft. The displayed conversion cost is 5,872, separate from production cost."
+      ]
+    },
+    {
+      "id": 40,
+      "title": [
+        "1936 基础航母",
+        "1936 Basic Carrier"
+      ],
+      "source_member": "word/media/image40.png",
+      "source_sha256": "3f617b3da34ba0a464170e59455e163c67a7dc80c5f45435bf7d8d39c876d855",
+      "cost": 9499,
+      "description": [
+        "4个机库、防空炮II、航母引擎II、副炮II。图示搭载80架，未装甲。",
+        "Four hangars, Anti-Air II, Carrier Engine II and Secondary Battery II. The unarmored design carries 80 aircraft."
+      ]
+    },
+    {
+      "id": 41,
+      "title": [
+        "1940 改良型航母",
+        "1940 Improved Carrier"
+      ],
+      "source_member": "word/media/image41.png",
+      "source_sha256": "74872e7cbf5183df94082cf0224cbd0240b3870117dace7db7d7a922f29179c0",
+      "cost": 12017,
+      "description": [
+        "5个机库、防空炮II、航母引擎III、副炮II。图示搭载100架。",
+        "Five hangars, Anti-Air II, Carrier Engine III and Secondary Battery II. The design carries 100 aircraft."
+      ]
+    },
+    {
+      "id": 42,
+      "title": [
+        "1944 先进型航母",
+        "1944 Advanced Carrier"
+      ],
+      "source_member": "word/media/image42.png",
+      "source_sha256": "a32edf2039d32dd4b81206f1237c7145834d9dae64afef7a9336fb7452567dc0",
+      "cost": 15204,
+      "description": [
+        "6个机库、防空炮III、雷达IV、航母引擎IV、高平两用副炮IV。图示搭载120架。",
+        "Six hangars, Anti-Air III, Radar IV, Carrier Engine IV and Dual-Purpose Secondary Battery IV. The design carries 120 aircraft."
+      ]
+    },
+    {
+      "id": 43,
+      "title": [
+        "现代航母",
+        "Modern Carrier"
+      ],
+      "source_member": "word/media/image43.png",
+      "source_sha256": "5f8eb2c457a0224581009bf9759e87990cc343b8a0f53cd7b97f824f27bc50af",
+      "cost": 16238,
+      "description": [
+        "6个机库、防空炮III、雷达IV、航母引擎IV、副炮II。图示搭载120架。科研允许时，可升级防空炮IV和高平两用副炮IV。",
+        "Six hangars, Anti-Air III, Radar IV, Carrier Engine IV and Secondary Battery II. The design carries 120 aircraft. Upgrade to Anti-Air IV and Dual-Purpose Secondary Battery IV when available."
+      ]
+    },
+    {
+      "id": 44,
+      "title": [
+        "护航航母 · 全甲板",
+        "Escort Carrier: Full Decks"
+      ],
+      "source_member": "word/media/image44.png",
+      "source_sha256": "526f9bfa660644d1d51e7c56cfcde266a1cc0bd94320435057dea3e52da68e50",
+      "cost": 5060,
+      "description": [
+        "4个小型机库、防空炮II、航母引擎III、副炮II。图示基础搭载40架。",
+        "Four small hangars, Anti-Air II, Carrier Engine III and Secondary Battery II. The shown base capacity is 40 aircraft."
+      ]
+    },
+    {
+      "id": 45,
+      "title": [
+        "护航航母 · 单甲板",
+        "Escort Carrier: Single Deck"
+      ],
+      "source_member": "word/media/image45.png",
+      "source_sha256": "2ec7aac556bc32a29e0fa5e7d0862f0ab82df001f9f949a274258faade0796ff",
+      "cost": 2193,
+      "description": [
+        "1个小型机库、航母引擎II，其余槽留空。基础搭载10架。若适用的制造商可用高空间利用率设计方针，搭载可增至20架。",
+        "One small hangar and Carrier Engine II. The other slots are empty. Base capacity is 10 aircraft. An eligible MIO with Space Efficient Design can raise it to 20."
+      ]
+    },
+    {
+      "id": 46,
+      "title": [
+        "哈巴库克 · 冰航母",
+        "Habakkuk Ice Carrier"
+      ],
+      "source_member": "word/media/image46.png",
+      "source_sha256": "950d6a02b068c44f78346b9cefc06df7122cba7243d4065b04131437b65b8b15",
+      "cost": 19834,
+      "description": [
+        "6条浮动机场跑道、防空炮III、航母引擎IV、副炮II。图示搭载190架。大型航母跑道可支持普通航母无法搭载的机型，按部署界面的机型列表选配。",
+        "Six Floating Airfield Runways, Anti-Air III, Carrier Engine IV and Secondary Battery II. Shown capacity is 190. Use the air-wing deployment list to check which larger aircraft the runways can operate."
+      ]
+    }
+  ]
+}

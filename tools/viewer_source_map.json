@@ -93,6 +93,10 @@
       "picture": "GFX_MMG_infantry1194_land_101",
       "choices": [
         {
+          "label": "MMG_inf1194_rank_notes",
+          "target": "MMG_infantry.700"
+        },
+        {
           "label": "MMG_inf1194_land",
           "target": "MMG_guide.100"
         },
@@ -114,6 +118,10 @@
       "description": "MMG_inf1194_land_102_d",
       "picture": "GFX_MMG_infantry1194_land_102",
       "choices": [
+        {
+          "label": "MMG_inf1194_rank_notes",
+          "target": "MMG_infantry.710"
+        },
         {
           "label": "MMG_inf1194_land",
           "target": "MMG_guide.100"
@@ -137,6 +145,10 @@
       "picture": "GFX_MMG_infantry1194_land_103",
       "choices": [
         {
+          "label": "MMG_inf1194_rank_notes",
+          "target": "MMG_infantry.720"
+        },
+        {
           "label": "MMG_inf1194_land",
           "target": "MMG_guide.100"
         },
@@ -159,6 +171,10 @@
       "picture": "GFX_MMG_infantry1194_land_104",
       "choices": [
         {
+          "label": "MMG_inf1194_rank_notes",
+          "target": "MMG_infantry.730"
+        },
+        {
           "label": "MMG_inf1194_land",
           "target": "MMG_guide.100"
         },
@@ -180,6 +196,10 @@
       "description": "MMG_inf1194_land_105_d",
       "picture": "GFX_MMG_infantry1194_land_105",
       "choices": [
+        {
+          "label": "MMG_inf1194_rank_notes",
+          "target": "MMG_infantry.740"
+        },
         {
           "label": "MMG_inf1194_land",
           "target": "MMG_guide.100"
@@ -528,304 +548,44 @@
     {
       "id": "MMG_guide.700",
       "number": 10700,
-      "title": "MMG_ship_menu_t",
-      "description": "MMG_ship_menu_d",
-      "picture": "GFX_MMG_ship_menu",
+      "title": "MMG_naval11941_index_t",
+      "description": "MMG_naval11941_index_d",
+      "picture": "GFX_MMG_naval11941_index",
       "choices": [
         {
-          "label": "MMG_ship_menu_opt_fleet",
-          "target": "MMG_guide.701"
+          "label": "MMG_naval11941_group_10",
+          "target": "MMG_naval.10"
         },
         {
-          "label": "MMG_ship_menu_opt_capital",
-          "target": "MMG_guide.702"
+          "label": "MMG_naval11941_group_20",
+          "target": "MMG_naval.20"
         },
         {
-          "label": "MMG_ship_menu_opt_cruiser",
-          "target": "MMG_guide.703"
+          "label": "MMG_naval11941_group_30",
+          "target": "MMG_naval.30"
         },
         {
-          "label": "MMG_ship_menu_opt_dd",
-          "target": "MMG_guide.704"
+          "label": "MMG_naval11941_group_40",
+          "target": "MMG_naval.40"
         },
         {
-          "label": "MMG_ship_menu_opt_sub",
-          "target": "MMG_guide.705"
+          "label": "MMG_naval11941_group_50",
+          "target": "MMG_naval.50"
         },
         {
-          "label": "MMG_ship_menu_opt_carair",
-          "target": "MMG_guide.706"
+          "label": "MMG_naval11941_note_1",
+          "target": "MMG_naval.1"
         },
         {
-          "label": "MMG_menu_close",
+          "label": "MMG_naval11941_note_2",
+          "target": "MMG_naval.2"
+        },
+        {
+          "label": "MMG_naval11941_close",
           "target": null
         }
       ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.701",
-      "number": 10701,
-      "title": "MMG_gallery_701_t",
-      "description": "MMG_gallery_701_d",
-      "picture": "GFX_MMG_ship_fleet",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7012"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.702",
-      "number": 10702,
-      "title": "MMG_gallery_702_t",
-      "description": "MMG_gallery_702_d",
-      "picture": "GFX_MMG_ship_capital",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7022"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.703",
-      "number": 10703,
-      "title": "MMG_gallery_703_t",
-      "description": "MMG_gallery_703_d",
-      "picture": "GFX_MMG_ship_cruiser",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7032"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.704",
-      "number": 10704,
-      "title": "MMG_gallery_704_t",
-      "description": "MMG_gallery_704_d",
-      "picture": "GFX_MMG_ship_dd",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7042"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.705",
-      "number": 10705,
-      "title": "MMG_gallery_705_t",
-      "description": "MMG_gallery_705_d",
-      "picture": "GFX_MMG_ship_sub",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7052"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.706",
-      "number": 10706,
-      "title": "MMG_gallery_706_t",
-      "description": "MMG_gallery_706_d",
-      "picture": "GFX_MMG_ship_carair",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_next",
-          "target": "MMG_guide.7062"
-        }
-      ],
-      "source": "tools/page_sources/MMG_guide_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7012",
-      "number": 17012,
-      "title": "MMG_gallery_7012_t",
-      "description": "MMG_gallery_7012_d",
-      "picture": "GFX_MMG_ship_fleet_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.701"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7022",
-      "number": 17022,
-      "title": "MMG_gallery_7022_t",
-      "description": "MMG_gallery_7022_d",
-      "picture": "GFX_MMG_ship_capital_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.702"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7032",
-      "number": 17032,
-      "title": "MMG_gallery_7032_t",
-      "description": "MMG_gallery_7032_d",
-      "picture": "GFX_MMG_ship_cruiser_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.703"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7042",
-      "number": 17042,
-      "title": "MMG_gallery_7042_t",
-      "description": "MMG_gallery_7042_d",
-      "picture": "GFX_MMG_ship_dd_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.704"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7052",
-      "number": 17052,
-      "title": "MMG_gallery_7052_t",
-      "description": "MMG_gallery_7052_d",
-      "picture": "GFX_MMG_ship_sub_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.705"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
-    },
-    {
-      "id": "MMG_guide.7062",
-      "number": 17062,
-      "title": "MMG_gallery_7062_t",
-      "description": "MMG_gallery_7062_d",
-      "picture": "GFX_MMG_ship_carair_page2",
-      "choices": [
-        {
-          "label": "MMG_detail_understood",
-          "target": null
-        },
-        {
-          "label": "MMG_detail_back",
-          "target": "MMG_guide.700"
-        },
-        {
-          "label": "MMG_gallery_prev",
-          "target": "MMG_guide.706"
-        }
-      ],
-      "source": "tools/page_sources/MMG_design_gallery_pages.mmg"
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
     },
     {
       "id": "MMG_tank.1",
@@ -7028,6 +6788,356 @@
       "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
     },
     {
+      "id": "MMG_infantry.700",
+      "number": 30700,
+      "title": "MMG_inf1194_rank_notes_700_t",
+      "description": "MMG_inf1194_rank_notes_700_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_700",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.701"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.101"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.701",
+      "number": 30701,
+      "title": "MMG_inf1194_rank_notes_701_t",
+      "description": "MMG_inf1194_rank_notes_701_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_701",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.700"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.101"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.710",
+      "number": 30710,
+      "title": "MMG_inf1194_rank_notes_710_t",
+      "description": "MMG_inf1194_rank_notes_710_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_710",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.711"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.102"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.711",
+      "number": 30711,
+      "title": "MMG_inf1194_rank_notes_711_t",
+      "description": "MMG_inf1194_rank_notes_711_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_711",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.710"
+        },
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.712"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.102"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.712",
+      "number": 30712,
+      "title": "MMG_inf1194_rank_notes_712_t",
+      "description": "MMG_inf1194_rank_notes_712_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_712",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.711"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.102"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.720",
+      "number": 30720,
+      "title": "MMG_inf1194_rank_notes_720_t",
+      "description": "MMG_inf1194_rank_notes_720_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_720",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.721"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.103"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.721",
+      "number": 30721,
+      "title": "MMG_inf1194_rank_notes_721_t",
+      "description": "MMG_inf1194_rank_notes_721_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_721",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.720"
+        },
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.722"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.103"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.722",
+      "number": 30722,
+      "title": "MMG_inf1194_rank_notes_722_t",
+      "description": "MMG_inf1194_rank_notes_722_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_722",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.721"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.103"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.730",
+      "number": 30730,
+      "title": "MMG_inf1194_rank_notes_730_t",
+      "description": "MMG_inf1194_rank_notes_730_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_730",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.731"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.104"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.731",
+      "number": 30731,
+      "title": "MMG_inf1194_rank_notes_731_t",
+      "description": "MMG_inf1194_rank_notes_731_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_731",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.730"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.104"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.740",
+      "number": 30740,
+      "title": "MMG_inf1194_rank_notes_740_t",
+      "description": "MMG_inf1194_rank_notes_740_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_740",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.741"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.105"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.741",
+      "number": 30741,
+      "title": "MMG_inf1194_rank_notes_741_t",
+      "description": "MMG_inf1194_rank_notes_741_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_741",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.740"
+        },
+        {
+          "label": "MMG_inf1194_menu_next",
+          "target": "MMG_infantry.742"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.105"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_infantry.742",
+      "number": 30742,
+      "title": "MMG_inf1194_rank_notes_742_t",
+      "description": "MMG_inf1194_rank_notes_742_d",
+      "picture": "GFX_MMG_infantry1194_rank_notes_742",
+      "choices": [
+        {
+          "label": "MMG_inf1194_menu_prev",
+          "target": "MMG_infantry.741"
+        },
+        {
+          "label": "MMG_inf1194_rank_back",
+          "target": "MMG_guide.105"
+        },
+        {
+          "label": "MMG_inf1194_land",
+          "target": "MMG_guide.100"
+        },
+        {
+          "label": "MMG_inf1194_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_infantry_1194_pages.mmg"
+    },
+    {
       "id": "MMG_aircraft.1",
       "number": 40001,
       "title": "MMG_air1194_rules_t",
@@ -11052,9 +11162,5655 @@
         }
       ],
       "source": "tools/page_sources/MMG_aircraft_1194_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.1",
+      "number": 50001,
+      "title": "MMG_naval11941_note_1_t",
+      "description": "MMG_naval11941_note_1_d",
+      "picture": "GFX_MMG_naval11941_note_1",
+      "choices": [
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.2",
+      "number": 50002,
+      "title": "MMG_naval11941_note_2_t",
+      "description": "MMG_naval11941_note_2_d",
+      "picture": "GFX_MMG_naval11941_note_2",
+      "choices": [
+        {
+          "label": "MMG_naval11941_aircraft",
+          "target": "MMG_guide.600"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.10",
+      "number": 50010,
+      "title": "MMG_naval11941_menu_10_t",
+      "description": "MMG_naval11941_menu_10_d",
+      "picture": "GFX_MMG_naval11941_menu_10",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_01",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_design_02",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_design_03",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_design_04",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.11",
+      "number": 50011,
+      "title": "MMG_naval11941_menu_11_t",
+      "description": "MMG_naval11941_menu_11_d",
+      "picture": "GFX_MMG_naval11941_menu_11",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_05",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_design_06",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_design_07",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_design_08",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.12",
+      "number": 50012,
+      "title": "MMG_naval11941_menu_12_t",
+      "description": "MMG_naval11941_menu_12_d",
+      "picture": "GFX_MMG_naval11941_menu_12",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_09",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_design_10",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.20",
+      "number": 50020,
+      "title": "MMG_naval11941_menu_20_t",
+      "description": "MMG_naval11941_menu_20_d",
+      "picture": "GFX_MMG_naval11941_menu_20",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_11",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_design_12",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_design_13",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_design_14",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.21",
+      "number": 50021,
+      "title": "MMG_naval11941_menu_21_t",
+      "description": "MMG_naval11941_menu_21_d",
+      "picture": "GFX_MMG_naval11941_menu_21",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_15",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_design_16",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_design_17",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_design_18",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.22",
+      "number": 50022,
+      "title": "MMG_naval11941_menu_22_t",
+      "description": "MMG_naval11941_menu_22_d",
+      "picture": "GFX_MMG_naval11941_menu_22",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_19",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_design_20",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_design_21",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.30",
+      "number": 50030,
+      "title": "MMG_naval11941_menu_30_t",
+      "description": "MMG_naval11941_menu_30_d",
+      "picture": "GFX_MMG_naval11941_menu_30",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_22",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_design_23",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_design_24",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_design_25",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.31",
+      "number": 50031,
+      "title": "MMG_naval11941_menu_31_t",
+      "description": "MMG_naval11941_menu_31_d",
+      "picture": "GFX_MMG_naval11941_menu_31",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_26",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_design_27",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_design_28",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_design_29",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.40",
+      "number": 50040,
+      "title": "MMG_naval11941_menu_40_t",
+      "description": "MMG_naval11941_menu_40_d",
+      "picture": "GFX_MMG_naval11941_menu_40",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_30",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_design_31",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_design_32",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_design_33",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.41",
+      "number": 50041,
+      "title": "MMG_naval11941_menu_41_t",
+      "description": "MMG_naval11941_menu_41_d",
+      "picture": "GFX_MMG_naval11941_menu_41",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_34",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_design_35",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_design_36",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_design_37",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.50",
+      "number": 50050,
+      "title": "MMG_naval11941_menu_50_t",
+      "description": "MMG_naval11941_menu_50_d",
+      "picture": "GFX_MMG_naval11941_menu_50",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_38",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_design_39",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_design_40",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_design_41",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.51",
+      "number": 50051,
+      "title": "MMG_naval11941_menu_51_t",
+      "description": "MMG_naval11941_menu_51_d",
+      "picture": "GFX_MMG_naval11941_menu_51",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_42",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_design_43",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_design_44",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_design_45",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_menu_next",
+          "target": "MMG_naval.52"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.52",
+      "number": 50052,
+      "title": "MMG_naval11941_menu_52_t",
+      "description": "MMG_naval11941_menu_52_d",
+      "picture": "GFX_MMG_naval11941_menu_52",
+      "choices": [
+        {
+          "label": "MMG_naval11941_design_46",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_menu_prev",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.101",
+      "number": 50101,
+      "title": "MMG_naval11941_01_full_t",
+      "description": "MMG_naval11941_01_full_d",
+      "picture": "GFX_MMG_naval11941_01_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.201"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.301"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.102",
+      "number": 50102,
+      "title": "MMG_naval11941_02_full_t",
+      "description": "MMG_naval11941_02_full_d",
+      "picture": "GFX_MMG_naval11941_02_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.202"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.302"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.103",
+      "number": 50103,
+      "title": "MMG_naval11941_03_full_t",
+      "description": "MMG_naval11941_03_full_d",
+      "picture": "GFX_MMG_naval11941_03_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.203"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.303"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.104",
+      "number": 50104,
+      "title": "MMG_naval11941_04_full_t",
+      "description": "MMG_naval11941_04_full_d",
+      "picture": "GFX_MMG_naval11941_04_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.204"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.304"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.105",
+      "number": 50105,
+      "title": "MMG_naval11941_05_full_t",
+      "description": "MMG_naval11941_05_full_d",
+      "picture": "GFX_MMG_naval11941_05_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.205"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.305"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.106",
+      "number": 50106,
+      "title": "MMG_naval11941_06_full_t",
+      "description": "MMG_naval11941_06_full_d",
+      "picture": "GFX_MMG_naval11941_06_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.206"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.306"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.107",
+      "number": 50107,
+      "title": "MMG_naval11941_07_full_t",
+      "description": "MMG_naval11941_07_full_d",
+      "picture": "GFX_MMG_naval11941_07_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.207"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.307"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.108",
+      "number": 50108,
+      "title": "MMG_naval11941_08_full_t",
+      "description": "MMG_naval11941_08_full_d",
+      "picture": "GFX_MMG_naval11941_08_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.208"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.308"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.109",
+      "number": 50109,
+      "title": "MMG_naval11941_09_full_t",
+      "description": "MMG_naval11941_09_full_d",
+      "picture": "GFX_MMG_naval11941_09_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.209"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.309"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.110",
+      "number": 50110,
+      "title": "MMG_naval11941_10_full_t",
+      "description": "MMG_naval11941_10_full_d",
+      "picture": "GFX_MMG_naval11941_10_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.210"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.310"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.111",
+      "number": 50111,
+      "title": "MMG_naval11941_11_full_t",
+      "description": "MMG_naval11941_11_full_d",
+      "picture": "GFX_MMG_naval11941_11_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.211"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.311"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.112",
+      "number": 50112,
+      "title": "MMG_naval11941_12_full_t",
+      "description": "MMG_naval11941_12_full_d",
+      "picture": "GFX_MMG_naval11941_12_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.212"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.312"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.113",
+      "number": 50113,
+      "title": "MMG_naval11941_13_full_t",
+      "description": "MMG_naval11941_13_full_d",
+      "picture": "GFX_MMG_naval11941_13_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.213"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.313"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.114",
+      "number": 50114,
+      "title": "MMG_naval11941_14_full_t",
+      "description": "MMG_naval11941_14_full_d",
+      "picture": "GFX_MMG_naval11941_14_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.214"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.314"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.115",
+      "number": 50115,
+      "title": "MMG_naval11941_15_full_t",
+      "description": "MMG_naval11941_15_full_d",
+      "picture": "GFX_MMG_naval11941_15_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.215"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.315"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.116",
+      "number": 50116,
+      "title": "MMG_naval11941_16_full_t",
+      "description": "MMG_naval11941_16_full_d",
+      "picture": "GFX_MMG_naval11941_16_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.216"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.316"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.117",
+      "number": 50117,
+      "title": "MMG_naval11941_17_full_t",
+      "description": "MMG_naval11941_17_full_d",
+      "picture": "GFX_MMG_naval11941_17_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.217"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.317"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.118",
+      "number": 50118,
+      "title": "MMG_naval11941_18_full_t",
+      "description": "MMG_naval11941_18_full_d",
+      "picture": "GFX_MMG_naval11941_18_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.218"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.318"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.119",
+      "number": 50119,
+      "title": "MMG_naval11941_19_full_t",
+      "description": "MMG_naval11941_19_full_d",
+      "picture": "GFX_MMG_naval11941_19_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.219"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.319"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.120",
+      "number": 50120,
+      "title": "MMG_naval11941_20_full_t",
+      "description": "MMG_naval11941_20_full_d",
+      "picture": "GFX_MMG_naval11941_20_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.220"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.320"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.121",
+      "number": 50121,
+      "title": "MMG_naval11941_21_full_t",
+      "description": "MMG_naval11941_21_full_d",
+      "picture": "GFX_MMG_naval11941_21_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.221"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.321"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.122",
+      "number": 50122,
+      "title": "MMG_naval11941_22_full_t",
+      "description": "MMG_naval11941_22_full_d",
+      "picture": "GFX_MMG_naval11941_22_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.222"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.322"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.123",
+      "number": 50123,
+      "title": "MMG_naval11941_23_full_t",
+      "description": "MMG_naval11941_23_full_d",
+      "picture": "GFX_MMG_naval11941_23_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.223"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.323"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.124",
+      "number": 50124,
+      "title": "MMG_naval11941_24_full_t",
+      "description": "MMG_naval11941_24_full_d",
+      "picture": "GFX_MMG_naval11941_24_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.224"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.324"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.125",
+      "number": 50125,
+      "title": "MMG_naval11941_25_full_t",
+      "description": "MMG_naval11941_25_full_d",
+      "picture": "GFX_MMG_naval11941_25_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.225"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.325"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.126",
+      "number": 50126,
+      "title": "MMG_naval11941_26_full_t",
+      "description": "MMG_naval11941_26_full_d",
+      "picture": "GFX_MMG_naval11941_26_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.226"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.326"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.127",
+      "number": 50127,
+      "title": "MMG_naval11941_27_full_t",
+      "description": "MMG_naval11941_27_full_d",
+      "picture": "GFX_MMG_naval11941_27_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.227"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.327"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.128",
+      "number": 50128,
+      "title": "MMG_naval11941_28_full_t",
+      "description": "MMG_naval11941_28_full_d",
+      "picture": "GFX_MMG_naval11941_28_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.228"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.328"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.129",
+      "number": 50129,
+      "title": "MMG_naval11941_29_full_t",
+      "description": "MMG_naval11941_29_full_d",
+      "picture": "GFX_MMG_naval11941_29_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.229"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.329"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.130",
+      "number": 50130,
+      "title": "MMG_naval11941_30_full_t",
+      "description": "MMG_naval11941_30_full_d",
+      "picture": "GFX_MMG_naval11941_30_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.230"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.330"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.131",
+      "number": 50131,
+      "title": "MMG_naval11941_31_full_t",
+      "description": "MMG_naval11941_31_full_d",
+      "picture": "GFX_MMG_naval11941_31_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.231"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.331"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.132",
+      "number": 50132,
+      "title": "MMG_naval11941_32_full_t",
+      "description": "MMG_naval11941_32_full_d",
+      "picture": "GFX_MMG_naval11941_32_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.232"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.332"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.133",
+      "number": 50133,
+      "title": "MMG_naval11941_33_full_t",
+      "description": "MMG_naval11941_33_full_d",
+      "picture": "GFX_MMG_naval11941_33_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.233"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.333"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.134",
+      "number": 50134,
+      "title": "MMG_naval11941_34_full_t",
+      "description": "MMG_naval11941_34_full_d",
+      "picture": "GFX_MMG_naval11941_34_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.234"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.334"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.135",
+      "number": 50135,
+      "title": "MMG_naval11941_35_full_t",
+      "description": "MMG_naval11941_35_full_d",
+      "picture": "GFX_MMG_naval11941_35_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.235"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.335"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.136",
+      "number": 50136,
+      "title": "MMG_naval11941_36_full_t",
+      "description": "MMG_naval11941_36_full_d",
+      "picture": "GFX_MMG_naval11941_36_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.236"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.336"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.137",
+      "number": 50137,
+      "title": "MMG_naval11941_37_full_t",
+      "description": "MMG_naval11941_37_full_d",
+      "picture": "GFX_MMG_naval11941_37_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.237"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.337"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.138",
+      "number": 50138,
+      "title": "MMG_naval11941_38_full_t",
+      "description": "MMG_naval11941_38_full_d",
+      "picture": "GFX_MMG_naval11941_38_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.238"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.338"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.139",
+      "number": 50139,
+      "title": "MMG_naval11941_39_full_t",
+      "description": "MMG_naval11941_39_full_d",
+      "picture": "GFX_MMG_naval11941_39_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.239"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.339"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.140",
+      "number": 50140,
+      "title": "MMG_naval11941_40_full_t",
+      "description": "MMG_naval11941_40_full_d",
+      "picture": "GFX_MMG_naval11941_40_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.240"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.340"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.141",
+      "number": 50141,
+      "title": "MMG_naval11941_41_full_t",
+      "description": "MMG_naval11941_41_full_d",
+      "picture": "GFX_MMG_naval11941_41_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.241"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.341"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.142",
+      "number": 50142,
+      "title": "MMG_naval11941_42_full_t",
+      "description": "MMG_naval11941_42_full_d",
+      "picture": "GFX_MMG_naval11941_42_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.242"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.342"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.143",
+      "number": 50143,
+      "title": "MMG_naval11941_43_full_t",
+      "description": "MMG_naval11941_43_full_d",
+      "picture": "GFX_MMG_naval11941_43_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.243"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.343"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.144",
+      "number": 50144,
+      "title": "MMG_naval11941_44_full_t",
+      "description": "MMG_naval11941_44_full_d",
+      "picture": "GFX_MMG_naval11941_44_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.244"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.344"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.145",
+      "number": 50145,
+      "title": "MMG_naval11941_45_full_t",
+      "description": "MMG_naval11941_45_full_d",
+      "picture": "GFX_MMG_naval11941_45_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.245"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.345"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.146",
+      "number": 50146,
+      "title": "MMG_naval11941_46_full_t",
+      "description": "MMG_naval11941_46_full_d",
+      "picture": "GFX_MMG_naval11941_46_full",
+      "choices": [
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.246"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.346"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.52"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.201",
+      "number": 50201,
+      "title": "MMG_naval11941_01_modules_t",
+      "description": "MMG_naval11941_01_modules_d",
+      "picture": "GFX_MMG_naval11941_01_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.301"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.202",
+      "number": 50202,
+      "title": "MMG_naval11941_02_modules_t",
+      "description": "MMG_naval11941_02_modules_d",
+      "picture": "GFX_MMG_naval11941_02_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.302"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.203",
+      "number": 50203,
+      "title": "MMG_naval11941_03_modules_t",
+      "description": "MMG_naval11941_03_modules_d",
+      "picture": "GFX_MMG_naval11941_03_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.303"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.204",
+      "number": 50204,
+      "title": "MMG_naval11941_04_modules_t",
+      "description": "MMG_naval11941_04_modules_d",
+      "picture": "GFX_MMG_naval11941_04_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.304"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.205",
+      "number": 50205,
+      "title": "MMG_naval11941_05_modules_t",
+      "description": "MMG_naval11941_05_modules_d",
+      "picture": "GFX_MMG_naval11941_05_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.305"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.206",
+      "number": 50206,
+      "title": "MMG_naval11941_06_modules_t",
+      "description": "MMG_naval11941_06_modules_d",
+      "picture": "GFX_MMG_naval11941_06_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.306"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.207",
+      "number": 50207,
+      "title": "MMG_naval11941_07_modules_t",
+      "description": "MMG_naval11941_07_modules_d",
+      "picture": "GFX_MMG_naval11941_07_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.307"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.208",
+      "number": 50208,
+      "title": "MMG_naval11941_08_modules_t",
+      "description": "MMG_naval11941_08_modules_d",
+      "picture": "GFX_MMG_naval11941_08_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.308"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.209",
+      "number": 50209,
+      "title": "MMG_naval11941_09_modules_t",
+      "description": "MMG_naval11941_09_modules_d",
+      "picture": "GFX_MMG_naval11941_09_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.309"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.210",
+      "number": 50210,
+      "title": "MMG_naval11941_10_modules_t",
+      "description": "MMG_naval11941_10_modules_d",
+      "picture": "GFX_MMG_naval11941_10_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.310"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.211",
+      "number": 50211,
+      "title": "MMG_naval11941_11_modules_t",
+      "description": "MMG_naval11941_11_modules_d",
+      "picture": "GFX_MMG_naval11941_11_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.311"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.212",
+      "number": 50212,
+      "title": "MMG_naval11941_12_modules_t",
+      "description": "MMG_naval11941_12_modules_d",
+      "picture": "GFX_MMG_naval11941_12_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.312"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.213",
+      "number": 50213,
+      "title": "MMG_naval11941_13_modules_t",
+      "description": "MMG_naval11941_13_modules_d",
+      "picture": "GFX_MMG_naval11941_13_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.313"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.214",
+      "number": 50214,
+      "title": "MMG_naval11941_14_modules_t",
+      "description": "MMG_naval11941_14_modules_d",
+      "picture": "GFX_MMG_naval11941_14_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.314"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.215",
+      "number": 50215,
+      "title": "MMG_naval11941_15_modules_t",
+      "description": "MMG_naval11941_15_modules_d",
+      "picture": "GFX_MMG_naval11941_15_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.315"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.216",
+      "number": 50216,
+      "title": "MMG_naval11941_16_modules_t",
+      "description": "MMG_naval11941_16_modules_d",
+      "picture": "GFX_MMG_naval11941_16_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.316"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.217",
+      "number": 50217,
+      "title": "MMG_naval11941_17_modules_t",
+      "description": "MMG_naval11941_17_modules_d",
+      "picture": "GFX_MMG_naval11941_17_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.317"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.218",
+      "number": 50218,
+      "title": "MMG_naval11941_18_modules_t",
+      "description": "MMG_naval11941_18_modules_d",
+      "picture": "GFX_MMG_naval11941_18_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.318"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.219",
+      "number": 50219,
+      "title": "MMG_naval11941_19_modules_t",
+      "description": "MMG_naval11941_19_modules_d",
+      "picture": "GFX_MMG_naval11941_19_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.319"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.220",
+      "number": 50220,
+      "title": "MMG_naval11941_20_modules_t",
+      "description": "MMG_naval11941_20_modules_d",
+      "picture": "GFX_MMG_naval11941_20_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.320"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.221",
+      "number": 50221,
+      "title": "MMG_naval11941_21_modules_t",
+      "description": "MMG_naval11941_21_modules_d",
+      "picture": "GFX_MMG_naval11941_21_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.321"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.222",
+      "number": 50222,
+      "title": "MMG_naval11941_22_modules_t",
+      "description": "MMG_naval11941_22_modules_d",
+      "picture": "GFX_MMG_naval11941_22_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.322"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.223",
+      "number": 50223,
+      "title": "MMG_naval11941_23_modules_t",
+      "description": "MMG_naval11941_23_modules_d",
+      "picture": "GFX_MMG_naval11941_23_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.323"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.224",
+      "number": 50224,
+      "title": "MMG_naval11941_24_modules_t",
+      "description": "MMG_naval11941_24_modules_d",
+      "picture": "GFX_MMG_naval11941_24_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.324"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.225",
+      "number": 50225,
+      "title": "MMG_naval11941_25_modules_t",
+      "description": "MMG_naval11941_25_modules_d",
+      "picture": "GFX_MMG_naval11941_25_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.325"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.226",
+      "number": 50226,
+      "title": "MMG_naval11941_26_modules_t",
+      "description": "MMG_naval11941_26_modules_d",
+      "picture": "GFX_MMG_naval11941_26_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.326"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.227",
+      "number": 50227,
+      "title": "MMG_naval11941_27_modules_t",
+      "description": "MMG_naval11941_27_modules_d",
+      "picture": "GFX_MMG_naval11941_27_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.327"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.228",
+      "number": 50228,
+      "title": "MMG_naval11941_28_modules_t",
+      "description": "MMG_naval11941_28_modules_d",
+      "picture": "GFX_MMG_naval11941_28_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.328"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.229",
+      "number": 50229,
+      "title": "MMG_naval11941_29_modules_t",
+      "description": "MMG_naval11941_29_modules_d",
+      "picture": "GFX_MMG_naval11941_29_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.329"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.230",
+      "number": 50230,
+      "title": "MMG_naval11941_30_modules_t",
+      "description": "MMG_naval11941_30_modules_d",
+      "picture": "GFX_MMG_naval11941_30_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.330"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.231",
+      "number": 50231,
+      "title": "MMG_naval11941_31_modules_t",
+      "description": "MMG_naval11941_31_modules_d",
+      "picture": "GFX_MMG_naval11941_31_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.331"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.232",
+      "number": 50232,
+      "title": "MMG_naval11941_32_modules_t",
+      "description": "MMG_naval11941_32_modules_d",
+      "picture": "GFX_MMG_naval11941_32_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.332"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.233",
+      "number": 50233,
+      "title": "MMG_naval11941_33_modules_t",
+      "description": "MMG_naval11941_33_modules_d",
+      "picture": "GFX_MMG_naval11941_33_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.333"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.234",
+      "number": 50234,
+      "title": "MMG_naval11941_34_modules_t",
+      "description": "MMG_naval11941_34_modules_d",
+      "picture": "GFX_MMG_naval11941_34_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.334"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.235",
+      "number": 50235,
+      "title": "MMG_naval11941_35_modules_t",
+      "description": "MMG_naval11941_35_modules_d",
+      "picture": "GFX_MMG_naval11941_35_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.335"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.236",
+      "number": 50236,
+      "title": "MMG_naval11941_36_modules_t",
+      "description": "MMG_naval11941_36_modules_d",
+      "picture": "GFX_MMG_naval11941_36_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.336"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.237",
+      "number": 50237,
+      "title": "MMG_naval11941_37_modules_t",
+      "description": "MMG_naval11941_37_modules_d",
+      "picture": "GFX_MMG_naval11941_37_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.337"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.238",
+      "number": 50238,
+      "title": "MMG_naval11941_38_modules_t",
+      "description": "MMG_naval11941_38_modules_d",
+      "picture": "GFX_MMG_naval11941_38_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.338"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.239",
+      "number": 50239,
+      "title": "MMG_naval11941_39_modules_t",
+      "description": "MMG_naval11941_39_modules_d",
+      "picture": "GFX_MMG_naval11941_39_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.339"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.240",
+      "number": 50240,
+      "title": "MMG_naval11941_40_modules_t",
+      "description": "MMG_naval11941_40_modules_d",
+      "picture": "GFX_MMG_naval11941_40_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.340"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.241",
+      "number": 50241,
+      "title": "MMG_naval11941_41_modules_t",
+      "description": "MMG_naval11941_41_modules_d",
+      "picture": "GFX_MMG_naval11941_41_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.341"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.242",
+      "number": 50242,
+      "title": "MMG_naval11941_42_modules_t",
+      "description": "MMG_naval11941_42_modules_d",
+      "picture": "GFX_MMG_naval11941_42_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.342"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.243",
+      "number": 50243,
+      "title": "MMG_naval11941_43_modules_t",
+      "description": "MMG_naval11941_43_modules_d",
+      "picture": "GFX_MMG_naval11941_43_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.343"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.244",
+      "number": 50244,
+      "title": "MMG_naval11941_44_modules_t",
+      "description": "MMG_naval11941_44_modules_d",
+      "picture": "GFX_MMG_naval11941_44_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.344"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.245",
+      "number": 50245,
+      "title": "MMG_naval11941_45_modules_t",
+      "description": "MMG_naval11941_45_modules_d",
+      "picture": "GFX_MMG_naval11941_45_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.345"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.246",
+      "number": 50246,
+      "title": "MMG_naval11941_46_modules_t",
+      "description": "MMG_naval11941_46_modules_d",
+      "picture": "GFX_MMG_naval11941_46_modules",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_stats",
+          "target": "MMG_naval.346"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.52"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.301",
+      "number": 50301,
+      "title": "MMG_naval11941_01_stats_t",
+      "description": "MMG_naval11941_01_stats_d",
+      "picture": "GFX_MMG_naval11941_01_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.201"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.302",
+      "number": 50302,
+      "title": "MMG_naval11941_02_stats_t",
+      "description": "MMG_naval11941_02_stats_d",
+      "picture": "GFX_MMG_naval11941_02_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.202"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.101"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.303",
+      "number": 50303,
+      "title": "MMG_naval11941_03_stats_t",
+      "description": "MMG_naval11941_03_stats_d",
+      "picture": "GFX_MMG_naval11941_03_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.203"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.102"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.304",
+      "number": 50304,
+      "title": "MMG_naval11941_04_stats_t",
+      "description": "MMG_naval11941_04_stats_d",
+      "picture": "GFX_MMG_naval11941_04_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.204"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.103"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.10"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.305",
+      "number": 50305,
+      "title": "MMG_naval11941_05_stats_t",
+      "description": "MMG_naval11941_05_stats_d",
+      "picture": "GFX_MMG_naval11941_05_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.205"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.104"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.306",
+      "number": 50306,
+      "title": "MMG_naval11941_06_stats_t",
+      "description": "MMG_naval11941_06_stats_d",
+      "picture": "GFX_MMG_naval11941_06_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.206"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.105"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.307",
+      "number": 50307,
+      "title": "MMG_naval11941_07_stats_t",
+      "description": "MMG_naval11941_07_stats_d",
+      "picture": "GFX_MMG_naval11941_07_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.207"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.106"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.308",
+      "number": 50308,
+      "title": "MMG_naval11941_08_stats_t",
+      "description": "MMG_naval11941_08_stats_d",
+      "picture": "GFX_MMG_naval11941_08_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.208"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.107"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.11"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.309",
+      "number": 50309,
+      "title": "MMG_naval11941_09_stats_t",
+      "description": "MMG_naval11941_09_stats_d",
+      "picture": "GFX_MMG_naval11941_09_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.209"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.108"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.310",
+      "number": 50310,
+      "title": "MMG_naval11941_10_stats_t",
+      "description": "MMG_naval11941_10_stats_d",
+      "picture": "GFX_MMG_naval11941_10_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.110"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.210"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.109"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.12"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.311",
+      "number": 50311,
+      "title": "MMG_naval11941_11_stats_t",
+      "description": "MMG_naval11941_11_stats_d",
+      "picture": "GFX_MMG_naval11941_11_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.211"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.312",
+      "number": 50312,
+      "title": "MMG_naval11941_12_stats_t",
+      "description": "MMG_naval11941_12_stats_d",
+      "picture": "GFX_MMG_naval11941_12_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.212"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.111"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.313",
+      "number": 50313,
+      "title": "MMG_naval11941_13_stats_t",
+      "description": "MMG_naval11941_13_stats_d",
+      "picture": "GFX_MMG_naval11941_13_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.213"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.112"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.314",
+      "number": 50314,
+      "title": "MMG_naval11941_14_stats_t",
+      "description": "MMG_naval11941_14_stats_d",
+      "picture": "GFX_MMG_naval11941_14_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.214"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.113"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.20"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.315",
+      "number": 50315,
+      "title": "MMG_naval11941_15_stats_t",
+      "description": "MMG_naval11941_15_stats_d",
+      "picture": "GFX_MMG_naval11941_15_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.215"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.114"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.316",
+      "number": 50316,
+      "title": "MMG_naval11941_16_stats_t",
+      "description": "MMG_naval11941_16_stats_d",
+      "picture": "GFX_MMG_naval11941_16_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.216"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.115"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.317",
+      "number": 50317,
+      "title": "MMG_naval11941_17_stats_t",
+      "description": "MMG_naval11941_17_stats_d",
+      "picture": "GFX_MMG_naval11941_17_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.217"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.116"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.318",
+      "number": 50318,
+      "title": "MMG_naval11941_18_stats_t",
+      "description": "MMG_naval11941_18_stats_d",
+      "picture": "GFX_MMG_naval11941_18_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.218"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.117"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.21"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.319",
+      "number": 50319,
+      "title": "MMG_naval11941_19_stats_t",
+      "description": "MMG_naval11941_19_stats_d",
+      "picture": "GFX_MMG_naval11941_19_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.219"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.118"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.320",
+      "number": 50320,
+      "title": "MMG_naval11941_20_stats_t",
+      "description": "MMG_naval11941_20_stats_d",
+      "picture": "GFX_MMG_naval11941_20_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.220"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.119"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.321",
+      "number": 50321,
+      "title": "MMG_naval11941_21_stats_t",
+      "description": "MMG_naval11941_21_stats_d",
+      "picture": "GFX_MMG_naval11941_21_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.121"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.221"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.120"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.22"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.322",
+      "number": 50322,
+      "title": "MMG_naval11941_22_stats_t",
+      "description": "MMG_naval11941_22_stats_d",
+      "picture": "GFX_MMG_naval11941_22_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.222"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.323",
+      "number": 50323,
+      "title": "MMG_naval11941_23_stats_t",
+      "description": "MMG_naval11941_23_stats_d",
+      "picture": "GFX_MMG_naval11941_23_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.223"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.122"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.324",
+      "number": 50324,
+      "title": "MMG_naval11941_24_stats_t",
+      "description": "MMG_naval11941_24_stats_d",
+      "picture": "GFX_MMG_naval11941_24_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.224"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.123"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.325",
+      "number": 50325,
+      "title": "MMG_naval11941_25_stats_t",
+      "description": "MMG_naval11941_25_stats_d",
+      "picture": "GFX_MMG_naval11941_25_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.225"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.124"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.30"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.326",
+      "number": 50326,
+      "title": "MMG_naval11941_26_stats_t",
+      "description": "MMG_naval11941_26_stats_d",
+      "picture": "GFX_MMG_naval11941_26_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.226"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.125"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.327",
+      "number": 50327,
+      "title": "MMG_naval11941_27_stats_t",
+      "description": "MMG_naval11941_27_stats_d",
+      "picture": "GFX_MMG_naval11941_27_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.227"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.126"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.328",
+      "number": 50328,
+      "title": "MMG_naval11941_28_stats_t",
+      "description": "MMG_naval11941_28_stats_d",
+      "picture": "GFX_MMG_naval11941_28_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.228"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.127"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.329",
+      "number": 50329,
+      "title": "MMG_naval11941_29_stats_t",
+      "description": "MMG_naval11941_29_stats_d",
+      "picture": "GFX_MMG_naval11941_29_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.129"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.229"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.128"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.31"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.330",
+      "number": 50330,
+      "title": "MMG_naval11941_30_stats_t",
+      "description": "MMG_naval11941_30_stats_d",
+      "picture": "GFX_MMG_naval11941_30_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.230"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.331",
+      "number": 50331,
+      "title": "MMG_naval11941_31_stats_t",
+      "description": "MMG_naval11941_31_stats_d",
+      "picture": "GFX_MMG_naval11941_31_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.231"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.130"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.332",
+      "number": 50332,
+      "title": "MMG_naval11941_32_stats_t",
+      "description": "MMG_naval11941_32_stats_d",
+      "picture": "GFX_MMG_naval11941_32_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.232"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.131"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.333",
+      "number": 50333,
+      "title": "MMG_naval11941_33_stats_t",
+      "description": "MMG_naval11941_33_stats_d",
+      "picture": "GFX_MMG_naval11941_33_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.233"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.132"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.40"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.334",
+      "number": 50334,
+      "title": "MMG_naval11941_34_stats_t",
+      "description": "MMG_naval11941_34_stats_d",
+      "picture": "GFX_MMG_naval11941_34_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.234"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.133"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.335",
+      "number": 50335,
+      "title": "MMG_naval11941_35_stats_t",
+      "description": "MMG_naval11941_35_stats_d",
+      "picture": "GFX_MMG_naval11941_35_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.235"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.134"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.336",
+      "number": 50336,
+      "title": "MMG_naval11941_36_stats_t",
+      "description": "MMG_naval11941_36_stats_d",
+      "picture": "GFX_MMG_naval11941_36_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.236"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.135"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.337",
+      "number": 50337,
+      "title": "MMG_naval11941_37_stats_t",
+      "description": "MMG_naval11941_37_stats_d",
+      "picture": "GFX_MMG_naval11941_37_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.137"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.237"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.136"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.41"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.338",
+      "number": 50338,
+      "title": "MMG_naval11941_38_stats_t",
+      "description": "MMG_naval11941_38_stats_d",
+      "picture": "GFX_MMG_naval11941_38_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.238"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.339",
+      "number": 50339,
+      "title": "MMG_naval11941_39_stats_t",
+      "description": "MMG_naval11941_39_stats_d",
+      "picture": "GFX_MMG_naval11941_39_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.239"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.138"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.340",
+      "number": 50340,
+      "title": "MMG_naval11941_40_stats_t",
+      "description": "MMG_naval11941_40_stats_d",
+      "picture": "GFX_MMG_naval11941_40_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.240"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.139"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.341",
+      "number": 50341,
+      "title": "MMG_naval11941_41_stats_t",
+      "description": "MMG_naval11941_41_stats_d",
+      "picture": "GFX_MMG_naval11941_41_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.241"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.140"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.50"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.342",
+      "number": 50342,
+      "title": "MMG_naval11941_42_stats_t",
+      "description": "MMG_naval11941_42_stats_d",
+      "picture": "GFX_MMG_naval11941_42_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.242"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.141"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.343",
+      "number": 50343,
+      "title": "MMG_naval11941_43_stats_t",
+      "description": "MMG_naval11941_43_stats_d",
+      "picture": "GFX_MMG_naval11941_43_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.243"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.142"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.344",
+      "number": 50344,
+      "title": "MMG_naval11941_44_stats_t",
+      "description": "MMG_naval11941_44_stats_d",
+      "picture": "GFX_MMG_naval11941_44_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.244"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.143"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.345",
+      "number": 50345,
+      "title": "MMG_naval11941_45_stats_t",
+      "description": "MMG_naval11941_45_stats_d",
+      "picture": "GFX_MMG_naval11941_45_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.245"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.144"
+        },
+        {
+          "label": "MMG_naval11941_next",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.51"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
+    },
+    {
+      "id": "MMG_naval.346",
+      "number": 50346,
+      "title": "MMG_naval11941_46_stats_t",
+      "description": "MMG_naval11941_46_stats_d",
+      "picture": "GFX_MMG_naval11941_46_stats",
+      "choices": [
+        {
+          "label": "MMG_naval11941_full",
+          "target": "MMG_naval.146"
+        },
+        {
+          "label": "MMG_naval11941_modules",
+          "target": "MMG_naval.246"
+        },
+        {
+          "label": "MMG_naval11941_prev",
+          "target": "MMG_naval.145"
+        },
+        {
+          "label": "MMG_naval11941_group",
+          "target": "MMG_naval.52"
+        },
+        {
+          "label": "MMG_naval11941_index",
+          "target": "MMG_guide.700"
+        },
+        {
+          "label": "MMG_naval11941_close",
+          "target": null
+        }
+      ],
+      "source": "tools/page_sources/MMG_naval_11941_pages.mmg"
     }
   ],
-  "source_pages": 351,
+  "source_pages": 505,
   "private_variables": [
     "MMG_UI_page",
     "MMG_UI_choices"

@@ -1,0 +1,619 @@
+# 1.19.4.1 ship designs and bilingual index cards.
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_MMG_naval11941_note_1"
+		texturefile = "gfx/event_pictures/mmg_naval11941_note_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_note_2"
+		texturefile = "gfx/event_pictures/mmg_naval11941_note_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_index"
+		texturefile = "gfx/event_pictures/mmg_naval11941_index.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_10"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_11"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_11.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_12"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_12.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_01_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_01_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_01_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_01_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_01_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_01_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_02_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_02_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_02_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_02_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_02_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_02_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_03_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_03_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_03_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_03_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_03_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_03_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_04_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_04_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_04_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_04_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_04_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_04_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_05_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_05_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_05_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_05_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_05_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_05_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_06_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_06_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_06_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_06_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_06_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_06_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_07_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_07_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_07_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_07_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_07_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_07_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_08_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_08_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_08_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_08_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_08_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_08_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_09_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_09_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_09_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_09_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_09_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_09_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_10_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_10_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_10_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_10_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_10_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_10_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_20"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_20.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_21"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_21.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_22"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_22.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_11_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_11_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_11_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_11_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_11_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_11_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_12_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_12_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_12_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_12_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_12_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_12_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_13_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_13_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_13_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_13_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_13_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_13_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_14_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_14_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_14_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_14_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_14_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_14_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_15_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_15_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_15_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_15_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_15_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_15_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_16_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_16_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_16_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_16_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_16_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_16_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_17_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_17_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_17_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_17_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_17_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_17_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_18_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_18_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_18_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_18_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_18_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_18_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_19_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_19_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_19_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_19_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_19_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_19_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_20_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_20_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_20_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_20_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_20_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_20_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_21_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_21_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_21_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_21_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_21_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_21_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_30"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_30.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_31"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_31.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_22_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_22_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_22_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_22_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_22_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_22_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_23_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_23_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_23_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_23_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_23_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_23_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_24_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_24_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_24_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_24_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_24_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_24_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_25_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_25_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_25_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_25_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_25_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_25_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_26_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_26_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_26_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_26_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_26_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_26_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_27_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_27_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_27_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_27_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_27_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_27_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_28_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_28_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_28_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_28_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_28_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_28_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_29_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_29_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_29_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_29_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_29_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_29_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_40"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_40.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_41"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_41.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_30_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_30_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_30_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_30_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_30_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_30_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_31_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_31_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_31_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_31_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_31_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_31_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_32_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_32_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_32_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_32_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_32_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_32_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_33_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_33_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_33_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_33_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_33_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_33_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_34_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_34_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_34_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_34_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_34_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_34_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_35_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_35_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_35_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_35_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_35_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_35_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_36_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_36_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_36_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_36_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_36_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_36_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_37_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_37_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_37_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_37_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_37_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_37_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_50"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_51"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_51.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_menu_52"
+		texturefile = "gfx/event_pictures/mmg_naval11941_menu_52.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_38_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_38_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_38_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_38_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_38_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_38_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_39_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_39_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_39_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_39_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_39_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_39_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_40_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_40_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_40_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_40_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_40_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_40_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_41_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_41_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_41_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_41_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_41_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_41_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_42_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_42_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_42_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_42_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_42_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_42_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_43_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_43_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_43_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_43_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_43_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_43_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_44_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_44_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_44_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_44_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_44_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_44_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_45_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_45_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_45_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_45_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_45_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_45_stats.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_46_full"
+		texturefile = "gfx/event_pictures/mmg_naval11941_46_full.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_46_modules"
+		texturefile = "gfx/event_pictures/mmg_naval11941_46_modules.dds"
+	}
+	SpriteType = {
+		name = "GFX_MMG_naval11941_46_stats"
+		texturefile = "gfx/event_pictures/mmg_naval11941_46_stats.dds"
+	}
+}

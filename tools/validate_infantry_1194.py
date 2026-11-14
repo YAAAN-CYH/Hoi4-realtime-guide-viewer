@@ -32,8 +32,11 @@ def validate(root):
             events[ident] = block
     retained = {f'MMG_guide.{n}' for n in range(100,107)} | {'MMG_guide.400'}
     owned = {k:v for k,v in events.items() if k.startswith('MMG_infantry.') or k in retained}
-    if len(owned) != manifest['events'] or len(owned) != 83:
-        errors.append(f'Expected 83 army source pages, got {len(owned)}')
+    ranking = json.loads((root/'tools/army_doctrine_ranking_1194.json').read_text(encoding='utf-8'))
+    note_pages = sum((len(group['entries']) + 2) // 3 for group in ranking['groups'])
+    expected_pages = 83 + note_pages
+    if len(owned) != manifest['events'] or len(owned) != expected_pages:
+        errors.append(f'Expected {expected_pages} army source pages, got {len(owned)}')
     if any(f'MMG_guide.{n}' in events for n in range(401,407)):
         errors.append('Retired old formation events remain')
     links = {k:re.findall(r'country_event\s*=\s*\{\s*id\s*=\s*(\w+\.\d+)',v) for k,v in events.items()}

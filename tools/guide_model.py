@@ -11,7 +11,7 @@ import re
 
 
 OFFSETS = {'MMG_guide': 10000, 'MMG_tank': 20000,
-           'MMG_infantry': 30000, 'MMG_aircraft': 40000}
+           'MMG_infantry': 30000, 'MMG_aircraft': 40000, 'MMG_naval': 50000}
 CHAPTERS = [
     ('MMG_land_doctrine_decision', 'MMG_guide.100'),
     ('MMG_naval_doctrine_decision', 'MMG_guide.200'),

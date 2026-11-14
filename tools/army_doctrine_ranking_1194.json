@@ -1,0 +1,396 @@
+{
+  "source": {
+    "name": "1.19.4陆军学说夯拉一图流.xlsx",
+    "sha256": "bc527c17181914c3d3a7545244e2a66e6ea724add0de8ad3394129c368c9beda",
+    "sheet": "Sheet1",
+    "game_version": "1.19.4"
+  },
+  "tiers": [
+    {
+      "zh": "非常推荐",
+      "en": "Top pick",
+      "color": "#c5d5a4"
+    },
+    {
+      "zh": "推荐",
+      "en": "Recommended",
+      "color": "#dce1b5"
+    },
+    {
+      "zh": "普通",
+      "en": "Average",
+      "color": "#e7ddba"
+    },
+    {
+      "zh": "不推荐",
+      "en": "Low priority",
+      "color": "#e7c6a9"
+    },
+    {
+      "zh": "非常不推荐",
+      "en": "Lowest priority",
+      "color": "#dfb2a9"
+    }
+  ],
+  "groups": [
+    {
+      "page": 101,
+      "zh": "主学说",
+      "en": "Grand Doctrine",
+      "entries": [
+        {
+          "cell": "B2",
+          "vanilla_key": "GRAND_DOCTRINE_MASS_ASSAULT",
+          "tier": 0,
+          "zh": "人海突击",
+          "en": "Mass Assault",
+          "note_zh": "偏防御与持久战，战术储备补生命值，精通降低步兵宽度和补给消耗。可搭配机动防御。",
+          "note_en": "Strong for defense and endurance. Tactical Reserves adds HP and mastery reduces infantry width and supply use. Pairs with Mobile Defense."
+        },
+        {
+          "cell": "B4",
+          "vanilla_key": "GRAND_DOCTRINE_SUPERIOR_FIREPOWER",
+          "tier": 1,
+          "zh": "优势火力",
+          "en": "Superior Firepower",
+          "note_zh": "适合以团属支援火力为主的小国编制。兼顾组织恢复、补给和团支软硬攻。",
+          "note_en": "Useful for smaller countries relying on regimental fire support. Benefits include organization recovery, supply and regimental soft and hard attack."
+        },
+        {
+          "cell": "C4",
+          "vanilla_key": "GRAND_DOCTRINE_GRAND_BATTLEPLAN",
+          "tier": 1,
+          "zh": "决战计划",
+          "en": "Grand Battleplan",
+          "note_zh": "偏计划进攻，重视计划上限、协同与突破。适合有时间积攒计划的打法。",
+          "note_en": "Planning-oriented offense with planning cap, coordination and breakthrough. Fits armies that can prepare their attacks."
+        },
+        {
+          "cell": "B6",
+          "vanilla_key": "GRAND_DOCTRINE_MOBILE_WARFARE",
+          "tier": 2,
+          "zh": "机动作战",
+          "en": "Mobile Warfare",
+          "note_zh": "装甲里程碑提供陆军突破，适合机动装甲及自行火力编制。",
+          "note_en": "The armor milestone adds army breakthrough. Consider it for mobile armor and self-propelled fire support."
+        }
+      ]
+    },
+    {
+      "page": 102,
+      "zh": "步兵",
+      "en": "Infantry",
+      "entries": [
+        {
+          "cell": "E2",
+          "vanilla_key": "SUBDOCTRINE_COMMANDOS",
+          "tier": 0,
+          "zh": "卓越单兵",
+          "en": "Individual Excellence",
+          "note_zh": "重视步兵生命值和杀伤，适合改善常规步兵的交换比。",
+          "note_en": "Infantry HP and damage improve the cost exchange in regular infantry combat."
+        },
+        {
+          "cell": "E4",
+          "vanilla_key": "SUBDOCTRINE_IRREGULARS",
+          "tier": 1,
+          "zh": "非正规军",
+          "en": "Irregulars",
+          "note_zh": "依赖能用的非正规单位，亮点在减宽和人力，收益随国家和编制而变。",
+          "note_en": "Width and manpower are the draw. Value depends on the country's access to irregular units and its templates."
+        },
+        {
+          "cell": "G4",
+          "vanilla_key": "SUBDOCTRINE_LARGE_UNIT_TACTICS",
+          "tier": 1,
+          "zh": "大规模部队战术",
+          "en": "Large Unit Tactics",
+          "note_zh": "步兵宽度减0.2，适合宽编制步坦、步炮和纯步。",
+          "note_en": "Reduces infantry width by 0.2. Fits wide infantry-tank, infantry-artillery and pure infantry templates."
+        },
+        {
+          "cell": "E6",
+          "vanilla_key": "SUBDOCTRINE_MOUNTED_INFANTRY",
+          "tier": 2,
+          "zh": "骑乘步兵",
+          "en": "Mounted Infantry",
+          "note_zh": "适合已经打算用骑兵加火炮的编制，常规步兵收益较有限。",
+          "note_en": "Fits cavalry-artillery builds. It has limited value for regular infantry."
+        },
+        {
+          "cell": "F6",
+          "vanilla_key": "SUBDOCTRINE_MOBILE_INFANTRY",
+          "tier": 2,
+          "zh": "机动步兵",
+          "en": "Mobile Infantry",
+          "note_zh": "组织度高，适合机动步兵体系，整体收益较集中。",
+          "note_en": "High organization for mobile infantry armies, with a narrow set of benefits."
+        },
+        {
+          "cell": "E8",
+          "vanilla_key": "SUBDOCTRINE_GREAT_WAR_INFANTRY",
+          "tier": 3,
+          "zh": "大战步兵",
+          "en": "Great War Infantry",
+          "note_zh": "看重堑壕时可比较这条路线，原表仍列为不推荐。",
+          "note_en": "Consider its entrenchment for static defense. The ranking still places it in the not-recommended tier."
+        },
+        {
+          "cell": "F8",
+          "vanilla_key": "SUBDOCTRINE_PEOPLES_WAR",
+          "tier": 3,
+          "zh": "人民民兵",
+          "en": "People's Militia",
+          "note_zh": "有游击战术和缴获收益，常规编制优先级低。",
+          "note_en": "Offers guerrilla tactics and equipment capture. Low priority for regular formations."
+        },
+        {
+          "cell": "G8",
+          "vanilla_key": "SUBDOCTRINE_ASSAULT_INFANTRY",
+          "tier": 3,
+          "zh": "突击步兵",
+          "en": "Assault Infantry",
+          "note_zh": "步兵炮加成削弱后，原表降低了这条路线的优先级。",
+          "note_en": "Lower priority after the infantry-gun bonuses were reduced."
+        },
+        {
+          "cell": "E10",
+          "vanilla_key": "SUBDOCTRINE_DEFENSIVE_POSTURES",
+          "tier": 4,
+          "zh": "防御态势",
+          "en": "Defensive Postures",
+          "note_zh": "表格认为实际堑壕收益偏低。按编制面板核对绝对收益。",
+          "note_en": "The ranking rates the practical entrenchment gain as small. Check the flat gain in the template panel."
+        }
+      ]
+    },
+    {
+      "page": 103,
+      "zh": "火炮与战斗支援",
+      "en": "Artillery and Combat Support",
+      "entries": [
+        {
+          "cell": "H2",
+          "vanilla_key": "SUBDOCTRINE_MOBILE_RECON_AND_ASSAULT",
+          "tier": 0,
+          "zh": "机动侦察与突击",
+          "en": "Mobile Recon & Assault",
+          "note_zh": "偏后勤和坦克突破。相比自行式支援，少一些组织收益，多减5%补给消耗。",
+          "note_en": "Favors logistics and tank breakthrough. Trades some organization for 5% extra supply reduction compared with Self-propelled Support."
+        },
+        {
+          "cell": "I2",
+          "vanilla_key": "SUBDOCTRINE_SELF_PROPELLED_SUPPORT",
+          "tier": 0,
+          "zh": "自行式支援",
+          "en": "Self-propelled Support",
+          "note_zh": "提升自行单位软硬攻，并兼顾团属自行火力、速度和组织。",
+          "note_en": "Improves self-propelled soft and hard attack, with benefits to regimental fire support, speed and organization."
+        },
+        {
+          "cell": "J2",
+          "vanilla_key": "SUBDOCTRINE_SIEGE_ARTILLERY",
+          "tier": 0,
+          "zh": "攻坚火力",
+          "en": "Siege Artillery",
+          "note_zh": "适合线列炮兵和要塞攻坚。联机可搭配列车炮支援，按游戏内说明核对削弱效果。",
+          "note_en": "Fits line artillery and assaults on forts. In multiplayer, coordinate railway gun support and check the in-game modifiers."
+        },
+        {
+          "cell": "H4",
+          "vanilla_key": "SUBDOCTRINE_FIRE_CONCENTRATION",
+          "tier": 1,
+          "zh": "集中火力",
+          "en": "Fire Concentration",
+          "note_zh": "小国可用步炮破局，留意线列火炮的组织和突破收益。",
+          "note_en": "A line-artillery option for smaller countries. Check organization and breakthrough when building infantry-artillery divisions."
+        },
+        {
+          "cell": "H10",
+          "vanilla_key": "SUBDOCTRINE_FLYING_BATTERIES",
+          "tier": 4,
+          "zh": "机动炮组",
+          "en": "Flying Batteries",
+          "note_zh": "收益偏向炮兵组织，表格对综合收益评价低。",
+          "note_en": "The benefits lean toward artillery organization, giving it low overall priority in the table."
+        },
+        {
+          "cell": "I10",
+          "vanilla_key": "SUBDOCTRINE_AIR_CAVALRY",
+          "tier": 4,
+          "zh": "空中骑兵",
+          "en": "Air Cavalry",
+          "note_zh": "原表优先级最低，可按直升机支援需求重新判断。",
+          "note_en": "The table puts this in the lowest tier. Judge it by the need for helicopter support."
+        },
+        {
+          "cell": "H11",
+          "vanilla_key": "SUBDOCTRINE_FIELD_ENGINEERING",
+          "tier": 4,
+          "zh": "野战工程",
+          "en": "Field Engineering",
+          "note_zh": "工程用途较专，表格给常规作战的评价较低。",
+          "note_en": "Specialized for engineering, with low priority for general combat in the table."
+        },
+        {
+          "cell": "I11",
+          "vanilla_key": "SUBDOCTRINE_ANTI_TANK_FRONT",
+          "tier": 4,
+          "zh": "反坦克前线",
+          "en": "Anti-Tank Frontline",
+          "note_zh": "偏牵引反坦克炮体系，适用面较窄。",
+          "note_en": "Favors towed anti-tank guns and has a narrow application."
+        }
+      ]
+    },
+    {
+      "page": 104,
+      "zh": "装甲",
+      "en": "Armor",
+      "entries": [
+        {
+          "cell": "K2",
+          "vanilla_key": "SUBDOCTRINE_TANK_DESTROYER_FORCE",
+          "tier": 0,
+          "zh": "自行反坦克炮部队",
+          "en": "Tank Destroyer Force",
+          "note_zh": "看重坦歼硬攻，以及突击工兵和装甲通讯的配合。",
+          "note_en": "Prioritizes TD hard attack and synergy with assault engineers and armored signals."
+        },
+        {
+          "cell": "L2",
+          "vanilla_key": "SUBDOCTRINE_MOBILE_DEFENSE",
+          "tier": 0,
+          "zh": "机动防御",
+          "en": "Mobile Defense",
+          "note_zh": "兼顾装甲软攻和硬攻，可用于机动防守和反击。",
+          "note_en": "Supports both soft and hard attack for mobile defense and counterattacks."
+        },
+        {
+          "cell": "M2",
+          "vanilla_key": "SUBDOCTRINE_STREAMLINED_DEPLOYMENT",
+          "tier": 0,
+          "zh": "精简部署",
+          "en": "Streamlined Deployment",
+          "note_zh": "原表推荐原版对 AI 使用，收益偏软攻、突破与少量补给减耗。",
+          "note_en": "Recommended for vanilla play against AI, with soft attack, breakthrough and a small supply-use reduction."
+        },
+        {
+          "cell": "K6",
+          "vanilla_key": "SUBDOCTRINE_ARMORED_SPEARHEAD",
+          "tier": 2,
+          "zh": "装甲先锋",
+          "en": "Armored Spearhead",
+          "note_zh": "侧重坦克突破及相关战术。与作战栏的大规模强袭一起比较。",
+          "note_en": "Emphasizes tank breakthrough and related tactics. Compare it alongside Grand Assault in Operations."
+        },
+        {
+          "cell": "K8",
+          "vanilla_key": "SUBDOCTRINE_ARMORED_INFANTRY_SUPPORT",
+          "tier": 3,
+          "zh": "装甲步兵支援",
+          "en": "Armored Infantry Support",
+          "note_zh": "收益偏向重坦，常规装甲部队采用优先级较低。",
+          "note_en": "Benefits lean toward heavy tanks, with lower priority for general armored forces."
+        },
+        {
+          "cell": "K10",
+          "vanilla_key": "SUBDOCTRINE_ARMORED_CAVALRY",
+          "tier": 4,
+          "zh": "装甲骑兵",
+          "en": "Armored Cavalry",
+          "note_zh": "偏装甲车。即使看重可解锁的减造价精神，仍需考虑选用该路线的代价。",
+          "note_en": "Favors armored cars. Weigh the unlocked production-cost spirit against the opportunity cost of this track."
+        }
+      ]
+    },
+    {
+      "page": 105,
+      "zh": "作战",
+      "en": "Operations",
+      "entries": [
+        {
+          "cell": "N2",
+          "vanilla_key": "SUBDOCTRINE_INFILTRATION_TACTICS",
+          "tier": 0,
+          "zh": "渗透战术",
+          "en": "Infiltration Tactics",
+          "note_zh": "偏通用，兼顾夜战、补给、计划与突破。",
+          "note_en": "A flexible pick covering night combat, supply, planning and breakthrough."
+        },
+        {
+          "cell": "O2",
+          "vanilla_key": "SUBDOCTRINE_GRAND_ASSAULT",
+          "tier": 0,
+          "zh": "大规模强袭",
+          "en": "Grand Assault",
+          "note_zh": "偏进攻，关注计划上限、陆军突破、制空加成及后勤。",
+          "note_en": "Offense-oriented, with planning cap, army breakthrough, air superiority effects and logistics."
+        },
+        {
+          "cell": "N4",
+          "vanilla_key": "SUBDOCTRINE_LAST_STAND",
+          "tier": 1,
+          "zh": "殊死防御",
+          "en": "Desperate Defense",
+          "note_zh": "主要为人力。1.19.5.0 下，防御战争或投降进度大于10%且战争支持度大于50%可用，印尼另有革命条件。",
+          "note_en": "Mainly for manpower. In 1.19.5.0 it requires a defensive war or over 10% surrender progress with over 50% war support. Indonesia has a revolution exception."
+        },
+        {
+          "cell": "N6",
+          "vanilla_key": "SUBDOCTRINE_DEEP_BATTLE",
+          "tier": 2,
+          "zh": "纵深战斗",
+          "en": "Deep Battle",
+          "note_zh": "偏增援率和机动防御战术，直接战斗数值收益较少。",
+          "note_en": "Favors reinforcement rate and Mobile Defense tactics, with fewer direct combat-stat gains."
+        },
+        {
+          "cell": "O6",
+          "vanilla_key": "SUBDOCTRINE_RAPID_DOMINATION",
+          "tier": 2,
+          "zh": "快速主导",
+          "en": "Rapid Domination",
+          "note_zh": "偏进攻、突破战术与制空影响，步兵炮收益适合特定编制。",
+          "note_en": "Favors offense, breakthrough tactics and air superiority. Its infantry-gun benefits fit specific templates."
+        },
+        {
+          "cell": "P6",
+          "vanilla_key": "SUBDOCTRINE_MISSION_TYPE_TACTICS",
+          "tier": 2,
+          "zh": "任务型战术",
+          "en": "Mission-Type Tactics",
+          "note_zh": "亮点是组织度。表格认为组织收益削弱后，综合优先级降到普通。",
+          "note_en": "Organization is its strength. The ranking puts it in the middle tier after reductions to its organization benefits."
+        },
+        {
+          "cell": "Q6",
+          "vanilla_key": "SUBDOCTRINE_GUERILLA_WAR",
+          "tier": 2,
+          "zh": "游击战",
+          "en": "Guerilla War",
+          "note_zh": "以游击战术和缴获为亮点，按可用单位与打法选。",
+          "note_en": "Guerrilla tactics and equipment capture are the draw. Match it to available units and playstyle."
+        },
+        {
+          "cell": "N8",
+          "vanilla_key": "SUBDOCTRINE_DISPERSED_OPERATIONS",
+          "tier": 3,
+          "zh": "分散作战",
+          "en": "Dispersed Operations",
+          "note_zh": "偏增援和防空，原表认为实战优先级较低。",
+          "note_en": "Favors reinforcements and anti-air. The ranking gives it low practical priority."
+        },
+        {
+          "cell": "N10",
+          "vanilla_key": "SUBDOCTRINE_EXPEDITIONARY_WARFARE",
+          "tier": 4,
+          "zh": "远征作战",
+          "en": "Expeditionary Warfare",
+          "note_zh": "面向远征投送，常规陆战的评级最低。",
+          "note_en": "Designed around expeditionary deployment, with the lowest rating for general land combat."
+        }
+      ]
+    }
+  ]
+}

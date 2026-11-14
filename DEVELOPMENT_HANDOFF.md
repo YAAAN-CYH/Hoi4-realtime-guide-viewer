@@ -1,5 +1,51 @@
 # 实时攻略查看器 Development Handoff
 
+## Army doctrine rankings for 1.19.4, 2026-11-13
+
+`tools/army_doctrine_ranking_1194.json` transcribes 36 entries across five
+categories and five tiers from `1.19.4陆军学说夯拉一图流.xlsx`, Sheet1.
+The entries include Guerrilla War at Q6, Field Engineering at H11 and
+Anti-Tank Frontline at I11. The builder uses official bilingual names from
+installed game localisation and retains the workbook tiers. Desperate Defense
+includes its version-labelled 1.19.5.0 unlock conditions.
+
+`MMG_guide.100` remains the army doctrine index. Its five category pages
+show the rankings and link to thirteen bilingual commentary pages. The older
+numeric references remain accessible on the category pages. `MMG_guide.106`
+continues to open Army Spirits. The infantry build can reuse the reviewed JSON
+text and verify the original PPTX hash when that source is supplied.
+
+Static validation passes 506 pages, 5,061 navigation transitions and 1,012
+bilingual layouts. The army validator covers 96 pages and textures plus all
+18 formation sources. The compiled viewer loads zero events and decisions
+and owns no vanilla file overrides. In-game navigation awaits verification.
+
+## Ship designs from 1.19.4.1, 2026-11-06
+
+The ship-design entry at `MMG_guide.700` now opens 46 Word-based designs in five
+class menus. The new chapter has 138 design views, 13 menu pages, two reference
+pages and an index. The aircraft reference links to the current aircraft index.
+`tools/naval_11941_content.json` pins the original Word document and all 46 image
+hashes. `tools/build_naval_11941.py` regenerates the offline pages, bilingual
+localisation, DDS sprites and compiled viewer.
+
+The PPT ship gallery, its source mappings and 13 superseded images are retired.
+The three naval doctrine pages and the other chapter graphs retain their
+existing IDs and content. The compiler preserves the launcher, drag grip and
+isolated runtime structure.
+
+The screenshot values govern conflicting prose. Reviewed examples include
+the single-deck carrier Engine II, the IV radar on the advanced and modern
+carriers, and 13,290 production cost on the 1940 battleship. The naval notes
+distinguish capacity from combat sorties and baseline capacity from the
+Space Efficient Design policy. The naval references use the supplied
+1.19.4.1 material and locally installed 1.19.4.2 data for module checks.
+
+The full static validator passes 493 pages, 4931 navigation transitions and
+986 localized layouts. All pages are reachable from home. The 154 new naval
+textures decode as nonempty 720×450 RGBA DDS. The new content awaits an
+in-game check after restarting with this build.
+
 ## Repository snapshot — GitHub synchronization, 2026-11-04
 
 Target: private YAAAN-CYH/realtime-guide-viewer, branch main. The remote had no

@@ -4,9 +4,8 @@
 
 Version 1.1.0 is an additive player-only guide window. Enter a game and click
 Guide Viewer / 攻略查看器 near the lower-left corner, then choose one of seven
-chapters. The former decision/event entry points are removed. All 351 prior
-content pages and their navigation are preserved, with one new home page.
-The guide keeps its Chinese/English content, full views and enlargements.
+chapters. The viewer compiles 505 content pages plus the home page. The
+design chapters provide Chinese/English text, full views and enlargements.
 
 Target: `MengXin_Armaments_Guide` only. The other Chinese mod copy is not
 synchronized. The descriptor targets 1.19.4.1; installed source inventory was
@@ -39,7 +38,7 @@ checksum-neutral; the actual checksum was not measured.
 | GUI sprites | `interface/MMG_viewer.gfx` | Private paper, option, launcher-grip and home sprites; no vanilla sprite definitions |
 | UI localisation | `localisation/*/MMG_viewer_l_*.yml` | Home, launcher, close/home controls and selector wrappers |
 | Content localisation | Existing five localisation files per language | Original 920 content keys are retained |
-| Source graph | `tools/page_sources/*.mmg` | 351 inert page records, in a folder the engine does not load as events |
+| Source graph | `tools/page_sources/*.mmg` | 505 inert page records, in a folder the engine does not load as events |
 | Compiled mapping | `tools/viewer_source_map.json` | Stable page numbers, labels, pictures, choices and cleanup contract |
 | Isolation audit | `tools/validate_viewer_isolation.py` | File/effect allowlist, selectors, every button transition, all-language bounds |
 
@@ -132,7 +131,7 @@ open may retain the UI fields; reopening resets to the home page.
 
 Stable UI numbers: home 1; legacy source IDs become namespace offset plus
 numeric suffix: MMG_guide 10000, MMG_tank 20000, MMG_infantry 30000,
-MMG_aircraft 40000. Adding content does not renumber existing pages. The
+MMG_aircraft 40000, MMG_naval 50000. Adding content does not renumber existing pages. The
 source keys `MMG_guide.100` through `.700` remain the seven chapter roots as
 metadata only. The source model is validated before the compiler emits UI.
 A missing/unknown display selector falls back to the home title/image and
@@ -147,11 +146,10 @@ runtime-unverified in this environment.
 
 ## Preserved content and provenance
 
-The content counts remain 122 tank pages, 83 army pages, 130 air pages and
-16 naval pages. These use 349 original guide textures; the new home adds one
-720x450 guide texture. The independent frame and button atlas are UI assets.
-All existing content localisation values and original guide textures are
-preserved through this isolation change.
+The viewer contains 122 tank pages, 96 army pages, 130 air pages, three naval
+doctrine pages, 154 ship design and navigation pages, and one home page.
+The chapter and home images use 504 DDS textures at 720×450. The window frame
+and button atlases are separate UI assets.
 
 Aircraft: `aircraft_1194_content.json`, `build_aircraft_1194.py` and
 `aircraft_1194_source_map.json` own 36 complete Word panels in five groups
@@ -173,7 +171,7 @@ map own exactly eighteen Word formations in four groups (4/6/5/3), with
 SHA-256 `68712244b8d3a7a5547df77baed9f5fb1eb26e3b23a6e9f5c2190efb0cafb442`.
 The supplied PPT hash is
 `fb821a0446a7e3e90aea02ad62c6fd80732f85d56a581fb42c642dd494c205e5`.
-The Word defines the roster; army doctrine/spirits/support notes prioritize
+The Word defines the roster. The existing army doctrine, spirits and support references prioritize
 the official 2026-10-27 1.19.4 patch, then PPT text. PPT formation/garrison
 slides are excluded. Official source:
 https://steamcommunity.com/games/394360/announcements/detail/684142629662760620
@@ -184,17 +182,37 @@ is 635.0 soft/920.4 hard; modern SPG soft attack is 1225.2. Hospital HP is
 scoped to infantry categories, TD/regimental breakthrough is distinguished,
 and the autoloader note is +2%, not flat +2.
 
+Army doctrine rankings come from `1.19.4陆军学说夯拉一图流.xlsx`, Sheet1.
+`army_doctrine_ranking_1194.json` records the workbook hash, source cell,
+vanilla localisation key, tier and bilingual notes for each of 36 entries.
+The builder renders the five existing doctrine category pages as tier charts
+and adds thirteen commentary pages linked from those charts. The chart tiers
+are for 1.19.4. The Desperate Defense note labels the unlock conditions
+verified against locally installed 1.19.5.0 data.
+
 Tank: `tank_1194_content.json`, `build_tank_1194.py` and its map own 36 stable
 design IDs, 108 views, five chassis groups and 120 textures. Word media
 renumbering is handled by explicit member/hash mappings; IDs 35/36 are the
 armored SPAA and support flame tank. Advanced light designs remain absent.
 No missing design is filled with unrelated old content.
 
-Naval: `design_gallery.py`, `build_design_gallery_patch.py` and
-`rebuild_event_pictures.py` own only the retained PPT naval content. Their
-page definitions are now emitted under tools/page_sources. Apply a generated
-patch there, then compile the viewer. They cannot regenerate retired army,
-tank, aircraft chapters or native decision/event entry points.
+Naval: `naval_11941_content.json` and `build_naval_11941.py` own the ship
+chapter at `MMG_guide.700`. The Word document contributes 46 ship panels
+across submarines, destroyers, cruisers, battleships and carriers (10/11/8/8/9).
+The JSON pins the document and individual media hashes. Each design provides a
+full panel, a crop of the upper and lower module slots, and a crop of the stats
+and cost. The 13 class menus and two reference pages complete the chapter.
+`rebuild_event_pictures.py` maintains the three retained PPT naval doctrine
+textures. The former PPT ship gallery and its generation mappings are retired.
+
+Visible module slots and values take precedence over conflicting prose.
+Examples include the 1936 heavy-gun battleship's empty AA slot, the Radar IV
+on the advanced and modern carriers, and the single-deck escort carrier's
+Engine II and 10-aircraft base capacity. Installed 1.19.4.2 module and MIO
+definitions corroborate Walter engine range, carrier capacity, and anechoic
+tile costs. Sortie text accounts for the opponent and efficiency. See the
+[Paradox naval features diary](https://steamcommunity.com/games/394360/announcements/detail/603046864900588092)
+for the carrier air mission and naval support roles.
 
 ## Tank design evidence retained from the content update
 
@@ -297,8 +315,9 @@ Requirements: Python, Pillow and an installed CJK font. Run from this mod:
 
 ```powershell
 python tools/build_tank_1194.py "C:/path/to/1.19.4坦克攻略.docx"
-python tools/build_infantry_1194.py "C:/path/to/1.19.4步兵设计攻略.docx" "C:/path/to/萌新向军备攻略 (1).pptx"
+python tools/build_infantry_1194.py "C:/path/to/1.19.4步兵设计攻略.docx"
 python tools/build_aircraft_1194.py "C:/path/to/1.19.4飞机设计攻略.docx"
+python tools/build_naval_11941.py "C:/path/to/1.19.4.1海军更新.docx"
 python tools/build_viewer.py
 python tools/validate_viewer_isolation.py --game-root "D:/path/to/Hearts of Iron IV"
 python tools/validate_tank_1194.py
@@ -310,13 +329,16 @@ Each Word source builder writes only offline page data, owned images/text
 and then recompiles the isolated viewer. Source hashes and every referenced
 image member must match before changed Word data is accepted. External source
 documents are never rewritten or executed. Rebuilds must be byte-identical.
+The infantry builder accepts the original PPTX as an optional second
+argument to verify its provenance hash. The reviewed PPT text and workbook
+rankings are stored in the checked-in JSON inputs.
 The old chapter validators now inspect offline source graphs, not engine
 event execution. Their legacy report field named events means source nodes.
 The isolation validator supplies the actual loaded-runtime safety contract.
 
 The isolation check simulates all eight option slots plus home/close for
-every page and the launcher: 3521 transitions, 704 localized layouts and
-937 keys per language. It rejects any non-private effect, unknown common
+every page and the launcher. The current snapshot checks 5061 transitions,
+1012 localized layouts and 1290 keys per language. It rejects any non-private effect, unknown common
 file, vanilla file override, loaded event/decision, missing source page,
 incorrect selector, navigation mismatch or text-bound overflow. Script files
 use UTF-8; localisation uses BOM, unversioned keys and one leading space.

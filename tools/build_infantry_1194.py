@@ -1,6 +1,6 @@
 """Build offline infantry/army page data and the isolated player-only viewer.
 
-Usage: python tools/build_infantry_1194.py INFANTRY.docx GUIDE.pptx [--preview-dir DIR]
+Usage: python tools/build_infantry_1194.py INFANTRY.docx [GUIDE.pptx] [--preview-dir DIR]
 Only MengXin_Armaments_Guide is maintained by this workflow. Source documents
 are read as data; their instructions, macros and external links are not run.
 The content JSON owns prose and evidence; sources supply verified image bytes.
@@ -99,13 +99,60 @@ def note_card(zh, en, desc_zh, desc_en, fonts):
     return image
 
 
-def build(root, docx, pptx, preview_dir=None):
+def doctrine_ranking_card(title, entries, tiers, fonts):
+    image = menu_card(*title, [], fonts)
+    draw = ImageDraw.Draw(image)
+    for index, tier in enumerate(tiers):
+        y = 96 + index * 67
+        draw.rounded_rectangle((24, y, 696, y + 60), 6, fill=tier['color'])
+        draw.text((33, y + 6), tier['zh'], font=fonts[20], fill='#252b22')
+        draw.text((33, y + 34), tier['en'], font=fonts[14], fill='#36362d')
+        items = [entry for entry in entries if entry['tier'] == index]
+        for code, size, dy in (('zh', 20, 5), ('en', 14, 31)):
+            names = ('、' if code == 'zh' else ' / ').join(entry[code] for entry in items)
+            lines = card_wrap(names or '—', fonts[size], 528)
+            if len(lines) > (1 if code == 'zh' else 2):
+                raise ValueError(f'Doctrine names overflow the tier card: {title}')
+            for line_number, line in enumerate(lines):
+                draw.text((156, y + dy + line_number * 16), line,
+                          font=fonts[size], fill='#252b22')
+    return image
+
+
+def doctrine_notes_card(title, entries, tiers, fonts):
+    image = menu_card(*title, [], fonts)
+    draw = ImageDraw.Draw(image)
+    y = 94
+    for entry in entries:
+        tier = tiers[entry['tier']]
+        draw.rounded_rectangle((24, y, 696, y + 26), 5, fill=tier['color'])
+        draw.text((32, y + 2), f"{entry['zh']} · {tier['zh']}", font=fonts[20], fill='#252b22')
+        english = f"{entry['en']} · {tier['en']}"
+        x = 687 - fonts[14].getlength(english)
+        draw.text((x, y + 6), english, font=fonts[14], fill='#36362d')
+        y += 29
+        for code, size, spacing in (('zh', 16, 20), ('en', 14, 17)):
+            for line in card_wrap(entry[f'note_{code}'], fonts[size], 652):
+                draw.text((32, y), line, font=fonts[size], fill='#252b22')
+                y += spacing
+        if y > 435:
+            raise ValueError(f'Doctrine notes overflow: {title}')
+        y += 9
+    return image
+
+
+def build(root, docx, pptx=None, preview_dir=None):
     content = json.loads((root / 'tools/infantry_1194_content.json').read_text(encoding='utf-8'))
     if root.name != content['canonical_target']:
         raise ValueError('This update targets MengXin_Armaments_Guide only.')
     for source, path in (('word', docx), ('ppt', pptx)):
+        # The original PPT is provenance for the reviewed JSON prose.
+        if path is None:
+            continue
         if hashlib.sha256(path.read_bytes()).hexdigest() != content['sources'][source]['sha256']:
             raise ValueError(f'Review changed {source} source before rebuilding.')
+    ranking = json.loads((root / 'tools/army_doctrine_ranking_1194.json').read_text(encoding='utf-8'))
+    ranks_by_page = {group['page']: group for group in ranking['groups']}
     templates = {item['id']: item for item in content['templates']}
     assert sorted(templates) == list(range(1, 19))
     assert sorted(n for group in content['groups'] for n in group['templates']) == sorted(templates)
@@ -153,7 +200,9 @@ def build(root, docx, pptx, preview_dir=None):
     localize('MMG_army_org_decision', '陆军编制 · 1.19.4', 'Division Templates: 1.19.4')
     localize('MMG_army_org_decision_desc', '查看18套更新编制、默认学说、支援连与1.19.4机制说明。', 'Browse eighteen updated division templates, recommended doctrines, support companies and 1.19.4 mechanics.')
     localize('MMG_land_doctrine_decision', '陆军学说 · 1.19.4', 'Army Doctrine: 1.19.4')
-    localize('MMG_land_doctrine_decision_desc', '查看按1.19.4核对的陆军学说与精神，结合编制和可用条件选择。', 'Review army doctrines and spirits for 1.19.4. Choose according to your division templates and the options available to your country.')
+    localize('MMG_land_doctrine_decision_desc', '查看1.19.4陆军学说排行、简评和陆军精神。', 'Browse the 1.19.4 army doctrine rankings, notes and army spirits.')
+    localize(prefix + 'rank_notes', '查看各学说简评', 'Read Doctrine Notes')
+    localize(prefix + 'rank_back', '返回本类排行', 'Back to This Ranking')
     opt = lambda name, target=None: option(prefix + name, target)
 
     pictures['index'] = menu_card('陆军编制 · 1.19.4', '18 division templates / 54 views',
@@ -209,15 +258,39 @@ def build(root, docx, pptx, preview_dir=None):
     for item in content['land']:
         ident = item['id']
         asset = f'land_{ident}'
-        pictures[asset] = note_card(item['zh'], item['en'], item['desc_zh'], item['desc_en'], fonts)
         if ident == 100:
+            pictures[asset] = menu_card(item['zh'], item['en'],
+                [(group['zh'], group['en']) for group in ranking['groups']], fonts)
             choices = []
             for other in content['land'][1:]:
                 localize(prefix + f'land_{other["id"]}_label', other['zh'], other['en'])
                 choices.append(opt(f'land_{other["id"]}_label', f'MMG_guide.{other["id"]}'))
             choices += [opt('spirit_menu', 'MMG_guide.106'), opt('index', 'MMG_guide.400'), opt('close')]
         else:
-            choices = [opt('land', 'MMG_guide.100'), opt('index', 'MMG_guide.400'), opt('close')]
+            group = ranks_by_page[ident]
+            entries = group['entries']
+            pictures[asset] = doctrine_ranking_card((item['zh'], item['en']),
+                                                    entries, ranking['tiers'], fonts)
+            chunks = [entries[i:i+3] for i in range(0, len(entries), 3)]
+            first = 700 + (ident - 101) * 10
+            choices = [opt('rank_notes', f'MMG_infantry.{first}'), opt('land', 'MMG_guide.100'),
+                       opt('index', 'MMG_guide.400'), opt('close')]
+            for index, chunk in enumerate(chunks):
+                number = first + index
+                name = f'rank_notes_{number}'
+                title = (f'{group["zh"]}简评（{index+1}/{len(chunks)}）',
+                         f'{group["en"]} Notes ({index+1}/{len(chunks)})')
+                links = []
+                if index:
+                    links.append(opt('menu_prev', f'MMG_infantry.{number-1}'))
+                if index+1 < len(chunks):
+                    links.append(opt('menu_next', f'MMG_infantry.{number+1}'))
+                links += [opt('rank_back', f'MMG_guide.{ident}'), opt('land', 'MMG_guide.100'), opt('close')]
+                pictures[name] = doctrine_notes_card(title, chunk, ranking['tiers'], fonts)
+                add(f'MMG_infantry.{number}', name, *title,
+                    '简评沿用1.19.4排行的取舍，解锁条件及数值以所用游戏版本为准。',
+                    'Notes follow the 1.19.4 ranking. Check unlock conditions and stats for your game version.',
+                    name, links)
         add(f'MMG_guide.{ident}', asset, item['zh'], item['en'], item['desc_zh'], item['desc_en'], asset, choices)
 
     for group in content['groups']:
@@ -292,7 +365,8 @@ def build(root, docx, pptx, preview_dir=None):
         text,count = re.subn(r'^ MMG_tank1194_version_d: ".*"$',lambda _:f' MMG_tank1194_version_d: "{value}"',text,flags=re.M)
         assert count == 1
         path.write_text(text,encoding='utf-8-sig',newline='\n')
-    manifest = {'sources':content['sources'],'templates':18,'word_images':19,'events':len(events),'textures':len(pictures),
+    sources = {**content['sources'], 'ranking': ranking['source']}
+    manifest = {'sources':sources,'templates':18,'word_images':19,'events':len(events),'textures':len(pictures),
         'formation_sources':[{'id':i['id'],'member':i['source_member'],'sha256':i['source_sha256'],'full':f'MMG_infantry.{100+i["id"]}','layout':f'MMG_infantry.{200+i["id"]}','stats':f'MMG_infantry.{300+i["id"]}'} for i in content['templates']],
         'preset':content['preset'],'objects':records}
     (root/'tools/infantry_1194_source_map.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
@@ -305,7 +379,7 @@ def build(root, docx, pptx, preview_dir=None):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('docx',type=Path)
-    parser.add_argument('pptx',type=Path)
+    parser.add_argument('pptx',type=Path,nargs='?',help='Optional original PPT for provenance verification')
     parser.add_argument('--preview-dir',type=Path)
     args=parser.parse_args()
     build(Path(__file__).resolve().parents[1],args.docx,args.pptx,args.preview_dir)

@@ -16,12 +16,18 @@
       "retrieved_content_sha256": "caf025feda107aca2cb78cbe5f68f44cbeaf63e0620c12217648d45a3dbc3929",
       "scope": "October 27 a783 balance/gameplay section; appended October 29 f584 hotfix kept separate",
       "steam_news_gid": "1847286114049046"
+    },
+    "ranking": {
+      "name": "1.19.4陆军学说夯拉一图流.xlsx",
+      "sha256": "bc527c17181914c3d3a7545244e2a66e6ea724add0de8ad3394129c368c9beda",
+      "sheet": "Sheet1",
+      "game_version": "1.19.4"
     }
   },
   "templates": 18,
   "word_images": 19,
-  "events": 83,
-  "textures": 83,
+  "events": 96,
+  "textures": 96,
   "formation_sources": [
     {
       "id": 1,
@@ -264,9 +270,34 @@
       "key": "MMG_inf1194_land_100"
     },
     {
+      "event": "MMG_infantry.700",
+      "picture": "rank_notes_700",
+      "key": "MMG_inf1194_rank_notes_700"
+    },
+    {
+      "event": "MMG_infantry.701",
+      "picture": "rank_notes_701",
+      "key": "MMG_inf1194_rank_notes_701"
+    },
+    {
       "event": "MMG_guide.101",
       "picture": "land_101",
       "key": "MMG_inf1194_land_101"
+    },
+    {
+      "event": "MMG_infantry.710",
+      "picture": "rank_notes_710",
+      "key": "MMG_inf1194_rank_notes_710"
+    },
+    {
+      "event": "MMG_infantry.711",
+      "picture": "rank_notes_711",
+      "key": "MMG_inf1194_rank_notes_711"
+    },
+    {
+      "event": "MMG_infantry.712",
+      "picture": "rank_notes_712",
+      "key": "MMG_inf1194_rank_notes_712"
     },
     {
       "event": "MMG_guide.102",
@@ -274,14 +305,54 @@
       "key": "MMG_inf1194_land_102"
     },
     {
+      "event": "MMG_infantry.720",
+      "picture": "rank_notes_720",
+      "key": "MMG_inf1194_rank_notes_720"
+    },
+    {
+      "event": "MMG_infantry.721",
+      "picture": "rank_notes_721",
+      "key": "MMG_inf1194_rank_notes_721"
+    },
+    {
+      "event": "MMG_infantry.722",
+      "picture": "rank_notes_722",
+      "key": "MMG_inf1194_rank_notes_722"
+    },
+    {
       "event": "MMG_guide.103",
       "picture": "land_103",
       "key": "MMG_inf1194_land_103"
     },
     {
+      "event": "MMG_infantry.730",
+      "picture": "rank_notes_730",
+      "key": "MMG_inf1194_rank_notes_730"
+    },
+    {
+      "event": "MMG_infantry.731",
+      "picture": "rank_notes_731",
+      "key": "MMG_inf1194_rank_notes_731"
+    },
+    {
       "event": "MMG_guide.104",
       "picture": "land_104",
       "key": "MMG_inf1194_land_104"
+    },
+    {
+      "event": "MMG_infantry.740",
+      "picture": "rank_notes_740",
+      "key": "MMG_inf1194_rank_notes_740"
+    },
+    {
+      "event": "MMG_infantry.741",
+      "picture": "rank_notes_741",
+      "key": "MMG_inf1194_rank_notes_741"
+    },
+    {
+      "event": "MMG_infantry.742",
+      "picture": "rank_notes_742",
+      "key": "MMG_inf1194_rank_notes_742"
     },
     {
       "event": "MMG_guide.105",
